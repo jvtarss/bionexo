@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de placas - LabHacks - Bionexo</title>
+  <meta name="description" content="Conte colônias com um clique e estime as UFC por mL.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/id/bionexo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="sec-m">
+  <div id="header"></div>
+
+  <main class="container">
+    <div class="tool-page">
+      <a class="back-link" href="labhacks.html"><span class="material-icons mi-sm">arrow_back</span> LabHacks</a>
+      <div class="page-head" style="padding-top:0">
+        <h1>Contador de <span class="grad-text">placas</span></h1>
+        <p>Clique (ou use a tecla de espaço) para contar colônias sem perder a conta. Informe a diluição e o volume plaqueado para estimar as UFC por mL.</p>
+      </div>
+
+      <section class="tool">
+        <div class="tool-head g1"><span class="material-icons">touch_app</span><h3>Contagem de colônias</h3></div>
+        <div class="tool-body">
+          <div class="counter">
+            <div class="count-num" id="cntNum" aria-live="polite">0</div>
+            <button class="count-big" id="cntPlus"><span class="material-icons">add</span> Contar (+1)</button>
+            <div class="counter-btns" style="margin-top:10px">
+              <button class="btn btn-ghost btn-sm" id="cntMinus"><span class="material-icons mi-sm">remove</span> Corrigir</button>
+              <button class="btn btn-ghost btn-sm" id="cntReset"><span class="material-icons mi-sm">restart_alt</span> Zerar</button>
+            </div>
+          </div>
+          <div class="field-row" style="margin-top:20px">
+            <div>
+              <label for="cntFd">Fator de diluição</label>
+              <input class="field" id="cntFd" type="text" inputmode="decimal" placeholder="ex.: 1e-4">
+            </div>
+            <div>
+              <label for="cntVol">Volume plaqueado (mL)</label>
+              <input class="field" id="cntVol" type="text" inputmode="decimal" placeholder="ex.: 0,1">
+            </div>
+          </div>
+          <div class="tool-out" id="cntUfc"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/labhacks.js"></script>
+</body>
+</html>

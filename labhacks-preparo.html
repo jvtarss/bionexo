@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preparo de solução - LabHacks - Bionexo</title>
+  <meta name="description" content="Descubra quanto pesar para preparar uma solução a partir do composto, da concentração e do volume.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/id/bionexo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="sec-m">
+  <div id="header"></div>
+
+  <main class="container">
+    <div class="tool-page">
+      <a class="back-link" href="labhacks.html"><span class="material-icons mi-sm">arrow_back</span> LabHacks</a>
+      <div class="page-head" style="padding-top:0">
+        <h1>Preparo de <span class="grad-text">solução</span></h1>
+        <p>Diga o que você quer preparar e descubra quanto pesar. A ferramenta calcula a <b>massa molar</b> do composto a partir da fórmula química ou do nome (offline para nomes comuns; via base PubChem quando há internet) e usa esse valor no cálculo.</p>
+      </div>
+
+      <section class="tool">
+        <div class="tool-head g2"><span class="material-icons">science</span><h3>Quanto pesar</h3></div>
+        <div class="tool-body">
+          <label for="prepInput">Quero preparar uma solução de</label>
+          <input class="field" id="prepInput" type="text" placeholder="composto: ex.: NaCl  ou  glicose" autocomplete="off">
+          <div class="examples">
+            <span class="lbl">Exemplos:</span>
+            <span class="chip" data-prep="NaCl">NaCl</span>
+            <span class="chip" data-prep="C6H12O6">glicose</span>
+            <span class="chip" data-prep="NaHCO3">bicarbonato de sódio</span>
+            <span class="chip" data-prep="CuSO4.5H2O">CuSO4·5H2O</span>
+          </div>
+          <div class="field-row" style="margin-top:12px">
+            <div>
+              <label for="prepC">Com concentração (mol/L)</label>
+              <input class="field" id="prepC" type="text" inputmode="decimal" placeholder="ex.: 0,5">
+            </div>
+            <div>
+              <label for="prepV">Volume final</label>
+              <div style="display:flex;gap:8px">
+                <input class="field" id="prepV" type="text" inputmode="decimal" placeholder="ex.: 1">
+                <select class="field" id="prepVUnit" style="max-width:90px">
+                  <option value="L">L</option>
+                  <option value="mL">mL</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="prepCalc" style="margin-top:16px;width:100%"><span class="material-icons mi-sm">calculate</span> Calcular massa</button>
+          <div class="tool-out" id="prepOut"><span class="muted">Preencha os campos e clique em calcular.</span></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/molarmass.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/labhacks.js"></script>
+</body>
+</html>

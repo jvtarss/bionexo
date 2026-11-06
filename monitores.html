@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitores - Bionexo</title>
+  <meta name="description" content="Equipe de monitores da Engenharia de Bioprocessos e Biotecnologia: disciplinas, contatos e ciclo de monitoria.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/id/bionexo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="container">
+    <div class="page-head">
+      <div class="crumbs"><a href="index.html">Início</a> <span class="material-icons mi-sm">chevron_right</span> Monitores</div>
+      <h1>Nossos <span class="grad-text">monitores</span></h1>
+      <p>Conheça a equipe de monitoria da Engenharia de Bioprocessos e Biotecnologia. Entre em contato para tirar dúvidas, agendar plantões ou sugerir conteúdo para o Bionexo.</p>
+    </div>
+
+    <div class="toolbar">
+      <label class="search">
+        <span class="material-icons">search</span>
+        <input id="monSearch" type="search" placeholder="Buscar por nome ou disciplina..." aria-label="Buscar monitores">
+      </label>
+      <span class="result-count" id="monCount"></span>
+    </div>
+
+    <div class="monitor-grid" id="monList"></div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="data/monitores.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/monitores.js"></script>
+</body>
+</html>

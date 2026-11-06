@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre - Bionexo</title>
+  <meta name="description" content="Sobre o Bionexo e como monitores podem contribuir com questões, resumos, fórmulas e mapas mentais.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/id/bionexo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="container" style="max-width:840px">
+    <div class="page-head">
+      <div class="crumbs"><a href="index.html">Início</a> <span class="material-icons mi-sm">chevron_right</span> Sobre</div>
+      <h1>Sobre o <span class="grad-text">Bionexo</span></h1>
+      <p>O Bionexo é um banco de conhecimentos colaborativo da monitoria do curso de Engenharia de Bioprocessos e Biotecnologia. Reúne questões resolvidas de livros didáticos, resumos, mapas mentais, um banco de fórmulas e ferramentas de laboratório em um só lugar: leve, rápido e sem depender de servidor.</p>
+    </div>
+
+    <div class="prose">
+      <h2>O PIIP da UFT</h2>
+      <p>O Bionexo é uma iniciativa de <strong>divulgação científica</strong> ligada ao <strong>PIIP</strong>, o Programa Institucional de Inovação Pedagógica da Universidade Federal do Tocantins (UFT). Transformar o conteúdo do curso em um formato aberto, visual e interativo é uma forma de aproximar a ciência de quem estuda e de quem tem curiosidade sobre a Engenharia de Bioprocessos e Biotecnologia.</p>
+      <p>O que o programa faz:</p>
+      <ul>
+        <li><strong>Objetivo:</strong> selecionar, apoiar, monitorar e avaliar Projetos de Inovação Pedagógica que transformam o ensino e a aprendizagem na graduação.</li>
+        <li><strong>Métodos:</strong> incentiva o uso de novas metodologias, ferramentas digitais e tecnologias educacionais.</li>
+        <li><strong>Apoio:</strong> oferece suporte tecnológico e acadêmico por meio de orientadores, tutores e monitores para ampliar os conhecimentos didáticos na universidade.</li>
+        <li><strong>Atividades:</strong> promove ciclos formativos, rodas de conversa, palestras e ações de aproximação entre os estudantes e o mercado de trabalho ou debates acadêmicos.</li>
+      </ul>
+
+      <a class="insta-card" href="https://instagram.com/pipbiotec" target="_blank" rel="noopener">
+        <span class="insta-ico"><span class="material-icons">photo_camera</span></span>
+        <span class="insta-body">
+          <span class="insta-handle">@pipbiotec</span>
+          <span class="insta-sub">Acompanhe o PIIP Biotec no Instagram: divulgação científica, monitorias e novidades do curso.</span>
+        </span>
+        <span class="insta-btn">Seguir <span class="material-icons mi-sm">open_in_new</span></span>
+      </a>
+
+      <h2>Como funciona</h2>
+      <p>Todo o site é estático: são apenas arquivos HTML, CSS e JavaScript. Não há banco de dados nem servidor, por isso ele pode ser hospedado gratuitamente (por exemplo no <strong>GitHub Pages</strong>) ou até aberto direto do computador. Todo o conteúdo fica em arquivos de dados fáceis de editar, na pasta <code>data/</code>.</p>
+
+      <h2 id="contribuir">Como contribuir (para monitores)</h2>
+      <p>Adicionar conteúdo é só editar um arquivo de texto e seguir o modelo que já está lá. Você não precisa saber programar. Cada arquivo em <code>data/</code> tem, no topo, a explicação de todos os campos.</p>
+
+      <h3>Adicionar uma questão</h3>
+      <p>Abra <code>data/questoes.js</code>. Copie um bloco existente, cole antes do <code>];</code> final e ajuste os campos: disciplina, tópico, dificuldade, fonte, tipo (múltipla escolha ou resposta aberta), enunciado, resposta correta e resolução. As fórmulas usam <strong>LaTeX</strong> entre <code>\( ... \)</code> ou <code>\[ ... \]</code> e são renderizadas automaticamente pelo MathJax.</p>
+
+      <h3>Adicionar um resumo</h3>
+      <p>Abra <code>data/resumos.js</code> e siga o mesmo esquema. No campo <code>conteudo</code> você pode usar títulos (<code>## Título</code>), listas (comece a linha com <code>-</code>), <code>**negrito**</code> e fórmulas em LaTeX.</p>
+
+      <h3>Adicionar uma fórmula</h3>
+      <p>Abra <code>data/formulas.js</code>. Além do nome e da categoria, informe as <code>formas</code> (todas as representações da fórmula) e as <code>variaveis</code> (símbolo, nome e unidade). Os nomes das variáveis entram na busca: assim, procurar por <b>volume</b> encontra a lei geral dos gases, por exemplo.</p>
+
+      <h3>Adicionar um mapa mental</h3>
+      <ol>
+        <li>Salve a imagem (de preferência <strong>PNG</strong> ou <strong>SVG</strong> em boa resolução) na pasta <code>assets/img/mapas/</code>.</li>
+        <li>Abra <code>data/mapas.js</code>, copie um bloco e informe o caminho da imagem no campo <code>imagem</code>, por exemplo <code>"assets/img/mapas/glicolise.png"</code>.</li>
+      </ol>
+
+      <h3>Atualizar a equipe de monitores</h3>
+      <p>Abra <code>data/monitores.js</code> e cadastre nome completo, ciclo de monitoria (por exemplo <code>2026/2</code>), disciplinas e contatos (e-mail, telefone, Instagram, Lattes). Deixe em branco o que não quiser exibir.</p>
+
+      <h3>Sobre as ferramentas (LabHacks)</h3>
+      <p>As ferramentas (preparo de soluções, diluição e contador de placas) não precisam de manutenção de conteúdo: funcionam sozinhas no navegador. No preparo de soluções, o cálculo de <strong>massa molar</strong> reconhece fórmulas químicas e nomes comuns de forma offline; para outros nomes, usa a base aberta PubChem quando há internet.</p>
+
+      <h3>Sobre o simulado</h3>
+      <p>O simulado usa as próprias questões do banco (<code>data/questoes.js</code>): quanto mais questões você cadastrar, mais rico ele fica. As tentativas são salvas apenas no navegador de quem faz a prova (<code>localStorage</code>), sem envio para servidores.</p>
+
+      <h3>Dicas de qualidade</h3>
+      <ul>
+        <li>Prefira imagens nítidas e com texto legível. SVG mantém qualidade em qualquer zoom.</li>
+        <li>Revise as fórmulas abrindo a página depois de editar.</li>
+        <li>Mantenha a vírgula entre os blocos e não apague o <code>];</code> no fim do arquivo.</li>
+        <li>Use um <code>id</code> único para cada item (q014, r004, f013, m004...).</li>
+      </ul>
+
+      <h2>Publicar o site</h2>
+      <p>Para colocar no ar com o GitHub Pages: crie um repositório, envie estes arquivos e ative o Pages apontando para o branch principal (pasta raiz). O site fica disponível em um endereço público, e cada novo conteúdo entra no ar ao enviar a edição. O arquivo <code>DEPLOY-LOCAL.md</code> explica como rodar na sua máquina.</p>
+
+      <blockquote>
+        <p>Dúvidas ou sugestões? Fale com a <a href="monitores.html">equipe de monitores</a>.</p>
+      </blockquote>
+    </div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
+      options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="js/components.js"></script>
+</body>
+</html>

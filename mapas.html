@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapas mentais - Bionexo</title>
+  <meta name="description" content="Mapas mentais de alta qualidade das disciplinas de Engenharia de Bioprocessos e Biotecnologia.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/id/bionexo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="sec-m">
+  <div id="header"></div>
+
+  <main class="container">
+    <div class="page-head">
+      <div class="crumbs"><a href="index.html">Início</a> <span class="material-icons mi-sm">chevron_right</span> Mapas mentais</div>
+      <h1><span class="grad-text">Mapas mentais</span></h1>
+      <p>Visualize as conexões entre os conceitos. Clique em um mapa para ampliar, ou baixe a imagem para revisar offline.</p>
+    </div>
+
+    <div class="toolbar">
+      <label class="search">
+        <span class="material-icons">search</span>
+        <input id="mSearch" type="search" placeholder="Buscar mapa mental..." aria-label="Buscar mapas mentais">
+      </label>
+      <select class="select" id="mDisc" aria-label="Filtrar por disciplina"><option value="">Todas as disciplinas</option></select>
+      <span class="result-count" id="mCount"></span>
+    </div>
+
+    <div class="gallery" id="mList"></div>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada">
+    <button class="lb-close" aria-label="Fechar"><span class="material-icons">close</span></button>
+    <img src="" alt="">
+    <div class="lb-cap"></div>
+  </div>
+
+  <div id="footer"></div>
+
+  <script src="data/mapas.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/mapas.js"></script>
+</body>
+</html>
