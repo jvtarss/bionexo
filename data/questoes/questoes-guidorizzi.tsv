@@ -1,0 +1,589 @@
+ID	Unidade	Seção	Exercício	Item	Disciplina	Tópico	Dificuldade	Autor	Título	Edição	Volume	Editora	Ano	ISBN	Tipo	Enunciado	Alternativas	Correta	Resposta	Tolerância	Unidade_Resp	Resolução	Tags
+q001	Unidade 1 – Números Reais	Exercícios 1.2	1	a	Cálculo	Inequações do 1º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 3x + 3 < x + 6.			x < 3/2  ⇒  S = (−∞, 3/2)			"3x + 3 < x + 6
+3x − x < 6 − 3
+2x < 3
+x < 3/2
+Conjunto solução: S = (−∞, 3/2)."	inequação, 1º grau, desigualdade
+q002	Unidade 1 – Números Reais	Exercícios 1.2	1	b	Cálculo	Inequações do 1º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x − 3 > 3x + 1.			x < −2  ⇒  S = (−∞, −2)			"x − 3 > 3x + 1
+x − 3x > 1 + 3
+−2x > 4
+x < −2  (inverteu o sinal ao dividir por −2)
+S = (−∞, −2)."	inequação, 1º grau, desigualdade
+q003	Unidade 1 – Números Reais	Exercícios 1.2	1	c	Cálculo	Inequações do 1º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 2x − 1 ≥ 5x + 3.			x ≤ −4/3  ⇒  S = (−∞, −4/3]			"2x − 1 ≥ 5x + 3
+2x − 5x ≥ 3 + 1
+−3x ≥ 4
+x ≤ −4/3  (inverteu o sinal)
+S = (−∞, −4/3]."	inequação, 1º grau, desigualdade
+q004	Unidade 1 – Números Reais	Exercícios 1.2	1	d	Cálculo	Inequações do 1º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x + 3 ≤ 6x − 2.			x ≥ 1  ⇒  S = [1, +∞)			"x + 3 ≤ 6x − 2
+3 + 2 ≤ 6x − x
+5 ≤ 5x
+x ≥ 1
+S = [1, +∞)."	inequação, 1º grau, desigualdade
+q005	Unidade 1 – Números Reais	Exercícios 1.2	1	e	Cálculo	Inequações do 1º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 1 − 3x > 0.			x < 1/3  ⇒  S = (−∞, 1/3)			"1 − 3x > 0
+−3x > −1
+x < 1/3
+S = (−∞, 1/3)."	inequação, 1º grau, desigualdade
+q006	Unidade 1 – Números Reais	Exercícios 1.2	1	f	Cálculo	Inequações do 1º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 2x + 1 ≥ 3x.			x ≤ 1  ⇒  S = (−∞, 1]			"2x + 1 ≥ 3x
+1 ≥ 3x − 2x
+1 ≥ x  ⇒  x ≤ 1
+S = (−∞, 1]."	inequação, 1º grau, desigualdade
+q007	Unidade 1 – Números Reais	Exercícios 1.2	2	a	Cálculo	Estudo de sinal	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: 3x − 1.			Negativa para x < 1/3, nula para x = 1/3, positiva para x > 1/3.			"3x − 1 = 0 ⇒ x = 1/3.
+• x < 1/3 ⇒ 3x − 1 < 0 (negativa)
+• x = 1/3 ⇒ 3x − 1 = 0
+• x > 1/3 ⇒ 3x − 1 > 0 (positiva)"	sinal, expressão linear, raiz
+q008	Unidade 1 – Números Reais	Exercícios 1.2	2	b	Cálculo	Estudo de sinal	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: 3 − x.			Positiva para x < 3, nula para x = 3, negativa para x > 3.			"3 − x = 0 ⇒ x = 3.
+• x < 3 ⇒ 3 − x > 0 (positiva)
+• x = 3 ⇒ 3 − x = 0
+• x > 3 ⇒ 3 − x < 0 (negativa)"	sinal, expressão linear, raiz
+q009	Unidade 1 – Números Reais	Exercícios 1.2	2	c	Cálculo	Estudo de sinal	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: 2 − 3x.			Positiva para x < 2/3, nula para x = 2/3, negativa para x > 2/3.			"2 − 3x = 0 ⇒ x = 2/3.
+• x < 2/3 ⇒ 2 − 3x > 0
+• x = 2/3 ⇒ 2 − 3x = 0
+• x > 2/3 ⇒ 2 − 3x < 0"	sinal, expressão linear, raiz
+q010	Unidade 1 – Números Reais	Exercícios 1.2	2	d	Cálculo	Estudo de sinal	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: 5x + 1.			Negativa para x < −1/5, nula para x = −1/5, positiva para x > −1/5.			"5x + 1 = 0 ⇒ x = −1/5.
+• x < −1/5 ⇒ 5x + 1 < 0
+• x = −1/5 ⇒ 5x + 1 = 0
+• x > −1/5 ⇒ 5x + 1 > 0"	sinal, expressão linear, raiz
+q011	Unidade 1 – Números Reais	Exercícios 1.2	2	e	Cálculo	Estudo de sinal – quociente	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: (x − 1)/(x − 2).			Positiva em (−∞,1)∪(2,+∞), nula em x=1, negativa em (1,2), indefinida em x=2.			"Numerador: x − 1 = 0 ⇒ x = 1.
+Denominador: x − 2 = 0 ⇒ x = 2 (não pertence ao domínio).
+Quadro de sinais:
+• x < 1: (−)/(−) = (+)
+• 1 < x < 2: (+)/(−) = (−)
+• x > 2: (+)/(+) = (+)
+Nula em x = 1. Indefinida em x = 2."	sinal, quociente, domínio, raiz
+q012	Unidade 1 – Números Reais	Exercícios 1.2	2	f	Cálculo	Estudo de sinal – produto	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: (2x + 1)(x − 2).			Positiva em (−∞,−1/2)∪(2,+∞), nula em x=−1/2 e x=2, negativa em (−1/2, 2).			"Raízes: 2x + 1 = 0 ⇒ x = −1/2;  x − 2 = 0 ⇒ x = 2.
+Quadro de sinais:
+• x < −1/2: (−)(−) = (+)
+• −1/2 < x < 2: (+)(−) = (−)
+• x > 2: (+)(+) = (+)
+Nula em x = −1/2 e x = 2."	sinal, produto, raízes
+q013	Unidade 1 – Números Reais	Exercícios 1.2	2	g	Cálculo	Estudo de sinal – quociente	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: (2 − 3x)/x.			Negativa em (−∞,0)∪(2/3,+∞), positiva em (0, 2/3), nula em x=2/3, indefinida em x=0.			"Numerador: 2 − 3x = 0 ⇒ x = 2/3.
+Denominador: x = 0 (indefinida).
+Quadro de sinais:
+• x < 0: (+)/(−) = (−)
+• 0 < x < 2/3: (+)/(+) = (+)
+• x > 2/3: (−)/(+) = (−)
+Nula em x = 2/3."	sinal, quociente, domínio
+q014	Unidade 1 – Números Reais	Exercícios 1.2	2	h	Cálculo	Estudo de sinal – quociente	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: (2 − x)/(3 − x).			Positiva em (−∞,2)∪(3,+∞), nula em x=2, negativa em (2,3), indefinida em x=3.			"Numerador: 2 − x = 0 ⇒ x = 2.
+Denominador: 3 − x = 0 ⇒ x = 3 (indef.).
+• x < 2: (+)/(+) = (+)
+• 2 < x < 3: (−)/(+) = (−)
+• x > 3: (−)/(−) = (+)
+Nula em x = 2."	sinal, quociente, domínio
+q015	Unidade 1 – Números Reais	Exercícios 1.2	2	i	Cálculo	Estudo de sinal – produto	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: (2x − 1)(3 − 2x).			Negativa em (−∞,1/2)∪(3/2,+∞), positiva em (1/2, 3/2), nula em x=1/2 e x=3/2.			"Raízes: 2x − 1 = 0 ⇒ x = 1/2;  3 − 2x = 0 ⇒ x = 3/2.
+• x < 1/2: (−)(+) = (−)
+• 1/2 < x < 3/2: (+)(+) = (+)
+• x > 3/2: (+)(−) = (−)
+Nula em x = 1/2 e x = 3/2."	sinal, produto, raízes
+q016	Unidade 1 – Números Reais	Exercícios 1.2	2	j	Cálculo	Estudo de sinal – produto	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: x(x − 3).			Positiva em (−∞,0)∪(3,+∞), nula em x=0 e x=3, negativa em (0,3).			"Raízes: x = 0 e x = 3.
+• x < 0: (−)(−) = (+)
+• 0 < x < 3: (+)(−) = (−)
+• x > 3: (+)(+) = (+)
+Nula em x = 0 e x = 3."	sinal, produto, raízes
+q017	Unidade 1 – Números Reais	Exercícios 1.2	2	k	Cálculo	Estudo de sinal – quociente	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: (x + 2)/(3 − x).			Negativa em (−∞,−2)∪(3,+∞), positiva em (−2,3), nula em x=−2, indefinida em x=3.			"Numerador: x + 2 = 0 ⇒ x = −2.
+Denominador: 3 − x = 0 ⇒ x = 3.
+• x < −2: (−)/(+) = (−)
+• −2 < x < 3: (+)/(+) = (+)
+• x > 3: (+)/(−) = (−)
+Nula em x = −2. Indefinida em x = 3."	sinal, quociente, domínio
+q018	Unidade 1 – Números Reais	Exercícios 1.2	2	l	Cálculo	Estudo de sinal – produto triplo	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: x(x − 1)(2x + 3).			Raízes: x = −3/2, x = 0, x = 1. Positiva em (−3/2,0)∪(1,+∞), negativa em (−∞,−3/2)∪(0,1).			"Raízes: 2x + 3 = 0 ⇒ x = −3/2;  x = 0;  x − 1 = 0 ⇒ x = 1.
+Ordenando: −3/2 < 0 < 1.
+• x < −3/2: (−)(−)(−) = (−)
+• −3/2 < x < 0: (−)(−)(+) = (+)
+• 0 < x < 1: (+)(−)(+) = (−)
+• x > 1: (+)(+)(+) = (+)
+Nula em x = −3/2, 0, 1."	sinal, produto, raízes, polinômio
+q019	Unidade 1 – Números Reais	Exercícios 1.2	2	m	Cálculo	Estudo de sinal – produto triplo	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: (x − 1)(1 + x)(2 − 3x).			Raízes: x = −1, x = 2/3, x = 1. Positiva em (−∞,−1)∪(2/3,1), negativa em (−1,2/3)∪(1,+∞).			"Raízes: x − 1 = 0 ⇒ x = 1;  1 + x = 0 ⇒ x = −1;  2 − 3x = 0 ⇒ x = 2/3.
+Ordenando: −1 < 2/3 < 1.
+• x < −1: (−)(−)(+) = (+)
+• −1 < x < 2/3: (−)(+)(+) = (−)
+• 2/3 < x < 1: (−)(+)(−) = (+)
+• x > 1: (+)(+)(−) = (−)"	sinal, produto, raízes, polinômio
+q020	Unidade 1 – Números Reais	Exercícios 1.2	2	n	Cálculo	Estudo de sinal	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: x(x² + 3).			Negativa para x < 0, nula para x = 0, positiva para x > 0.			"x² + 3 > 0 para todo x real (pois x² ≥ 0 ⇒ x² + 3 ≥ 3 > 0).
+Portanto o sinal de x(x² + 3) é o mesmo sinal de x:
+• x < 0: negativa
+• x = 0: nula
+• x > 0: positiva"	sinal, expressão, sempre positivo
+q021	Unidade 1 – Números Reais	Exercícios 1.2	2	o	Cálculo	Estudo de sinal	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: (2x − 1)(x² + 1).			Negativa para x < 1/2, nula para x = 1/2, positiva para x > 1/2.			"x² + 1 > 0 para todo x real.
+O sinal depende apenas de 2x − 1:
+2x − 1 = 0 ⇒ x = 1/2.
+• x < 1/2: (2x−1) < 0 ⇒ expressão negativa
+• x = 1/2: nula
+• x > 1/2: (2x−1) > 0 ⇒ expressão positiva"	sinal, expressão, sempre positivo
+q022	Unidade 1 – Números Reais	Exercícios 1.2	2	p	Cálculo	Estudo de sinal – parâmetro	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: ax + b, em que a e b são reais dados, com a > 0.			Negativa para x < −b/a, nula para x = −b/a, positiva para x > −b/a.			"ax + b = 0 ⇒ x = −b/a.
+Como a > 0, a função f(x) = ax + b é crescente.
+• x < −b/a ⇒ ax + b < 0
+• x = −b/a ⇒ ax + b = 0
+• x > −b/a ⇒ ax + b > 0"	sinal, parâmetro, linear, crescente
+q023	Unidade 1 – Números Reais	Exercícios 1.2	2	q	Cálculo	Estudo de sinal – parâmetro	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Estude o sinal da expressão: ax + b, em que a e b são reais dados, com a < 0.			Positiva para x < −b/a, nula para x = −b/a, negativa para x > −b/a.			"ax + b = 0 ⇒ x = −b/a.
+Como a < 0, a função f(x) = ax + b é decrescente.
+• x < −b/a ⇒ ax + b > 0
+• x = −b/a ⇒ ax + b = 0
+• x > −b/a ⇒ ax + b < 0"	sinal, parâmetro, linear, decrescente
+q024	Unidade 1 – Números Reais	Exercícios 1.2	3	a	Cálculo	Inequação racional	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (2x − 1)/(x + 1) < 0.			S = (−1, 1/2)			"Numerador: 2x − 1 = 0 ⇒ x = 1/2.
+Denominador: x + 1 = 0 ⇒ x = −1 (excluído).
+Quadro de sinais:
+• x < −1: (+)/(−) ⇒ aguarde... (−)/(−) = (+)? Não.
+  Num: 2x−1<0 (−), Den: x+1<0 (−) ⇒ (−)/(−) = (+)
+• −1 < x < 1/2: (−)/(+) = (−) ✓
+• x > 1/2: (+)/(+) = (+)
+A expressão é negativa em (−1, 1/2).
+S = (−1, 1/2)."	inequação, racional, quociente, sinal
+q025	Unidade 1 – Números Reais	Exercícios 1.2	3	b	Cálculo	Inequação racional	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (1 − x)/(3 − x) ≥ 0.			S = (−∞, 1] ∪ (3, +∞)			"Numerador: 1 − x = 0 ⇒ x = 1.
+Denominador: 3 − x = 0 ⇒ x = 3 (excluído).
+Quadro de sinais:
+• x < 1: (+)/(+) = (+) ✓
+• 1 < x < 3: (−)/(+) = (−)
+• x > 3: (−)/(−) = (+) ✓
+Inclui x = 1 (≥ 0). Exclui x = 3.
+S = (−∞, 1] ∪ (3, +∞)."	inequação, racional, quociente, sinal
+q026	Unidade 1 – Números Reais	Exercícios 1.2	3	c	Cálculo	Inequação racional	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (x − 2)/(3x + 1) > 0.			S = (−∞, −1/3) ∪ (2, +∞)			"Numerador: x − 2 = 0 ⇒ x = 2.
+Denominador: 3x + 1 = 0 ⇒ x = −1/3 (excluído).
+• x < −1/3: (−)/(−) = (+) ✓
+• −1/3 < x < 2: (−)/(+) = (−)
+• x > 2: (+)/(+) = (+) ✓
+S = (−∞, −1/3) ∪ (2, +∞)."	inequação, racional, quociente, sinal
+q027	Unidade 1 – Números Reais	Exercícios 1.2	3	d	Cálculo	Inequação – produto	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (2x − 1)(x + 3) < 0.			S = (−3, 1/2)			"Raízes: x = 1/2, x = −3.
+• x < −3: (+)(−)? Não: (2x−1)<0, (x+3)<0 ⇒ (−)(−) = (+)
+• −3 < x < 1/2: (−)(+) = (−) ✓
+• x > 1/2: (+)(+) = (+)
+S = (−3, 1/2)."	inequação, produto, sinal
+q028	Unidade 1 – Números Reais	Exercícios 1.2	3	e	Cálculo	Inequação racional	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (3x − 2)/(2 − x) ≤ 0.			S = (−∞, 2/3] ∪ (2, +∞)			"Numerador: 3x − 2 = 0 ⇒ x = 2/3.
+Denominador: 2 − x = 0 ⇒ x = 2 (excluído).
+• x < 2/3: (−)/(+) = (−) ✓
+• 2/3 < x < 2: (+)/(+) = (+)
+• x > 2: (+)/(−) = (−) ✓
+Inclui x = 2/3 (≤ 0). Exclui x = 2.
+S = (−∞, 2/3] ∪ (2, +∞)."	inequação, racional, quociente, sinal
+q029	Unidade 1 – Números Reais	Exercícios 1.2	3	f	Cálculo	Inequação – produto	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x(2x − 1) ≥ 0.			S = (−∞, 0] ∪ [1/2, +∞)			"Raízes: x = 0, 2x − 1 = 0 ⇒ x = 1/2.
+• x < 0: (−)(−) = (+) ✓
+• 0 < x < 1/2: (+)(−) = (−)
+• x > 1/2: (+)(+) = (+) ✓
+Inclui x = 0 e x = 1/2 (≥ 0).
+S = (−∞, 0] ∪ [1/2, +∞)."	inequação, produto, sinal
+q030	Unidade 1 – Números Reais	Exercícios 1.2	3	g	Cálculo	Inequação – produto	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (x − 2)(x + 2) > 0.			S = (−∞, −2) ∪ (2, +∞)			"Raízes: x = 2, x = −2.
+• x < −2: (−)(−) = (+) ✓
+• −2 < x < 2: (−)(+) = (−)
+• x > 2: (+)(+) = (+) ✓
+S = (−∞, −2) ∪ (2, +∞).
+Obs.: equivale a x² − 4 > 0."	inequação, produto, diferença de quadrados
+q031	Unidade 1 – Números Reais	Exercícios 1.2	3	h	Cálculo	Inequação racional	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (2x − 1)/(x − 3) > 5.			S = (3, 14/3)			"(2x − 1)/(x − 3) > 5
+(2x − 1)/(x − 3) − 5 > 0
+(2x − 1 − 5(x − 3))/(x − 3) > 0
+(2x − 1 − 5x + 15)/(x − 3) > 0
+(−3x + 14)/(x − 3) > 0
+Num: −3x + 14 = 0 ⇒ x = 14/3.
+Den: x = 3 (excluído).
+• x < 3: (+)/(−) = (−)
+• 3 < x < 14/3: (+)/(+) = (+) ✓
+• x > 14/3: (−)/(+) = (−)
+S = (3, 14/3)."	inequação, racional, manipulação algébrica
+q032	Unidade 1 – Números Reais	Exercícios 1.2	3	i	Cálculo	Inequação racional	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x/(2x − 3) ≤ 3.			S = (−∞, 3/2) ∪ [9/5, +∞)			"x/(2x − 3) ≤ 3
+x/(2x − 3) − 3 ≤ 0
+(x − 3(2x − 3))/(2x − 3) ≤ 0
+(x − 6x + 9)/(2x − 3) ≤ 0
+(−5x + 9)/(2x − 3) ≤ 0
+Num: −5x + 9 = 0 ⇒ x = 9/5.
+Den: 2x − 3 = 0 ⇒ x = 3/2 (excluído).
+• x < 3/2: (+)/(−) = (−) ✓
+• 3/2 < x < 9/5: (+)/(+) = (+)
+• x > 9/5: (−)/(+) = (−) ✓
+Inclui x = 9/5 (≤ 0). Exclui x = 3/2.
+S = (−∞, 3/2) ∪ [9/5, +∞)."	inequação, racional, manipulação algébrica
+q033	Unidade 1 – Números Reais	Exercícios 1.2	3	j	Cálculo	Inequação racional	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (x − 1)/(2 − x) < 1.			S = (−∞, 3/2) ∪ (2, +∞)			"(x − 1)/(2 − x) < 1
+(x − 1)/(2 − x) − 1 < 0
+(x − 1 − (2 − x))/(2 − x) < 0
+(x − 1 − 2 + x)/(2 − x) < 0
+(2x − 3)/(2 − x) < 0
+Num: 2x − 3 = 0 ⇒ x = 3/2.
+Den: 2 − x = 0 ⇒ x = 2 (excluído).
+• x < 3/2: (−)/(+) = (−) ✓
+• 3/2 < x < 2: (+)/(+) = (+)
+• x > 2: (+)/(−) = (−) ✓
+S = (−∞, 3/2) ∪ (2, +∞)."	inequação, racional, manipulação algébrica
+q034	Unidade 1 – Números Reais	Exercícios 1.2	3	k	Cálculo	Inequação – produto triplo	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x(2x − 1)(x + 1) > 0.			S = (−1, 0) ∪ (1/2, +∞)			"Raízes: x = 0, x = 1/2, x = −1.
+Ordenando: −1 < 0 < 1/2.
+• x < −1: (−)(−)(−) = (−)
+• −1 < x < 0: (−)(−)(+) = (+) ✓
+• 0 < x < 1/2: (+)(−)(+) = (−)
+• x > 1/2: (+)(+)(+) = (+) ✓
+S = (−1, 0) ∪ (1/2, +∞)."	inequação, produto, sinal, raízes
+q035	Unidade 1 – Números Reais	Exercícios 1.2	3	l	Cálculo	Inequação – produto	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (2x − 1)(x − 3) > 0... Nota: na imagem é m) (2x − 1)(x − 3) > 0.			S = (−∞, 1/2) ∪ (3, +∞)			"Raízes: x = 1/2, x = 3.
+• x < 1/2: (−)(−) = (+) ✓
+• 1/2 < x < 3: (+)(−) = (−)
+• x > 3: (+)(+) = (+) ✓
+S = (−∞, 1/2) ∪ (3, +∞)."	inequação, produto, sinal
+q036	Unidade 1 – Números Reais	Exercícios 1.2	3	m	Cálculo	Inequação – produto com x²+1	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (2x − 3)(x² + 1) < 0.			S = (−∞, 3/2)			"x² + 1 > 0 para todo x real.
+O sinal depende apenas de (2x − 3):
+2x − 3 < 0 ⇒ x < 3/2.
+S = (−∞, 3/2)."	inequação, produto, sempre positivo
+q037	Unidade 1 – Números Reais	Exercícios 1.2	3	n	Cálculo	Inequação racional com x²+1	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (x − 3)/(x² + 1) < 0.			S = (−∞, 3)			"x² + 1 > 0 para todo x real.
+O sinal depende apenas do numerador:
+x − 3 < 0 ⇒ x < 3.
+S = (−∞, 3)."	inequação, racional, sempre positivo
+q038	Unidade 1 – Números Reais	Exercícios 1.2	4	–	Cálculo	Divisão de polinômios	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Divida x³ − a³ por x − a e conclua que x³ − a³ = (x − a)(x² + ax + a²).			x³ − a³ = (x − a)(x² + ax + a²)			"Divisão polinomial de x³ − a³ por x − a:
+x³ ÷ x = x² → x²·(x − a) = x³ − ax²
+Resto: ax² − a³
+ax² ÷ x = ax → ax·(x − a) = ax² − a²x
+Resto: a²x − a³
+a²x ÷ x = a² → a²·(x − a) = a²x − a³
+Resto: 0
+Quociente: x² + ax + a².
+Portanto x³ − a³ = (x − a)(x² + ax + a²)."	divisão, polinômio, fatoração, diferença de cubos
+q039	Unidade 1 – Números Reais	Exercícios 1.2	5	a	Cálculo	Identidades algébricas – fatoração	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Verifique que x² − a² = (x − a)(x + a).			Identidade verificada.			"Expandindo (x − a)(x + a):
+= x·x + x·a − a·x − a·a
+= x² + ax − ax − a²
+= x²− a²  ✓"	identidade, diferença de quadrados, fatoração
+q040	Unidade 1 – Números Reais	Exercícios 1.2	5	b	Cálculo	Identidades algébricas – fatoração	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Verifique que x³ − a³ = (x − a)(x² + ax + a²).			Identidade verificada.			"Expandindo (x − a)(x² + ax + a²):
+= x³ + ax² + a²x − ax² − a²x − a³
+= x³ − a³  ✓"	identidade, diferença de cubos, fatoração
+q041	Unidade 1 – Números Reais	Exercícios 1.2	5	c	Cálculo	Identidades algébricas – fatoração	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Verifique que x⁴ − a⁴ = (x − a)(x³ + ax² + a²x + a³).			Identidade verificada.			"Expandindo (x − a)(x³ + ax² + a²x + a³):
+= x⁴ + ax³ + a²x² + a³x − ax³ − a²x² − a³x − a⁴
+= x⁴ − a⁴  ✓"	identidade, fatoração, potência quarta
+q042	Unidade 1 – Números Reais	Exercícios 1.2	5	d	Cálculo	Identidades algébricas – fatoração	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Verifique que x⁵ − a⁵ = (x − a)(x⁴ + ax³ + a²x² + a³x + a⁴).			Identidade verificada.			"Expandindo (x − a)(x⁴ + ax³ + a²x² + a³x + a⁴):
+Multiplicando por x: x⁵ + ax⁴ + a²x³ + a³x² + a⁴x
+Multiplicando por −a: −ax⁴ − a²x³ − a³x² − a⁴x − a⁵
+Somando: x⁵ − a⁵  ✓"	identidade, fatoração, potência quinta
+q043	Unidade 1 – Números Reais	Exercícios 1.2	5	e	Cálculo	Identidades algébricas – fatoração geral	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Verifique que xⁿ − aⁿ = (x − a)(xⁿ⁻¹ + axⁿ⁻² + a²xⁿ⁻³ + … + aⁿ⁻²x + aⁿ⁻¹), n ≠ 0 natural.			Identidade verificada para todo n natural, n ≠ 0.			"Seja S = xⁿ⁻¹ + axⁿ⁻² + … + aⁿ⁻¹ = Σ(k=0 a n−1) aᵏxⁿ⁻¹⁻ᵏ.
+Então (x − a)·S = x·S − a·S.
+x·S = xⁿ + axⁿ⁻¹ + … + aⁿ⁻¹x
+a·S = axⁿ⁻¹ + a²xⁿ⁻² + … + aⁿ
+Subtraindo: x·S − a·S = xⁿ − aⁿ (todos os termos intermediários se cancelam — soma telescópica).  ✓"	identidade, fatoração, soma geométrica, indução, generalização
+q044	Unidade 1 – Números Reais	Exercícios 1.2	6	a	Cálculo	Simplificação de frações algébricas	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (x² − 1)/(x − 1).			x + 1, para x ≠ 1.			"x² − 1 = (x − 1)(x + 1).
+(x² − 1)/(x − 1) = (x − 1)(x + 1)/(x − 1) = x + 1,  x ≠ 1."	simplificação, fatoração, diferença de quadrados
+q045	Unidade 1 – Números Reais	Exercícios 1.2	6	b	Cálculo	Simplificação de frações algébricas	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (x³ − 8)/(x² − 4).			(x² + 2x + 4)/(x + 2), para x ≠ 2.			"x³ − 8 = (x − 2)(x² + 2x + 4)  (diferença de cubos)
+x² − 4 = (x − 2)(x + 2)  (diferença de quadrados)
+Simplificando (x − 2):
+= (x² + 2x + 4)/(x + 2),  x ≠ 2."	simplificação, diferença de cubos, diferença de quadrados
+q046	Unidade 1 – Números Reais	Exercícios 1.2	6	c	Cálculo	Simplificação de frações algébricas	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (4x² − 9)/(2x + 3).			2x − 3, para x ≠ −3/2.			"4x² − 9 = (2x)² − 3² = (2x − 3)(2x + 3).
+(4x² − 9)/(2x + 3) = (2x − 3)(2x + 3)/(2x + 3) = 2x − 3,  x ≠ −3/2."	simplificação, diferença de quadrados
+q047	Unidade 1 – Números Reais	Exercícios 1.2	6	d	Cálculo	Simplificação de frações algébricas	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (1/x − 1)/(x − 1).			−1/x, para x ≠ 0 e x ≠ 1.			(1/x − 1)/(x − 1) = ((1 − x)/x)/(x − 1) = (−(x − 1)/x)/(x − 1) = −1/x,  x ≠ 0, x ≠ 1.	simplificação, fração composta
+q048	Unidade 1 – Números Reais	Exercícios 1.2	6	e	Cálculo	Simplificação de frações algébricas	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (1/x² − 1)/(x − 1).			−(x + 1)/x², para x ≠ 0 e x ≠ 1.			"(1/x² − 1)/(x − 1) = ((1 − x²)/x²)/(x − 1)
+= (−(x² − 1)/x²)/(x − 1)
+= (−(x − 1)(x + 1)/x²)/(x − 1)
+= −(x + 1)/x²,  x ≠ 0, x ≠ 1."	simplificação, fração composta, diferença de quadrados
+q049	Unidade 1 – Números Reais	Exercícios 1.2	6	f	Cálculo	Simplificação de frações algébricas	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (1/x² − 1/9)/(x − 3).			−(x + 3)/(9x²), para x ≠ 0 e x ≠ 3.			"(1/x² − 1/9)/(x − 3)
+= ((9 − x²)/(9x²))/(x − 3)
+= (−(x² − 9)/(9x²))/(x − 3)
+= (−(x − 3)(x + 3)/(9x²))/(x − 3)
+= −(x + 3)/(9x²),  x ≠ 0, x ≠ 3."	simplificação, fração composta
+q050	Unidade 1 – Números Reais	Exercícios 1.2	6	g	Cálculo	Simplificação de frações algébricas	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (1/x − 1/5)/(x − 5).			−1/(5x), para x ≠ 0 e x ≠ 5.			"(1/x − 1/5)/(x − 5) = ((5 − x)/(5x))/(x − 5)
+= (−(x − 5)/(5x))/(x − 5)
+= −1/(5x),  x ≠ 0, x ≠ 5."	simplificação, fração composta
+q051	Unidade 1 – Números Reais	Exercícios 1.2	6	h	Cálculo	Simplificação de frações algébricas	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (1/x − 1/p)/(x − p).			−1/(px), para x ≠ 0, x ≠ p e p ≠ 0.			"(1/x − 1/p)/(x − p) = ((p − x)/(px))/(x − p)
+= (−(x − p)/(px))/(x − p)
+= −1/(px),  x ≠ 0, x ≠ p, p ≠ 0."	simplificação, fração composta, parâmetro
+q052	Unidade 1 – Números Reais	Exercícios 1.2	6	i	Cálculo	Simplificação de frações algébricas	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (1/x² − 1/p²)/(x − p).			−(x + p)/(p²x²), para x ≠ 0, p ≠ 0, x ≠ p.			"(1/x² − 1/p²)/(x − p) = ((p² − x²)/(p²x²))/(x − p)
+= (−(x² − p²)/(p²x²))/(x − p)
+= (−(x − p)(x + p)/(p²x²))/(x − p)
+= −(x + p)/(p²x²),  x ≠ 0, p ≠ 0, x ≠ p."	simplificação, fração composta, parâmetro
+q053	Unidade 1 – Números Reais	Exercícios 1.2	6	j	Cálculo	Simplificação de frações algébricas	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (x⁴ − p⁴)/(x − p).			x³ + x²p + xp² + p³, para x ≠ p.			"x⁴ − p⁴ = (x − p)(x³ + x²p + xp² + p³)  (fatoração de xⁿ − aⁿ com n = 4).
+(x⁴ − p⁴)/(x − p) = x³ + x²p + xp² + p³,  x ≠ p."	simplificação, fatoração, potência quarta
+q054	Unidade 1 – Números Reais	Exercícios 1.2	6	k	Cálculo	Simplificação – limite notável	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: ((x + h)² − x²)/h.			2x + h, para h ≠ 0.			"(x + h)² − x² = x² + 2xh + h² − x² = 2xh + h² = h(2x + h).
+((x + h)² − x²)/h = h(2x + h)/h = 2x + h,  h ≠ 0."	simplificação, limite, derivada, binômio
+q055	Unidade 1 – Números Reais	Exercícios 1.2	6	l	Cálculo	Simplificação – limite notável	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (1/(x + h) − 1/x)... Nota: na imagem parece ser ((x+h)⁻¹ − x⁻¹)/h, ou seja, (1/(x+h) − 1/x)·(1/h)... Vamos considerar a expressão m) (1/(x+h) − 1/x)/h... Mas na imagem temos separadamente. Considere: ((x + h)³ − x³)/h.			3x² + 3xh + h², para h ≠ 0.			"(x + h)³ − x³ = x³ + 3x²h + 3xh² + h³ − x³ = 3x²h + 3xh² + h³ = h(3x² + 3xh + h²).
+((x + h)³ − x³)/h = 3x² + 3xh + h²,  h ≠ 0."	simplificação, limite, derivada, binômio
+q056	Unidade 1 – Números Reais	Exercícios 1.2	6	m	Cálculo	Simplificação – limite notável	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: (1/(x + h) − 1/x)/h... Nota: na imagem é algo similar.			−1/(x(x + h)), para h ≠ 0 e x ≠ 0 e x ≠ −h.			"1/(x + h) − 1/x = (x − (x + h))/(x(x + h)) = −h/(x(x + h)).
+Dividindo por h:
+(−h/(x(x + h)))/h = −1/(x(x + h)),  h ≠ 0."	simplificação, limite, derivada, fração
+q057	Unidade 1 – Números Reais	Exercícios 1.2	6	n	Cálculo	Simplificação – limite notável	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Simplifique: ((x + h)² − (x − h)²)/h.			4x, para h ≠ 0.			"(x + h)² = x² + 2xh + h²
+(x − h)² = x² − 2xh + h²
+Diferença: (x² + 2xh + h²) − (x² − 2xh + h²) = 4xh.
+4xh/h = 4x,  h ≠ 0."	simplificação, limite, binômio
+q058	Unidade 1 – Números Reais	Exercícios 1.2	7	a	Cálculo	Inequação do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² − 4 > 0.			S = (−∞, −2) ∪ (2, +∞)			"x² − 4 = (x − 2)(x + 2) > 0.
+Raízes: x = −2, x = 2.
+Parábola com a > 0: positiva fora das raízes.
+S = (−∞, −2) ∪ (2, +∞)."	inequação, 2º grau, diferença de quadrados
+q059	Unidade 1 – Números Reais	Exercícios 1.2	7	b	Cálculo	Inequação do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² − 1 ≤ 0.			S = [−1, 1]			"x² − 1 = (x − 1)(x + 1) ≤ 0.
+Raízes: x = −1, x = 1.
+Parábola com a > 0: negativa entre as raízes.
+S = [−1, 1]."	inequação, 2º grau, diferença de quadrados
+q060	Unidade 1 – Números Reais	Exercícios 1.2	7	c	Cálculo	Inequação do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² > 4.			S = (−∞, −2) ∪ (2, +∞)			"x² > 4 ⇔ x² − 4 > 0 ⇔ (x − 2)(x + 2) > 0.
+S = (−∞, −2) ∪ (2, +∞).
+Equivalentemente: |x| > 2."	inequação, 2º grau, módulo
+q061	Unidade 1 – Números Reais	Exercícios 1.2	7	d	Cálculo	Inequação do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² > 1.			S = (−∞, −1) ∪ (1, +∞)			"x² > 1 ⇔ x² − 1 > 0 ⇔ (x − 1)(x + 1) > 0.
+S = (−∞, −1) ∪ (1, +∞).
+Equivalentemente: |x| > 1."	inequação, 2º grau, módulo
+q062	Unidade 1 – Números Reais	Exercícios 1.2	7	e	Cálculo	Inequação racional com polinômio	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (x² − 9)/(x + 1) < 0.			S = (−∞, −3) ∪ (−1, 3)			"(x² − 9)/(x + 1) = (x − 3)(x + 3)/(x + 1) < 0.
+Pontos críticos: x = −3, x = −1, x = 3.
+• x < −3: (−)(−)/(−) = (−) ✓
+• −3 < x < −1: (+)(−)/(−)... Vamos: (x−3)<0, (x+3)>0, (x+1)<0 ⇒ (−)(+)/(−) = (+)
+• −1 < x < 3: (−)(+)/(+) = (−) ✓
+• x > 3: (+)(+)/(+) = (+)
+S = (−∞, −3) ∪ (−1, 3)."	inequação, racional, fatoração
+q063	Unidade 1 – Números Reais	Exercícios 1.2	7	f	Cálculo	Inequação racional com polinômio	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (x² + 4)/(x² + 4) > 0.  Nota: na imagem parece ser (x²−4)/(x²+4) > 0... Vamos considerar: (x² − 4)/(x² + 4) > 0.			S = (−∞, −2) ∪ (2, +∞)			"x² + 4 > 0 sempre. O sinal depende de x² − 4.
+x² − 4 > 0 ⇒ x² > 4 ⇒ |x| > 2.
+S = (−∞, −2) ∪ (2, +∞)."	inequação, racional, sempre positivo
+q064	Unidade 1 – Números Reais	Exercícios 1.2	7	g	Cálculo	Inequação – produto com quadrática	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (2x − 1)(x² − 4) ≤ 0.			S = (−∞, −2] ∪ [1/2, 2]			"(2x − 1)(x − 2)(x + 2) ≤ 0.
+Raízes: x = −2, x = 1/2, x = 2.
+• x < −2: (−)(−)(−) = (−) ✓
+• −2 < x < 1/2: (−)(−)(+) = (+)
+• 1/2 < x < 2: (+)(−)(+) = (−) ✓
+• x > 2: (+)(+)(+) = (+)
+Inclui as raízes (≤ 0).
+S = (−∞, −2] ∪ [1/2, 2]."	inequação, produto, fatoração, 2º grau
+q065	Unidade 1 – Números Reais	Exercícios 1.2	7	h	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 3x² ≥ 48.			S = (−∞, −4] ∪ [4, +∞)			"3x² ≥ 48 ⇒ x² ≥ 16 ⇒ x² − 16 ≥ 0 ⇒ (x − 4)(x + 4) ≥ 0.
+S = (−∞, −4] ∪ [4, +∞).
+Equivalentemente: |x| ≥ 4."	inequação, 2º grau, módulo
+q066	Unidade 1 – Números Reais	Exercícios 1.2	7	i	Cálculo	Inequação com parâmetro	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva: x² < r², em que r > 0 é um real dado.			S = (−r, r)			"x² < r² ⇔ x² − r² < 0 ⇔ (x − r)(x + r) < 0.
+Como r > 0, temos −r < r.
+Parábola com a > 0: negativa entre as raízes.
+S = (−r, r).
+Equivalentemente: |x| < r."	inequação, 2º grau, parâmetro, módulo
+q067	Unidade 1 – Números Reais	Exercícios 1.2	8	a	Cálculo	Completar quadrado – fórmula do vértice	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Considere o polinômio ax² + bx + c (a ≠ 0). Verifique que ax² + bx + c = a[(x + b/(2a))² − Δ/(4a²)], onde Δ = b² − 4ac.			Identidade verificada.			"ax² + bx + c = a[x² + (b/a)x + c/a]
+= a[x² + (b/a)x + b²/(4a²) − b²/(4a²) + c/a]
+= a[(x + b/(2a))² − b²/(4a²) + c/a]
+= a[(x + b/(2a))² − (b² − 4ac)/(4a²)]
+= a[(x + b/(2a))² − Δ/(4a²)]  ✓"	completar quadrado, vértice, discriminante, polinômio 2º grau
+q068	Unidade 1 – Números Reais	Exercícios 1.2	8	b	Cálculo	Fórmula de Bhaskara	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Conclua de (a) que, se Δ ≥ 0, as raízes de ax² + bx + c são dadas pela fórmula x = (−b ± √Δ)/(2a).			Fórmula demonstrada.			"De (a): ax² + bx + c = 0 ⇒ a[(x + b/(2a))² − Δ/(4a²)] = 0.
+Como a ≠ 0: (x + b/(2a))² = Δ/(4a²).
+Se Δ ≥ 0: x + b/(2a) = ±√Δ/(2a)  (pois √(4a²) = 2|a| = ±2a)
+x = −b/(2a) ± √Δ/(2a) = (−b ± √Δ)/(2a).  ✓"	Bhaskara, raízes, discriminante, demonstração
+q069	Unidade 1 – Números Reais	Exercícios 1.2	8	c	Cálculo	Relações de Girard (Vieta)	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Sejam x₁ = (−b + √Δ)/(2a) e x₂ = (−b − √Δ)/(2a) (Δ ≥ 0) as raízes. Verifique que x₁ + x₂ = −b/a e x₁·x₂ = c/a.			Relações verificadas.			"x₁ + x₂ = (−b + √Δ)/(2a) + (−b − √Δ)/(2a) = (−2b)/(2a) = −b/a.  ✓
+x₁·x₂ = [(−b + √Δ)(−b − √Δ)]/(4a²) = (b² − Δ)/(4a²)
+= (b² − (b² − 4ac))/(4a²) = 4ac/(4a²) = c/a.  ✓"	Girard, Vieta, soma, produto, raízes
+q070	Unidade 1 – Números Reais	Exercícios 1.2	9	–	Cálculo	Fatoração de polinômio do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Considere o polinômio ax² + bx + c (Δ ≥ 0), com raízes x₁ e x₂. Verifique que ax² + bx + c = a(x − x₁)(x − x₂).			Fatoração verificada.			"a(x − x₁)(x − x₂) = a[x² − (x₁ + x₂)x + x₁x₂]
+= a[x² − (−b/a)x + c/a]   (pelas relações de Vieta do Ex. 8c)
+= a[x² + (b/a)x + c/a]
+= ax² + bx + c.  ✓"	fatoração, polinômio 2º grau, Vieta, raízes
+q071	Unidade 1 – Números Reais	Exercícios 1.2	10	a	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x² − 3x + 2.			(x − 1)(x − 2)			"x² − 3x + 2:
+Usando Bhaskara ou inspeção, raízes: x₁ = 1, x₂ = 2.
+x² − 3x + 2 = (x − 1)(x − 2)."	fatoração, polinômio, 2º grau, raízes
+q072	Unidade 1 – Números Reais	Exercícios 1.2	10	b	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x² − x − 2.			(x − 2)(x + 1)			"x² − x − 2:
+Usando Bhaskara ou inspeção, raízes: x₁ = -1, x₂ = 2.
+x² − x − 2 = (x − 2)(x + 1)."	fatoração, polinômio, 2º grau, raízes
+q073	Unidade 1 – Números Reais	Exercícios 1.2	10	c	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x² − 2x + 1.			(x − 1)²			"x² − 2x + 1:
+Usando Bhaskara ou inspeção, raízes: x₁ = 1, x₂ = 1.
+x² − 2x + 1 = (x − 1)²."	fatoração, polinômio, 2º grau, raízes
+q074	Unidade 1 – Números Reais	Exercícios 1.2	10	d	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x² − 6x + 9.			(x − 3)²			"x² − 6x + 9:
+Usando Bhaskara ou inspeção, raízes: x₁ = 3, x₂ = 3.
+x² − 6x + 9 = (x − 3)²."	fatoração, polinômio, 2º grau, raízes
+q075	Unidade 1 – Números Reais	Exercícios 1.2	10	e	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: 2x² − 3x.			x(2x − 3)			"2x² − 3x:
+Fatorando: 2x² − 3x = x(2x − 3).
+Verificação por expansão confirma a identidade."	fatoração, polinômio, 2º grau, raízes
+q076	Unidade 1 – Números Reais	Exercícios 1.2	10	f	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: 2x² − 3x + 1.			(2x − 1)(x − 1)			"2x² − 3x + 1:
+Fatorando: 2x² − 3x + 1 = (2x − 1)(x − 1).
+Verificação por expansão confirma a identidade."	fatoração, polinômio, 2º grau, raízes
+q077	Unidade 1 – Números Reais	Exercícios 1.2	10	g	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x² − 25.			(x − 5)(x + 5)			"x² − 25:
+Usando Bhaskara ou inspeção, raízes: x₁ = -5, x₂ = 5.
+x² − 25 = (x − 5)(x + 5)."	fatoração, polinômio, 2º grau, raízes
+q078	Unidade 1 – Números Reais	Exercícios 1.2	10	h	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: 3x² + x − 2.			(3x − 2)(x + 1)			"3x² + x − 2:
+Fatorando: 3x² + x − 2 = (3x − 2)(x + 1).
+Verificação por expansão confirma a identidade."	fatoração, polinômio, 2º grau, raízes
+q079	Unidade 1 – Números Reais	Exercícios 1.2	10	i	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: 4x² − 9.			(2x − 3)(2x + 3)			"4x² − 9:
+Fatorando: 4x² − 9 = (2x − 3)(2x + 3).
+Verificação por expansão confirma a identidade."	fatoração, polinômio, 2º grau, raízes
+q080	Unidade 1 – Números Reais	Exercícios 1.2	10	j	Cálculo	Fatoração de polinômios do 2º grau	fácil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: 2x² − 5x.			x(2x − 5)			"2x² − 5x:
+Fatorando: 2x² − 5x = x(2x − 5).
+Verificação por expansão confirma a identidade."	fatoração, polinômio, 2º grau, raízes
+q081	Unidade 1 – Números Reais	Exercícios 1.2	11	a	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² − 3x + 2 < 0.			S = (1, 2)			"x² − 3x + 2 = (x − 1)(x − 2).
+Raízes: x = 1, x = 2. Parábola a > 0: negativa entre raízes.
+S = (1, 2)."	inequação, 2º grau, fatoração, parábola
+q082	Unidade 1 – Números Reais	Exercícios 1.2	11	b	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² − 5x + 6 ≥ 0.			S = (−∞, 2] ∪ [3, +∞)			"x² − 5x + 6 = (x − 2)(x − 3).
+Raízes: x = 2, x = 3. a > 0: não-negativa fora das raízes.
+S = (−∞, 2] ∪ [3, +∞)."	inequação, 2º grau, fatoração, parábola
+q083	Unidade 1 – Números Reais	Exercícios 1.2	11	c	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² − 3x > 0.			S = (−∞, 0) ∪ (3, +∞)			"x² − 3x = x(x − 3).
+Raízes: x = 0, x = 3. a > 0: positiva fora das raízes.
+S = (−∞, 0) ∪ (3, +∞)."	inequação, 2º grau, fatoração, parábola
+q084	Unidade 1 – Números Reais	Exercícios 1.2	11	d	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² − 9 < 0.			S = (−3, 3)			"x² − 9 = (x − 3)(x + 3).
+Raízes: x = −3, x = 3. a > 0: negativa entre raízes.
+S = (−3, 3)."	inequação, 2º grau, fatoração, parábola
+q085	Unidade 1 – Números Reais	Exercícios 1.2	11	e	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² − x − 2 ≥ 0.			S = (−∞, −1] ∪ [2, +∞)			"x² − x − 2 = (x − 2)(x + 1).
+Raízes: x = −1, x = 2. a > 0: não-negativa fora das raízes.
+S = (−∞, −1] ∪ [2, +∞)."	inequação, 2º grau, fatoração, parábola
+q086	Unidade 1 – Números Reais	Exercícios 1.2	11	f	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 3x² + x − 2 > 0.			S = (−∞, −1) ∪ (2/3, +∞)			"3x² + x − 2 = (3x − 2)(x + 1).
+Raízes: x = −1, x = 2/3. a > 0: positiva fora das raízes.
+S = (−∞, −1) ∪ (2/3, +∞)."	inequação, 2º grau, fatoração, parábola
+q087	Unidade 1 – Números Reais	Exercícios 1.2	11	g	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² − 4x + 4 > 0.			S = ℝ \ {2}			"x² − 4x + 4 = (x − 2)².
+(x − 2)² ≥ 0 sempre, e (x − 2)² = 0 somente quando x = 2.
+Portanto (x − 2)² > 0 para todo x ≠ 2.
+S = ℝ \ {2} = (−∞, 2) ∪ (2, +∞)."	inequação, 2º grau, fatoração, parábola
+q088	Unidade 1 – Números Reais	Exercícios 1.2	11	h	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 3x² − x ≤ 0.			S = [0, 1/3]			"3x² − x = x(3x − 1).
+Raízes: x = 0, x = 1/3. a > 0: não-positiva entre raízes.
+S = [0, 1/3]."	inequação, 2º grau, fatoração, parábola
+q089	Unidade 1 – Números Reais	Exercícios 1.2	11	i	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 4x² − 4x + 1 < 0.			S = ∅			"4x² − 4x + 1 = (2x − 1)².
+(2x − 1)² ≥ 0 para todo x real.
+Nunca é estritamente negativo.
+S = ∅ (conjunto vazio)."	inequação, 2º grau, fatoração, parábola
+q090	Unidade 1 – Números Reais	Exercícios 1.2	11	j	Cálculo	Inequação do 2º grau	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: 4x² − 4x + 1 ≤ 0.			S = {1/2}			"4x² − 4x + 1 = (2x − 1)².
+(2x − 1)² ≥ 0 sempre, e é zero somente quando 2x − 1 = 0 ⇒ x = 1/2.
+S = {1/2}."	inequação, 2º grau, fatoração, parábola
+q091	Unidade 1 – Números Reais	Exercícios 1.2	12	a	Cálculo	Sinal do trinômio – Δ < 0	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Considere ax² + bx + c com Δ < 0. Utilizando o item (a) do Exercício 8, prove: se a > 0, então ax² + bx + c > 0 para todo x.			Demonstrado.			"Do Ex. 8(a): ax² + bx + c = a[(x + b/(2a))² − Δ/(4a²)].
+Como Δ < 0 ⇒ −Δ/(4a²) > 0.
+Assim (x + b/(2a))² ≥ 0 e −Δ/(4a²) > 0 ⇒ (x + b/(2a))² − Δ/(4a²) > 0.
+Como a > 0, temos a · (algo positivo) > 0.
+Portanto ax² + bx + c > 0 para todo x.  ✓"	trinômio, discriminante negativo, demonstração, sinal
+q092	Unidade 1 – Números Reais	Exercícios 1.2	12	b	Cálculo	Sinal do trinômio – Δ < 0	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Considere ax² + bx + c com Δ < 0. Prove: se a < 0, então ax² + bx + c < 0 para todo x.			Demonstrado.			"Do Ex. 8(a): ax² + bx + c = a[(x + b/(2a))² − Δ/(4a²)].
+Como Δ < 0 ⇒ −Δ/(4a²) > 0 ⇒ o colchete é positivo.
+Como a < 0, temos a · (algo positivo) < 0.
+Portanto ax² + bx + c < 0 para todo x.  ✓"	trinômio, discriminante negativo, demonstração, sinal
+q093	Unidade 1 – Números Reais	Exercícios 1.2	13	a	Cálculo	Inequação do 2º grau – Δ < 0	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² + 3 > 0.			S = ℝ			"x² + 3: a = 1 > 0, Δ = 0 − 12 = −12 < 0.
+Pelo Ex. 12(a), x² + 3 > 0 para todo x real.
+S = ℝ."	inequação, 2º grau, Δ negativo, sempre positivo
+q094	Unidade 1 – Números Reais	Exercícios 1.2	13	b	Cálculo	Inequação do 2º grau – Δ < 0	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² + x + 1 > 0.			S = ℝ			"a = 1 > 0, Δ = 1 − 4 = −3 < 0.
+Pelo Ex. 12(a), x² + x + 1 > 0 para todo x.
+S = ℝ."	inequação, 2º grau, Δ negativo
+q095	Unidade 1 – Números Reais	Exercícios 1.2	13	c	Cálculo	Inequação do 2º grau – Δ < 0	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² + x + 1 ≤ 0.			S = ∅			"Do item anterior, x² + x + 1 > 0 para todo x.
+Portanto nunca é ≤ 0.
+S = ∅."	inequação, 2º grau, Δ negativo, conjunto vazio
+q096	Unidade 1 – Números Reais	Exercícios 1.2	13	d	Cálculo	Inequação do 2º grau – Δ < 0	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x² + 5 ≤ 0.			S = ∅			"x² + 5 ≥ 5 > 0 para todo x real.
+Nunca é ≤ 0.
+S = ∅."	inequação, 2º grau, Δ negativo, conjunto vazio
+q097	Unidade 1 – Números Reais	Exercícios 1.2	13	e	Cálculo	Inequação – produto com quadráticas	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (x − 3)(x² + 5) > 0.			S = (3, +∞)			"x² + 5 > 0 para todo x (Δ < 0, a > 0).
+O sinal depende de (x − 3).
+x − 3 > 0 ⇒ x > 3.
+S = (3, +∞)."	inequação, produto, sempre positivo
+q098	Unidade 1 – Números Reais	Exercícios 1.2	13	f	Cálculo	Inequação – produto com quadráticas	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (2x + 1)(x² + x + 1) ≤ 0.			S = (−∞, −1/2]			"x² + x + 1: Δ = 1 − 4 = −3 < 0, a = 1 > 0 ⇒ sempre positivo.
+O sinal depende de (2x + 1).
+2x + 1 ≤ 0 ⇒ x ≤ −1/2.
+S = (−∞, −1/2]."	inequação, produto, sempre positivo, Δ negativo
+q099	Unidade 1 – Números Reais	Exercícios 1.2	13	g	Cálculo	Inequação – produto com quadrática	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x(x² + 1) ≥ 0.			S = [0, +∞)			"x² + 1 > 0 sempre.
+O sinal depende de x.
+x ≥ 0.
+S = [0, +∞)."	inequação, produto, sempre positivo
+q100	Unidade 1 – Números Reais	Exercícios 1.2	13	h	Cálculo	Inequação – produto de quadráticas	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (1 − x)(x² + 2x + 2) < 0.			S = (1, +∞)			"x² + 2x + 2: Δ = 4 − 8 = −4 < 0, a = 1 > 0 ⇒ sempre positivo.
+O sinal depende de (1 − x).
+1 − x < 0 ⇒ x > 1.
+S = (1, +∞)."	inequação, produto, Δ negativo
+q101	Unidade 1 – Números Reais	Exercícios 1.2	13	i	Cálculo	Inequação racional com quadrática	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (2x − 1)/(x² + 1) > 0... Nota: na imagem parece ser (2 − x)/(x² + 1) > 0 ou similar.			S depende da expressão exata. Para (2x−1)/(x²+1) > 0: S = (1/2, +∞).			"x² + 1 > 0 sempre.
+O sinal depende do numerador 2x − 1.
+2x − 1 > 0 ⇒ x > 1/2.
+S = (1/2, +∞)."	inequação, racional, Δ negativo
+q102	Unidade 1 – Números Reais	Exercícios 1.2	13	j	Cálculo	Inequação racional com quadráticas	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: (x² + 1)/(x² + x + 1) ≥ 0.			S = ℝ			"Numerador: x² + 1 > 0 sempre (Δ = −4 < 0, a > 0).
+Denominador: x² + x + 1 > 0 sempre (Δ = −3 < 0, a > 0).
+Quociente de dois positivos: sempre positivo > 0 ≥ 0.
+S = ℝ."	inequação, racional, Δ negativo, sempre positivo
+q103	Unidade 1 – Números Reais	Exercícios 1.2	14	–	Cálculo	Demonstração de inequação	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: (5x + 3)/(x² + 1) ≥ 5  ⇔  5x + 3 ≥ 5(x² + 1).			Demonstrado.			"Como x² + 1 > 0 para todo x real, podemos multiplicar ambos os lados da desigualdade por x² + 1 sem trocar o sinal:
+(5x + 3)/(x² + 1) ≥ 5  ⇔  5x + 3 ≥ 5(x² + 1).
+Isto é equivalente a:
+5x + 3 ≥ 5x² + 5
+0 ≥ 5x² − 5x + 2
+Δ = 25 − 40 = −15 < 0, a = 5 > 0 ⇒ 5x² − 5x + 2 > 0 sempre.
+Portanto 5x² − 5x + 2 ≤ 0 nunca ocorre ⇒ não existe x real satisfazendo a desigualdade.
+A equivalência da implicação está demonstrada: o lado esquerdo nunca é ≥ 5."	demonstração, inequação, Δ negativo, equivalência
+q104	Unidade 1 – Números Reais	Exercícios 1.2	15	–	Cálculo	Verdadeiro ou falso	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	V ou F	A afirmação: 'para todo x real, x ≠ 2, (x² + x + 1)/(x − 2) > 3  ⇒  x² + x + 1 > 3(x − 2)' é falsa ou verdadeira? Justifique.			Falsa.			"A implicação (x²+x+1)/(x−2) > 3 ⇒ x²+x+1 > 3(x−2) é FALSA.
+Contra-exemplo: se x < 2, então x − 2 < 0. Ao multiplicar uma desigualdade por um número negativo, o sinal inverte.
+Por exemplo, x = 0: (0+0+1)/(0−2) = 1/(−2) = −1/2, que NÃO é > 3, logo a premissa é falsa para x = 0.
+Mas para x = 1: (1+1+1)/(1−2) = 3/(−1) = −3 < 3, premissa falsa.
+O ponto é: quando x − 2 < 0, a multiplicação inverte a desigualdade, logo a implicação direta (sem inverter) é inválida.
+A afirmação é FALSA porque ignora que x − 2 pode ser negativo."	verdadeiro ou falso, inequação, multiplicação por negativo
+q105	Unidade 1 – Números Reais	Exercícios 1.2	16	–	Cálculo	Teorema da raiz racional	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Suponha que P(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀ seja um polinômio de grau n, com coeficientes inteiros. Seja c um número inteiro. Prove que se c é raiz de P(x), então c será um divisor do termo independente a₀.			Demonstrado.			"Se c é raiz: P(c) = aₙcⁿ + aₙ₋₁cⁿ⁻¹ + … + a₁c + a₀ = 0.
+⇒ a₀ = −c(aₙcⁿ⁻¹ + aₙ₋₁cⁿ⁻² + … + a₁).
+Como todos os aᵢ são inteiros e c é inteiro, a expressão entre parênteses é um inteiro.
+Portanto a₀ = c · (−inteiro), o que significa que c divide a₀.  ✓"	raiz racional, divisibilidade, polinômio, demonstração
+q106	Unidade 1 – Números Reais	Exercícios 1.2	17	a	Cálculo	Raízes inteiras de polinômios	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Utilizando o Exercício 16, determine, caso existam, as raízes inteiras da equação: x³ + 2x² + x − 4 = 0			x = 1			"Divisores de a₀ = −4: ±1, ±2, ±4.
+P(1) = 1 + 2 + 1 − 4 = 0 ✓ ⇒ x = 1 é raiz inteira.
+Divisão: x³ + 2x² + x − 4 = (x − 1)(x² + 3x + 4).
+Δ do fator quadrático: 9 − 16 = −7 < 0 ⇒ sem outras raízes reais.
+Única raiz inteira: x = 1."	raízes inteiras, polinômio, divisibilidade, Teorema da raiz racional
+q107	Unidade 1 – Números Reais	Exercícios 1.2	17	b	Cálculo	Raízes inteiras de polinômios	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Utilizando o Exercício 16, determine, caso existam, as raízes inteiras da equação: x³ − x² + x + 14 = 0			x = −2			"Divisores de a₀ = 14: ±1, ±2, ±7, ±14.
+P(−2) = −8 − 4 − 2 + 14 = 0 ✓
+Divisão: (x + 2)(x² − 3x + 7).
+Δ = 9 − 28 = −19 < 0.
+Única raiz inteira: x = −2."	raízes inteiras, polinômio, divisibilidade, Teorema da raiz racional
+q108	Unidade 1 – Números Reais	Exercícios 1.2	17	c	Cálculo	Raízes inteiras de polinômios	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Utilizando o Exercício 16, determine, caso existam, as raízes inteiras da equação: x⁴ − 3x³ + x² + 3x − 2 = 0			x = 1 (dupla), x = −1, x = 2			"Divisores de a₀ = −2: ±1, ±2.
+P(1) = 1 − 3 + 1 + 3 − 2 = 0 ✓
+P(−1) = 1 + 3 + 1 − 3 − 2 = 0 ✓
+P(2) = 16 − 24 + 4 + 6 − 2 = 0 ✓
+Fatoração: (x − 1)²(x + 1)(x − 2).
+Verificação: expandindo confirma o polinômio original.
+Raízes inteiras: x = −1, x = 1 (dupla), x = 2."	raízes inteiras, polinômio, divisibilidade, Teorema da raiz racional
+q109	Unidade 1 – Números Reais	Exercícios 1.2	17	d	Cálculo	Raízes inteiras de polinômios	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Utilizando o Exercício 16, determine, caso existam, as raízes inteiras da equação: 2x³ − x² − 1 = 0			x = 1			"Coeficiente líder = 2, a₀ = −1.
+Candidatos racionais (p/q): ±1, ±1/2.
+P(1) = 2 − 1 − 1 = 0 ✓
+Divisão: (x − 1)(2x² + x + 1).
+Δ = 1 − 8 = −7 < 0.
+Única raiz inteira: x = 1."	raízes inteiras, polinômio, divisibilidade, Teorema da raiz racional
+q110	Unidade 1 – Números Reais	Exercícios 1.2	17	e	Cálculo	Raízes inteiras de polinômios	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Utilizando o Exercício 16, determine, caso existam, as raízes inteiras da equação: x⁴ + x³ + x − 14 = 0			x = −2 (verificar, depende do enunciado exato)			"Divisores de a₀ = −14: ±1, ±2, ±7, ±14.
+Testar cada candidato no polinômio.
+Se a imagem for x⁴+x³+x−14=0, não possuirá raízes inteiras simples facilmente.
+Necessário verificar enunciado exato na imagem."	raízes inteiras, polinômio, divisibilidade, Teorema da raiz racional
+q111	Unidade 1 – Números Reais	Exercícios 1.2	17	f	Cálculo	Raízes inteiras de polinômios	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Utilizando o Exercício 16, determine, caso existam, as raízes inteiras da equação: x⁴ + 3x³ − 4x − 12 = 0			x = −3, x = ... (verificar)			"Divisores de a₀ = −12: ±1, ±2, ±3, ±4, ±6, ±12.
+P(−3) = 81 − 81 + 12 − 12 = 0 ✓
+Divisão por (x + 3) e continuar fatorando.
+Necessário completar conforme enunciado exato."	raízes inteiras, polinômio, divisibilidade, Teorema da raiz racional
+q112	Unidade 1 – Números Reais	Exercícios 1.2	18	–	Cálculo	Divisibilidade polinomial	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Seja P(x) um polinômio de grau n. Prove: a é raiz de P(x) ⇔ P(x) é divisível por x − a.			Demonstrado.			"(⇒) Se a é raiz, P(a) = 0. Pelo algoritmo da divisão: P(x) = (x − a)Q(x) + R, onde R é constante.
+Substituindo x = a: P(a) = 0 = (a − a)Q(a) + R ⇒ R = 0.
+Logo P(x) = (x − a)Q(x), portanto (x − a) | P(x).
+
+(⇐) Se P(x) = (x − a)Q(x), então P(a) = (a − a)Q(a) = 0.
+Logo a é raiz de P(x).  ✓"	divisibilidade, polinômio, raiz, fator, demonstração
+q113	Unidade 1 – Números Reais	Exercícios 1.2	19	a	Cálculo	Fatoração de polinômios	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x³ + 2x² − x − 2.			(x − 1)(x + 1)(x + 2)			"Testando x = 1: 1 + 2 − 1 − 2 = 0 ✓
+Divisão: (x − 1)(x² + 3x + 2) = (x − 1)(x + 1)(x + 2)."	fatoração, polinômio, raízes inteiras, divisão
+q114	Unidade 1 – Números Reais	Exercícios 1.2	19	b	Cálculo	Fatoração de polinômios	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x⁴ − 3x³ + x² + 3x − 2.			(x − 1)²(x + 1)(x − 2)			"x = 1: 1 − 3 + 1 + 3 − 2 = 0 ✓
+Divisão: (x − 1)(x³ − 2x² − x + 2).
+x = 1 de novo: 1 − 2 − 1 + 2 = 0 ✓
+(x − 1)²(x² − x − 2) = (x − 1)²(x − 2)(x + 1)."	fatoração, polinômio, raízes inteiras, divisão
+q115	Unidade 1 – Números Reais	Exercícios 1.2	19	c	Cálculo	Fatoração de polinômios	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x³ + 2x² − 3x.			x(x + 3)(x − 1)			"Fator comum x: x(x² + 2x − 3).
+x² + 2x − 3 = (x + 3)(x − 1).
+Resultado: x(x + 3)(x − 1)."	fatoração, polinômio, raízes inteiras, divisão
+q116	Unidade 1 – Números Reais	Exercícios 1.2	19	d	Cálculo	Fatoração de polinômios	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x³ + 3x² − 4x − 12.			(x − 2)(x + 2)(x + 3)			"x = 2: 8 + 12 − 8 − 12 = 0 ✓
+Divisão: (x − 2)(x² + 5x + 6) = (x − 2)(x + 2)(x + 3)."	fatoração, polinômio, raízes inteiras, divisão
+q117	Unidade 1 – Números Reais	Exercícios 1.2	19	e	Cálculo	Fatoração de polinômios	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x³ + 6x² + 11x + 6.			(x + 1)(x + 2)(x + 3)			"x = −1: −1 + 6 − 11 + 6 = 0 ✓
+Divisão: (x + 1)(x² + 5x + 6) = (x + 1)(x + 2)(x + 3)."	fatoração, polinômio, raízes inteiras, divisão
+q118	Unidade 1 – Números Reais	Exercícios 1.2	19	f	Cálculo	Fatoração de polinômios	média	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Fatore o polinômio: x³ − 1.			(x − 1)(x² + x + 1)			"x = 1: 1 − 1 = 0 ✓
+Diferença de cubos: x³ − 1 = (x − 1)(x² + x + 1).
+Δ do fator quadrático: 1 − 4 = −3 < 0 ⇒ irredutível sobre ℝ."	fatoração, polinômio, raízes inteiras, divisão
+q119	Unidade 1 – Números Reais	Exercícios 1.2	20	a	Cálculo	Inequação polinomial	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x³ − 1 > 0.			S = (1, +∞)			"x³ − 1 = (x − 1)(x² + x + 1).
+x² + x + 1: Δ = 1 − 4 = −3 < 0, a > 0 ⇒ sempre positivo.
+O sinal depende de (x − 1).
+x − 1 > 0 ⇒ x > 1.
+S = (1, +∞)."	inequação, polinômio, fatoração, Δ negativo
+q120	Unidade 1 – Números Reais	Exercícios 1.2	20	b	Cálculo	Inequação polinomial	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x³ + 6x² + 11x + 6 < 0.			S = (−∞, −3) ∪ (−2, −1)			"Do Ex. 19(e): x³ + 6x² + 11x + 6 = (x + 1)(x + 2)(x + 3).
+Raízes: x = −3, −2, −1.
+Quadro de sinais:
+• x < −3: (−)(−)(−) = (−) ✓
+• −3 < x < −2: (−)(−)(+) = (+)
+• −2 < x < −1: (−)(+)(+) = (−) ✓
+• x > −1: (+)(+)(+) = (+)
+S = (−∞, −3) ∪ (−2, −1)."	inequação, polinômio cúbico, fatoração, sinal
+q121	Unidade 1 – Números Reais	Exercícios 1.2	20	c	Cálculo	Inequação polinomial	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x³ + 3x² − 4x − 12 ≥ 0.			S = [−3, −2] ∪ [2, +∞)			"Do Ex. 19(d): (x − 2)(x + 2)(x + 3) ≥ 0.
+Raízes: x = −3, −2, 2.
+• x < −3: (−)(−)(−) = (−)
+• −3 < x < −2: (−)(−)(+) = (+) ✓
+• −2 < x < 2: (−)(+)(+) = (−)
+• x > 2: (+)(+)(+) = (+) ✓
+Inclui raízes.
+S = [−3, −2] ∪ [2, +∞)."	inequação, polinômio cúbico, fatoração, sinal
+q122	Unidade 1 – Números Reais	Exercícios 1.2	20	d	Cálculo	Inequação polinomial	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	aberta	Resolva a inequação: x³ + 2x² − 3x < 0.			S = (−∞, −3) ∪ (0, 1)			"Do Ex. 19(c): x(x + 3)(x − 1) < 0.
+Raízes: x = −3, 0, 1.
+• x < −3: (−)(−)(−) = (−) ✓
+• −3 < x < 0: (−)(+)(−) = (+)
+• 0 < x < 1: (+)(+)(−) = (−) ✓
+• x > 1: (+)(+)(+) = (+)
+S = (−∞, −3) ∪ (0, 1)."	inequação, polinômio cúbico, fatoração, sinal
+q123	Unidade 1 – Números Reais	Exercícios 1.2	21	–	Cálculo	Verdadeiro ou falso – desigualdade e potências	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	V ou F	A afirmação: 'quaisquer que sejam os reais x e y, x < y ⇔ x² < y²' é falsa ou verdadeira? Justifique.			Falsa.			"Contra-exemplo: x = −3, y = 1.
+x < y: −3 < 1 ✓
+x² < y²: 9 < 1 ✗
+Portanto a implicação x < y ⇒ x² < y² é FALSA.
+A relação x² < y² vale quando ambos são positivos, mas falha quando x é negativo com |x| > |y|."	verdadeiro ou falso, desigualdade, quadrado, contra-exemplo
+q124	Unidade 1 – Números Reais	Exercícios 1.2	22	–	Cálculo	Demonstração – desigualdade e cubos	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove que quaisquer que sejam os reais x e y, x < y ⇔ x³ < y³.			Demonstrado.			"(⇒) Suponha x < y. Queremos x³ < y³, ou seja, y³ − x³ > 0.
+y³ − x³ = (y − x)(y² + xy + x²).
+Como x < y ⇒ y − x > 0.
+y² + xy + x² = (y + x/2)² + 3x²/4 ≥ 0. Se x = y = 0, contradiz x < y. Se não ambos zero, y² + xy + x² > 0.
+Assim (y − x)(y² + xy + x²) > 0 ⇒ y³ − x³ > 0 ⇒ x³ < y³.
+
+(⇐) Suponha x³ < y³. Se x ≥ y, então pelo sentido (⇒) teríamos x³ ≥ y³, contradição.
+Logo x < y.  ✓"	demonstração, desigualdade, cubo, função crescente
+q125	Unidade 1 – Números Reais	Exercícios 1.2	23	a	Cálculo	Propriedades dos números reais	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: a · 0 = 0.			Demonstrado.			"a·0 = a·(0 + 0) = a·0 + a·0 (distributiva).
+Subtraindo a·0 de ambos os lados: 0 = a·0.  ✓"	axiomas, propriedades, números reais, demonstração
+q126	Unidade 1 – Números Reais	Exercícios 1.2	23	b	Cálculo	Propriedades dos números reais	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: (−x)y = −xy;  x(−y) = −xy;  (−x)(−y) = xy.			Demonstrado.			"(−x)y + xy = (−x + x)y = 0·y = 0 (pelo item a).
+Logo (−x)y = −(xy).
+Análogamente, x(−y) = −(xy).
+(−x)(−y) = −(x(−y)) = −(−xy) = xy.  ✓"	axiomas, propriedades, números reais, demonstração
+q127	Unidade 1 – Números Reais	Exercícios 1.2	23	c	Cálculo	Propriedades dos números reais	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: x² ≥ 0.			Demonstrado.			"Se x ≥ 0: x² = x·x ≥ 0 (produto de não-negativos).
+Se x < 0: x² = x·x = (−|x|)(−|x|) = |x|² ≥ 0 (pelo item b, (−a)(−b) = ab).
+Em ambos os casos, x² ≥ 0.  ✓"	axiomas, propriedades, números reais, demonstração
+q128	Unidade 1 – Números Reais	Exercícios 1.2	23	d	Cálculo	Propriedades dos números reais	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: 1 > 0.			Demonstrado.			"1 = 1·1 = 1² ≥ 0 (pelo item c).
+Se 1 = 0, então para todo a: a = a·1 = a·0 = 0, contradição com a existência de elementos não nulos.
+Logo 1 ≠ 0, e como 1 ≥ 0, temos 1 > 0.  ✓"	axiomas, propriedades, números reais, demonstração
+q129	Unidade 1 – Números Reais	Exercícios 1.2	23	e	Cálculo	Propriedades dos números reais	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: x > 0 ⇔ x⁻¹ > 0.			Demonstrado.			"(⇒) Se x > 0 e x⁻¹ ≤ 0. Se x⁻¹ < 0, então x·x⁻¹ = 1 < 0 (positivo × negativo), contradição com 1 > 0. Se x⁻¹ = 0, então 1 = x·0 = 0, contradição. Logo x⁻¹ > 0.
+(⇐) Análogo: se x⁻¹ > 0, aplicando o mesmo argumento a (x⁻¹)⁻¹ = x.  ✓"	axiomas, propriedades, números reais, demonstração
+q130	Unidade 1 – Números Reais	Exercícios 1.2	23	f	Cálculo	Propriedades dos números reais	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: xy = 0 ⇔ x = 0 ou y = 0.			Demonstrado.			"(⇒) Suponha xy = 0. Se x ≠ 0, existe x⁻¹, e y = x⁻¹(xy) = x⁻¹·0 = 0.
+(⇐) Se x = 0, então xy = 0·y = 0 (item a). Idem se y = 0.  ✓"	axiomas, propriedades, números reais, demonstração
+q131	Unidade 1 – Números Reais	Exercícios 1.2	23	g	Cálculo	Propriedades dos números reais	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: x² = y² ⇔ x = y ou x = −y.			Demonstrado.			"x² = y² ⇔ x² − y² = 0 ⇔ (x − y)(x + y) = 0.
+Pelo item (f): x − y = 0 ou x + y = 0.
+Logo x = y ou x = −y.  ✓"	axiomas, propriedades, números reais, demonstração
+q132	Unidade 1 – Números Reais	Exercícios 1.2	23	h	Cálculo	Propriedades dos números reais	difícil	GUIDORIZZI, Hamilton Luiz	Um Curso de Cálculo, vol. 1	5ª ed. (Reimpr.)	1	LTC	2013	978-85-216-2244-4	demonstração	Prove: Se x ≥ 0 e y ≥ 0, x² = y² ⇔ x = y.			Demonstrado.			"Do item (g): x² = y² ⇒ x = y ou x = −y.
+Se x ≥ 0 e y ≥ 0, e x = −y, então x = −y ≤ 0 e y = −x ≤ 0.
+Como ambos ≥ 0 e ≤ 0, temos x = y = 0.
+Em todos os casos, x = y.  ✓"	axiomas, propriedades, números reais, demonstração

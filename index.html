@@ -19,16 +19,12 @@
   <section class="hero">
     <div class="container">
       <div>
-        <span class="eyebrow">Monitoria &middot; Engenharia de Bioprocessos e Biotecnologia</span>
         <h1>Conecte-se ao conhecimento do seu curso</h1>
         <p class="lead">Um banco colaborativo de questões resolvidas, resumos, mapas mentais, fórmulas e ferramentas de bancada. Feito pelos monitores para você estudar de forma ativa, no seu ritmo.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="questoes.html"><span class="material-icons mi-sm">quiz</span> Resolver questões</a>
           <a class="btn btn-ghost" href="labhacks.html"><span class="material-icons mi-sm">science</span> Abrir LabHacks</a>
         </div>
-      </div>
-      <div class="hero-art" aria-hidden="true">
-        <img class="hero-logo" src="assets/img/id/bionexo.svg" alt="">
       </div>
     </div>
   </section>
@@ -95,19 +91,66 @@
         <div class="stat"><div class="num grad-text" data-stat="resumos">0</div><div class="lbl">Resumos</div></div>
         <div class="stat"><div class="num grad-text" data-stat="formulas">0</div><div class="lbl">Fórmulas</div></div>
         <div class="stat"><div class="num grad-text" data-stat="disciplinas">0</div><div class="lbl">Disciplinas</div></div>
+        <div class="stat"><div class="num grad-text" data-stat="topicos">0</div><div class="lbl">Tópicos</div></div>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="section" style="padding-top:0">
+  <!-- PANORAMA (dashboard interativo) -->
+  <section class="section" style="padding-top:0" id="panorama">
     <div class="container">
-      <div class="card" style="background:var(--grad);color:#fff;border:0;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between;padding:42px">
-        <div>
-          <h2 style="color:#fff">É monitor(a)? Contribua com o Bionexo</h2>
-          <p style="color:rgba(255,255,255,.92);margin-top:8px;max-width:54ch">Adicionar uma questão, resumo, fórmula ou mapa mental é simples: basta editar um arquivo de texto. Veja o passo a passo.</p>
+      <div class="center" style="max-width:660px;margin-inline:auto">
+        <span class="eyebrow">Panorama do banco</span>
+        <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-top:6px">Explore por disciplina e tópico</h2>
+        <p class="muted" style="margin-top:8px">Escolha uma disciplina e veja a fatia de cada tópico. Clique para ir direto às questões.</p>
+      </div>
+
+      <!-- faixa de disciplinas (ícones) -->
+      <div id="discStrip" class="disc-strip"></div>
+
+      <!-- pizza de tópicos + legenda -->
+      <div class="dash">
+        <div class="dash-pie">
+          <div id="donut"><p class="muted center">Carregando...</p></div>
         </div>
-        <a class="btn btn-primary" href="sobre.html#contribuir" style="background:#fff;color:var(--c2)"><span class="material-icons mi-sm">volunteer_activism</span> Como contribuir</a>
+        <div class="dash-legend">
+          <div class="dash-legend-head"><span id="pieTitle">—</span></div>
+          <div id="donutLegend" class="donut-legend"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEEDBACK DO ESTUDANTE -->
+  <section class="section" id="feedback" style="padding-top:0">
+    <div class="container">
+      <div class="feedback-cta">
+        <div class="fc-text">
+          <span class="eyebrow">É estudante?</span>
+          <h2>Recomende conteúdo ou deixe seu feedback</h2>
+          <p>Sentiu falta de uma matéria, achou um erro ou quer sugerir questões e resumos? Conte pra gente. Sua mensagem vai direto para a coordenação do PIP Biotec.</p>
+        </div>
+        <form class="fc-form" id="feedbackForm">
+          <div class="field-row">
+            <div>
+              <label for="fbNome">Seu nome (opcional)</label>
+              <input class="field" id="fbNome" type="text" autocomplete="name">
+            </div>
+            <div>
+              <label for="fbTipo">Assunto</label>
+              <select class="field" id="fbTipo">
+                <option>Recomendação de conteúdo</option>
+                <option>Feedback sobre o site</option>
+                <option>Relatar um erro</option>
+                <option>Dúvida</option>
+              </select>
+            </div>
+          </div>
+          <label for="fbMsg">Mensagem</label>
+          <textarea class="field" id="fbMsg" rows="4" placeholder="Escreva aqui a sua recomendação ou feedback..."></textarea>
+          <button class="btn btn-grad" type="submit" style="margin-top:14px;width:100%"><span class="material-icons mi-sm">send</span> Enviar</button>
+          <p class="muted fc-note">Abre seu aplicativo de e-mail com a mensagem pronta para <b>mayara.vieira@uft.edu.br</b> (coordenação do PIP Biotec).</p>
+        </form>
       </div>
     </div>
   </section>
@@ -115,20 +158,128 @@
   <div id="footer"></div>
 
   <script src="data/questoes.js"></script>
+  <script src="data/questoes-fontes.js"></script>
   <script src="data/resumos.js"></script>
   <script src="data/formulas.js"></script>
   <script src="data/mapas.js"></script>
   <script src="js/components.js"></script>
+  <script src="js/mathplot.js"></script>
+  <script src="js/mathfmt.js"></script>
+  <script src="js/tsv.js"></script>
   <script>
     (function () {
       const D = window.BIONEXO || {};
-      const q = D.questoes || [], r = D.resumos || [], f = D.formulas || [], m = D.mapas || [];
-      const discs = new Set([...q, ...r, ...m].map(x => x.disciplina).filter(Boolean));
+      const r = D.resumos || [], f = D.formulas || [], m = D.mapas || [];
       const set = (k, v) => { const el = document.querySelector(`[data-stat="${k}"]`); if (el) el.textContent = v; };
-      set("questoes", q.length);
       set("resumos", r.length);
       set("formulas", f.length);
-      set("disciplinas", discs.size);
+      // questões e disciplinas incluem os bancos .tsv (carregamento assíncrono)
+      const applyQ = (q) => {
+        const discs = new Set([...q, ...r, ...m].map(x => x.disciplina).filter(Boolean));
+        const tops = new Set(q.map(x => x.topico).filter(Boolean));
+        set("questoes", q.length);
+        set("disciplinas", discs.size);
+        set("topicos", tops.size);
+        buildChart(q);
+      };
+      if (window.Bionexo && window.Bionexo.loadQuestoes) window.Bionexo.loadQuestoes().then(applyQ);
+      else applyQ(D.questoes || []);
+
+      // ---- dashboard interativo: disciplinas (ícones) + pizza de tópicos ----
+      const esc = s => (window.Bionexo ? window.Bionexo.esc(s) : s);
+      const DISC_ICON = {
+        "Cálculo 1": "functions", "Bioquímica": "biotech", "Microbiologia Industrial": "coronavirus",
+        "Fenômenos de Transporte": "waves", "Termodinâmica": "thermostat",
+        "Operações Unitárias": "precision_manufacturing", "Reatores Bioquímicos": "science",
+      };
+      const PIE = ["#0083cb", "#a300bc", "#f40086", "#009e9e", "#6b4be6", "#ff7a00", "#e0245e", "#2bb673", "#1f8ef1", "#c0392b", "#8a8f98"];
+      let CHART = [], selDisc = null;
+
+      function buildChart(q) {
+        CHART = q;
+        const byDisc = {};
+        q.forEach(x => { if (x.disciplina) byDisc[x.disciplina] = (byDisc[x.disciplina] || 0) + 1; });
+        const discs = Object.keys(byDisc).sort((a, b) => byDisc[b] - byDisc[a]);
+        selDisc = discs[0] || null;
+        const strip = document.getElementById("discStrip");
+        if (strip) {
+          strip.innerHTML = discs.map(d => `<button class="disc-chip${d === selDisc ? " active" : ""}" data-disc="${esc(d)}">
+            <span class="material-icons">${DISC_ICON[d] || "menu_book"}</span>
+            <span class="disc-chip-t">${esc(d)}</span><span class="disc-chip-n">${byDisc[d]}</span></button>`).join("");
+          strip.querySelectorAll("[data-disc]").forEach(b => b.addEventListener("click", () => {
+            selDisc = b.dataset.disc;
+            strip.querySelectorAll(".disc-chip").forEach(x => x.classList.toggle("active", x.dataset.disc === selDisc));
+            drawPie();
+          }));
+        }
+        drawPie();
+      }
+
+      function donutSVG(data, total) {
+        const cx = 130, cy = 130, R = 120, r = 74;
+        if (data.length === 1) {
+          return `<svg viewBox="0 0 260 260" class="donut-svg"><circle cx="${cx}" cy="${cy}" r="${(R + r) / 2}" fill="none" stroke="${data[0].color}" stroke-width="${R - r}" class="donut-seg" data-seg="${esc(data[0].k)}"><title>${esc(data[0].k)}: ${data[0].n}</title></circle>
+            <text x="${cx}" y="${cy - 6}" text-anchor="middle" class="donut-total">${total}</text><text x="${cx}" y="${cy + 16}" text-anchor="middle" class="donut-sub">questões</text></svg>`;
+        }
+        let a0 = -Math.PI / 2;
+        const segs = data.map(d => {
+          const a1 = a0 + (d.n / total) * 2 * Math.PI, large = (a1 - a0) > Math.PI ? 1 : 0;
+          const P = (rad, a) => [(cx + rad * Math.cos(a)).toFixed(2), (cy + rad * Math.sin(a)).toFixed(2)];
+          const o0 = P(R, a0), o1 = P(R, a1), i1 = P(r, a1), i0 = P(r, a0);
+          const d2 = `M${o0[0]} ${o0[1]} A${R} ${R} 0 ${large} 1 ${o1[0]} ${o1[1]} L${i1[0]} ${i1[1]} A${r} ${r} 0 ${large} 0 ${i0[0]} ${i0[1]} Z`;
+          a0 = a1;
+          return `<path class="donut-seg" d="${d2}" fill="${d.color}" data-seg="${esc(d.k)}"><title>${esc(d.k)}: ${d.n}</title></path>`;
+        }).join("");
+        return `<svg viewBox="0 0 260 260" class="donut-svg">${segs}<text x="${cx}" y="${cy - 6}" text-anchor="middle" class="donut-total">${total}</text><text x="${cx}" y="${cy + 16}" text-anchor="middle" class="donut-sub">questões</text></svg>`;
+      }
+
+      function drawPie() {
+        const box = document.getElementById("donut"), leg = document.getElementById("donutLegend"), title = document.getElementById("pieTitle");
+        if (!box) return;
+        const counts = {};
+        CHART.filter(x => x.disciplina === selDisc).forEach(x => { const t = x.topico || "(sem tópico)"; counts[t] = (counts[t] || 0) + 1; });
+        let rows = Object.keys(counts).map(k => ({ k, n: counts[k] })).sort((a, b) => b.n - a.n);
+        const total = rows.reduce((s, x) => s + x.n, 0);
+        let top = rows.slice(0, 10);
+        const resto = rows.slice(10).reduce((s, x) => s + x.n, 0);
+        if (resto > 0) top.push({ k: "Outros tópicos", n: resto, _outros: true });
+        top.forEach((x, i) => x.color = PIE[i % PIE.length]);
+        if (title) title.textContent = (selDisc || "—") + (total ? " · " + total + " questões" : "");
+        box.innerHTML = total ? donutSVG(top, total) : '<p class="muted center">Sem dados.</p>';
+        const hrefOf = x => x._outros ? "" : `href="questoes.html?disciplina=${encodeURIComponent(selDisc)}&topico=${encodeURIComponent(x.k)}"`;
+        if (leg) leg.innerHTML = top.map(x => `<a class="leg-row" ${hrefOf(x)} data-seg="${esc(x.k)}">
+          <span class="leg-dot" style="background:${x.color}"></span><span class="leg-label">${esc(x.k)}</span><span class="leg-val">${x.n}</span></a>`).join("");
+        const byK = {}; top.forEach(x => byK[x.k] = x);
+        const hover = (k, on) => {
+          box.querySelectorAll(".donut-seg").forEach(s => s.classList.toggle("dim", on && s.dataset.seg !== k));
+          if (leg) leg.querySelectorAll(".leg-row").forEach(s => s.classList.toggle("hot", on && s.dataset.seg === k));
+        };
+        box.querySelectorAll(".donut-seg").forEach(s => {
+          s.addEventListener("mouseenter", () => hover(s.dataset.seg, true));
+          s.addEventListener("mouseleave", () => hover(s.dataset.seg, false));
+          s.addEventListener("click", () => { const x = byK[s.dataset.seg]; if (x && !x._outros) location.href = "questoes.html?disciplina=" + encodeURIComponent(selDisc) + "&topico=" + encodeURIComponent(x.k); });
+        });
+        if (leg) leg.querySelectorAll(".leg-row").forEach(s => {
+          s.addEventListener("mouseenter", () => hover(s.dataset.seg, true));
+          s.addEventListener("mouseleave", () => hover(s.dataset.seg, false));
+        });
+      }
+    })();
+
+    // Formulário de feedback -> abre o e-mail (sem backend)
+    (function () {
+      const f = document.getElementById("feedbackForm");
+      if (!f) return;
+      f.addEventListener("submit", e => {
+        e.preventDefault();
+        const nome = document.getElementById("fbNome").value.trim();
+        const tipo = document.getElementById("fbTipo").value;
+        const msg = document.getElementById("fbMsg").value.trim();
+        const assunto = "[Bionexo] " + tipo + (nome ? " — " + nome : "");
+        const corpo = (msg || "") + "\n\n—\nEnviado pelo site Bionexo" + (nome ? " por " + nome : "");
+        window.location.href = "mailto:mayara.vieira@uft.edu.br?subject=" +
+          encodeURIComponent(assunto) + "&body=" + encodeURIComponent(corpo);
+      });
     })();
   </script>
 </body>

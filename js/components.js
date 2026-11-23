@@ -163,7 +163,8 @@
     // mini-markdown seguro: ## titulo, listas, **negrito**, *italico*, `codigo`.
     // LaTeX (\( \) \[ \]) passa intacto para o MathJax.
     md(text) {
-      if (!text) return "";
+      if (!text && text !== 0) return "";
+      text = String(text);
       const blocks = text.trim().split(/\n{2,}/);
       return blocks.map(block => {
         const lines = block.split("\n");
@@ -184,7 +185,7 @@
     },
     typeset(el) {
       if (window.MathJax && window.MathJax.typesetPromise)
-        window.MathJax.typesetPromise(el ? [el] : undefined).catch(() => {});
+        window.MathJax.typesetPromise(el ? (Array.isArray(el) ? el : [el]) : undefined).catch(() => {});
     },
   };
   window.Bionexo = Bionexo;

@@ -1,0 +1,4 @@
+Coloque aqui as fotos dos monitores com estes nomes exatos (tudo minusculo):
+- joao-vitor.jpg
+- millena.jpg
+Formato quadrado fica melhor. Sem foto, aparecem as iniciais.

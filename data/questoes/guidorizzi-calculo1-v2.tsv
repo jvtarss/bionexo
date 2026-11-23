@@ -1,0 +1,596 @@
+"ID"	"Unidade"	"Seção"	"Exercício"	"Item"	"Disciplina"	"Tópico"	"Dificuldade"	"Autor"	"Título"	"Edição"	"Volume"	"Editora"	"Ano"	"ISBN"	"Tipo"	"Enunciado"	"Alternativas"	"Correta"	"Resposta"	"Tolerância"	"Unidade_Resp"	"Resolução"	"Tags"
+"q001"	"Unidade 2 - Funções"	"2.1"	"1"	"a"	"Cálculo"	"Avaliação de funções"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule f(−1) e f(1/2) sendo f(x) = −x² + 2x."	""	""	"f(−1) = −3; f(1/2) = 3/4"	""	""	"f(−1) = −(−1)² + 2(−1) = −1 − 2 = −3.
+f(1/2) = −(1/2)² + 2(1/2) = −1/4 + 1 = 3/4."	"função;avaliação;substituição"
+"q002"	"Unidade 2 - Funções"	"2.1"	"1"	"b"	"Cálculo"	"Avaliação de funções"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule g(0), g(2) e g(√2) sendo g(x) = x/(x²−1)."	""	""	"g(0) = 0; g(2) = 2/3; g(√2) = √2"	""	""	"g(0) = 0/(0−1) = 0.
+g(2) = 2/(4−1) = 2/3.
+g(√2) = √2/(2−1) = √2."	"função;avaliação;substituição"
+"q003"	"Unidade 2 - Funções"	"2.1"	"1"	"c"	"Cálculo"	"Avaliação de funções"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule [f(a+b) − f(a−b)]/(ab) sendo f(x) = x², e ab ≠ 0."	""	""	"4"	""	""	"f(a+b) = (a+b)² = a²+2ab+b².
+f(a−b) = (a−b)² = a²−2ab+b².
+f(a+b)−f(a−b) = 4ab.
+Dividindo por ab: 4ab/ab = 4."	"função;avaliação;produtos notáveis"
+"q004"	"Unidade 2 - Funções"	"2.1"	"1"	"d"	"Cálculo"	"Avaliação de funções"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule [f(a+b) − f(a−b)]/(ab) sendo f(x) = 3x + 1, e ab ≠ 0."	""	""	"6/a"	""	""	"f(a+b) = 3(a+b)+1 = 3a+3b+1.
+f(a−b) = 3(a−b)+1 = 3a−3b+1.
+f(a+b)−f(a−b) = 6b.
+Dividindo por ab: 6b/(ab) = 6/a."	"função;avaliação;simplificação"
+"q005"	"Unidade 2 - Funções"	"2.1"	"2"	"a"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = x² e p = 1."	""	""	"x+1"	""	""	"[x²−1]/(x−1) = (x−1)(x+1)/(x−1) = x+1."	"quociente;diferenças;simplificação"
+"q006"	"Unidade 2 - Funções"	"2.1"	"2"	"b"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = x² e p = −1."	""	""	"x−1"	""	""	"[x²−1]/(x−(−1)) = (x²−1)/(x+1) = (x−1)(x+1)/(x+1) = x−1."	"quociente;diferenças;simplificação"
+"q007"	"Unidade 2 - Funções"	"2.1"	"2"	"c"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = x² e p = p."	""	""	"x+p"	""	""	"[x²−p²]/(x−p) = (x−p)(x+p)/(x−p) = x+p."	"quociente;diferenças;simplificação"
+"q008"	"Unidade 2 - Funções"	"2.1"	"2"	"d"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 2x+1 e p = 2."	""	""	"2"	""	""	"[(2x+1)−(2·2+1)]/(x−2) = (2x−4)/(x−2) = 2(x−2)/(x−2) = 2."	"quociente;diferenças;simplificação"
+"q009"	"Unidade 2 - Funções"	"2.1"	"2"	"e"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 2x+1 e p = −1."	""	""	"2"	""	""	"[(2x+1)−(−2+1)]/(x+1) = (2x+1+1)/(x+1) = (2x+2)/(x+1) = 2."	"quociente;diferenças;simplificação"
+"q010"	"Unidade 2 - Funções"	"2.1"	"2"	"f"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 5 e p = 2."	""	""	"0"	""	""	"[5−5]/(x−2) = 0/(x−2) = 0."	"quociente;diferenças;simplificação"
+"q011"	"Unidade 2 - Funções"	"2.1"	"2"	"g"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = x³ e p = 2."	""	""	"x²+2x+4"	""	""	"[x³−8]/(x−2) = (x−2)(x²+2x+4)/(x−2) = x²+2x+4."	"quociente;diferenças;simplificação"
+"q012"	"Unidade 2 - Funções"	"2.1"	"2"	"h"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = x³ e p = −2."	""	""	"x²−2x+4"	""	""	"[x³−(−8)]/(x−(−2)) = (x³+8)/(x+2) = (x+2)(x²−2x+4)/(x+2) = x²−2x+4."	"quociente;diferenças;simplificação"
+"q013"	"Unidade 2 - Funções"	"2.1"	"2"	"i"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = x³ e p = p."	""	""	"x²+xp+p²"	""	""	"[x³−p³]/(x−p) = (x−p)(x²+xp+p²)/(x−p) = x²+xp+p²."	"quociente;diferenças;simplificação"
+"q014"	"Unidade 2 - Funções"	"2.1"	"2"	"j"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 1/x e p = 1."	""	""	"−1/x"	""	""	"[1/x−1]/(x−1) = [(1−x)/x]/(x−1) = [−(x−1)/x]/(x−1) = −1/x."	"quociente;diferenças;simplificação"
+"q015"	"Unidade 2 - Funções"	"2.1"	"2"	"l"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 1/x e p = 2."	""	""	"−1/(2x)"	""	""	"[1/x−1/2]/(x−2) = [(2−x)/(2x)]/(x−2) = [−(x−2)/(2x)]/(x−2) = −1/(2x)."	"quociente;diferenças;simplificação"
+"q016"	"Unidade 2 - Funções"	"2.1"	"2"	"m"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = x²−3x e p = −2."	""	""	"x−5"	""	""	"f(−2) = (−2)²−3(−2) = 4+6 = 10.
+[f(x)−10]/(x+2) = (x²−3x−10)/(x+2) = (x−5)(x+2)/(x+2) = x−5."	"quociente;diferenças;simplificação"
+"q017"	"Unidade 2 - Funções"	"2.1"	"2"	"n"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 1/x² e p = 3."	""	""	"−(x+3)/(9x²)"	""	""	"f(x)−f(3) = 1/x²−1/9 = (9−x²)/(9x²).
+Dividindo por (x−3): (9−x²)/[9x²(x−3)] = −(x−3)(x+3)/[9x²(x−3)] = −(x+3)/(9x²)."	"quociente;diferenças;simplificação"
+"q018"	"Unidade 2 - Funções"	"2.1"	"2"	"o"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 1/x² e p = −3."	""	""	"−(x−3)/(9x²)"	""	""	"f(x)−f(−3) = 1/x²−1/9 = (9−x²)/(9x²).
+Dividindo por (x+3): (9−x²)/[9x²(x+3)] = −(x+3)(x−3)/[9x²(x+3)] = −(x−3)/(9x²)."	"quociente;diferenças;simplificação"
+"q019"	"Unidade 2 - Funções"	"2.1"	"2"	"p"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 1/x e p = p (p≠0)."	""	""	"−1/(px)"	""	""	"[1/x−1/p]/(x−p) = [(p−x)/(px)]/(x−p) = −(x−p)/[px(x−p)] = −1/(px)."	"quociente;diferenças;simplificação"
+"q020"	"Unidade 2 - Funções"	"2.1"	"2"	"q"	"Cálculo"	"Quociente de diferenças"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x)−f(p)]/(x−p), x≠p, sendo f(x) = 1/x² e p = p (p≠0)."	""	""	"−(x+p)/(p²x²)"	""	""	"[1/x²−1/p²]/(x−p) = [(p²−x²)/(p²x²)]/(x−p) = −(x+p)(x−p)/[p²x²(x−p)] = −(x+p)/(p²x²)."	"quociente;diferenças;simplificação"
+"q021"	"Unidade 2 - Funções"	"2.1"	"3"	"a"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = 2x+1."	""	""	"2"	""	""	"f(x+h) = 2(x+h)+1 = 2x+2h+1.
+[f(x+h)−f(x)]/h = [(2x+2h+1)−(2x+1)]/h = 2h/h = 2."	"quociente;Newton;derivada;simplificação"
+"q022"	"Unidade 2 - Funções"	"2.1"	"3"	"b"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = 3x−8."	""	""	"3"	""	""	"f(x+h) = 3(x+h)−8 = 3x+3h−8.
+[f(x+h)−f(x)]/h = 3h/h = 3."	"quociente;Newton;derivada;simplificação"
+"q023"	"Unidade 2 - Funções"	"2.1"	"3"	"c"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = −2x+4."	""	""	"−2"	""	""	"f(x+h) = −2(x+h)+4 = −2x−2h+4.
+[f(x+h)−f(x)]/h = −2h/h = −2."	"quociente;Newton;derivada;simplificação"
+"q024"	"Unidade 2 - Funções"	"2.1"	"3"	"d"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = x²."	""	""	"2x+h"	""	""	"f(x+h) = (x+h)² = x²+2xh+h².
+[f(x+h)−f(x)]/h = (2xh+h²)/h = 2x+h."	"quociente;Newton;derivada;simplificação"
+"q025"	"Unidade 2 - Funções"	"2.1"	"3"	"e"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = x²+3x."	""	""	"2x+h+3"	""	""	"f(x+h) = (x+h)²+3(x+h) = x²+2xh+h²+3x+3h.
+[f(x+h)−f(x)]/h = (2xh+h²+3h)/h = 2x+h+3."	"quociente;Newton;derivada;simplificação"
+"q026"	"Unidade 2 - Funções"	"2.1"	"3"	"f"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = −x²+5."	""	""	"−2x−h"	""	""	"f(x+h) = −(x+h)²+5 = −x²−2xh−h²+5.
+[f(x+h)−f(x)]/h = (−2xh−h²)/h = −2x−h."	"quociente;Newton;derivada;simplificação"
+"q027"	"Unidade 2 - Funções"	"2.1"	"3"	"g"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = x²−2x."	""	""	"2x+h−2"	""	""	"f(x+h) = (x+h)²−2(x+h) = x²+2xh+h²−2x−2h.
+[f(x+h)−f(x)]/h = (2xh+h²−2h)/h = 2x+h−2."	"quociente;Newton;derivada;simplificação"
+"q028"	"Unidade 2 - Funções"	"2.1"	"3"	"h"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = x²−2x+3."	""	""	"2x+h−2"	""	""	"f(x+h) = (x+h)²−2(x+h)+3 = x²+2xh+h²−2x−2h+3.
+[f(x+h)−f(x)]/h = (2xh+h²−2h)/h = 2x+h−2."	"quociente;Newton;derivada;simplificação"
+"q029"	"Unidade 2 - Funções"	"2.1"	"3"	"i"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = −2x²+3."	""	""	"−4x−2h"	""	""	"f(x+h) = −2(x+h)²+3 = −2x²−4xh−2h²+3.
+[f(x+h)−f(x)]/h = (−4xh−2h²)/h = −4x−2h."	"quociente;Newton;derivada;simplificação"
+"q030"	"Unidade 2 - Funções"	"2.1"	"3"	"j"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = 2x²+x+1."	""	""	"4x+2h+1"	""	""	"f(x+h) = 2(x+h)²+(x+h)+1 = 2x²+4xh+2h²+x+h+1.
+[f(x+h)−f(x)]/h = (4xh+2h²+h)/h = 4x+2h+1."	"quociente;Newton;derivada;simplificação"
+"q031"	"Unidade 2 - Funções"	"2.1"	"3"	"l"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = x³."	""	""	"3x²+3xh+h²"	""	""	"f(x+h) = (x+h)³ = x³+3x²h+3xh²+h³.
+[f(x+h)−f(x)]/h = (3x²h+3xh²+h³)/h = 3x²+3xh+h²."	"quociente;Newton;derivada;simplificação"
+"q032"	"Unidade 2 - Funções"	"2.1"	"3"	"m"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = x³+2x."	""	""	"3x²+3xh+h²+2"	""	""	"f(x+h) = (x+h)³+2(x+h) = x³+3x²h+3xh²+h³+2x+2h.
+[f(x+h)−f(x)]/h = (3x²h+3xh²+h³+2h)/h = 3x²+3xh+h²+2."	"quociente;Newton;derivada;simplificação"
+"q033"	"Unidade 2 - Funções"	"2.1"	"3"	"n"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = x³+x²−x."	""	""	"3x²+3xh+h²+2x+h−1"	""	""	"f(x+h) = (x+h)³+(x+h)²−(x+h).
+Expandindo: x³+3x²h+3xh²+h³+x²+2xh+h²−x−h.
+f(x+h)−f(x) = 3x²h+3xh²+h³+2xh+h²−h.
+Dividindo por h: 3x²+3xh+h²+2x+h−1."	"quociente;Newton;derivada;simplificação"
+"q034"	"Unidade 2 - Funções"	"2.1"	"3"	"o"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = 5."	""	""	"0"	""	""	"f(x+h) = 5. [f(x+h)−f(x)]/h = (5−5)/h = 0."	"quociente;Newton;derivada;simplificação"
+"q035"	"Unidade 2 - Funções"	"2.1"	"3"	"p"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = 1/x."	""	""	"−1/[x(x+h)]"	""	""	"f(x+h) = 1/(x+h).
+[1/(x+h)−1/x]/h = [(x−(x+h))/(x(x+h))]/h = [−h/(x(x+h))]/h = −1/[x(x+h)]."	"quociente;Newton;derivada;simplificação"
+"q036"	"Unidade 2 - Funções"	"2.1"	"3"	"q"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = 2x³−x."	""	""	"6x²+6xh+2h²−1"	""	""	"f(x+h) = 2(x+h)³−(x+h) = 2x³+6x²h+6xh²+2h³−x−h.
+f(x+h)−f(x) = 6x²h+6xh²+2h³−h.
+Dividindo por h: 6x²+6xh+2h²−1."	"quociente;Newton;derivada;simplificação"
+"q037"	"Unidade 2 - Funções"	"2.1"	"3"	"r"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = 1/x²."	""	""	"−(2x+h)/[x²(x+h)²]"	""	""	"f(x+h)=1/(x+h)².
+[1/(x+h)²−1/x²]/h = [x²−(x+h)²]/[x²(x+h)²h].
+x²−(x+h)² = −2xh−h² = −h(2x+h).
+Resultado: −(2x+h)/[x²(x+h)²]."	"quociente;Newton;derivada;simplificação"
+"q038"	"Unidade 2 - Funções"	"2.1"	"3"	"s"	"Cálculo"	"Quociente de Newton"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Simplifique [f(x+h)−f(x)]/h (h≠0) sendo f(x) = 1/(x+2)."	""	""	"−1/[(x+2)(x+h+2)]"	""	""	"f(x+h) = 1/(x+h+2).
+[1/(x+h+2)−1/(x+2)]/h = [(x+2)−(x+h+2)]/[(x+2)(x+h+2)·h].
+Numerador: −h. Resultado: −1/[(x+2)(x+h+2)]."	"quociente;Newton;derivada;simplificação"
+"q039"	"Unidade 2 - Funções"	"2.1"	"4"	"a"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: f(x)=3x."	""	""	"Domínio: ℝ. Reta passando pela origem com inclinação 3."	""	""	"f é uma função linear, f(x)=3x. Domínio: todos os reais.
+Gráfico: reta passando por (0,0) e (1,3), inclinação m=3."	"domínio;gráfico;função"
+"q040"	"Unidade 2 - Funções"	"2.1"	"4"	"b"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: g(x)=−x."	""	""	"Domínio: ℝ. Reta com inclinação −1 pela origem."	""	""	"g(x)=−x. Domínio: ℝ. Reta por (0,0) e (1,−1), inclinação m=−1."	"domínio;gráfico;função"
+"q041"	"Unidade 2 - Funções"	"2.1"	"4"	"c"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: h(x)=−x+1."	""	""	"Domínio: ℝ. Reta com inclinação −1, intercepto y=1."	""	""	"h(x)=−x+1. Domínio: ℝ. Passa por (0,1) e (1,0), inclinação m=−1."	"domínio;gráfico;função"
+"q042"	"Unidade 2 - Funções"	"2.1"	"4"	"d"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: f(v)=2x+1."	""	""	"Domínio: ℝ. Reta com inclinação 2, intercepto y=1."	""	""	"f(x)=2x+1. Domínio: ℝ. Passa por (0,1) e (−1/2,0), inclinação m=2."	"domínio;gráfico;função"
+"q043"	"Unidade 2 - Funções"	"2.1"	"4"	"e"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: g(x)=−2x+3."	""	""	"Domínio: ℝ. Reta com inclinação −2, intercepto y=3."	""	""	"g(x)=−2x+3. Domínio: ℝ. Passa por (0,3) e (3/2,0), m=−2."	"domínio;gráfico;função"
+"q044"	"Unidade 2 - Funções"	"2.1"	"4"	"f"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: g(x)=3."	""	""	"Domínio: ℝ. Reta horizontal y=3."	""	""	"g(x)=3. Função constante. Domínio: ℝ. Gráfico: reta horizontal y=3."	"domínio;gráfico;função"
+"q045"	"Unidade 2 - Funções"	"2.1"	"4"	"g"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: f(x)=−2."	""	""	"Domínio: ℝ. Reta horizontal y=−2."	""	""	"f(x)=−2. Função constante. Domínio: ℝ. Reta horizontal y=−2."	"domínio;gráfico;função"
+"q046"	"Unidade 2 - Funções"	"2.1"	"4"	"h"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: h(x)=(1/3)x+5/3."	""	""	"Domínio: ℝ. Reta com inclinação 1/3, intercepto y=5/3."	""	""	"h(x)=(1/3)x+5/3. Domínio: ℝ. Passa por (0,5/3) e (−5,0), m=1/3."	"domínio;gráfico;função"
+"q047"	"Unidade 2 - Funções"	"2.1"	"4"	"i"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: f(x)=−(1/2)x."	""	""	"Domínio: ℝ. Reta com inclinação −1/2 pela origem."	""	""	"f(x)=−x/2. Domínio: ℝ. Passa por (0,0) e (2,−1), m=−1/2."	"domínio;gráfico;função"
+"q048"	"Unidade 2 - Funções"	"2.1"	"4"	"j"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: g(x) = {x se x≤3; (3/x) se x>3}."	""	""	"Domínio: ℝ. Salto em x=3."	""	""	"Para x≤3: reta y=x. No ponto x=3, g(3)=3.
+Para x>3: g(x)=3/x, hipérbole decrescente. g(3⁺)→1 ≠ g(3)=3? Não: lim(x→3⁺) 3/x = 1 ≠ 3.
+Espera: g(x)={x se x≤3; 3/x se x>3}. Em x=3: g(3)=3 (pela primeira). Lim pela direita: 3/3=1. Salto em x=3.
+Domínio: ℝ (x>3 ⇒ x≠0 automaticamente)."	"domínio;gráfico;função"
+"q049"	"Unidade 2 - Funções"	"2.1"	"4"	"k"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: h(x) = {2x se x≤−1; −x+1 se x>−1}."	""	""	"Domínio: ℝ. Duas semi-retas com possível descontinuidade em x=−1."	""	""	"Para x≤−1: h(x)=2x. h(−1)=−2.
+Para x>−1: h(x)=−x+1. lim(x→−1⁺)=−(−1)+1=2.
+Salto em x=−1 (de −2 para 2). Domínio: ℝ."	"domínio;gráfico;função"
+"q050"	"Unidade 2 - Funções"	"2.1"	"4"	"m"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: h(x)=|x−1|."	""	""	"Domínio: ℝ. V com vértice em (1,0)."	""	""	"h(x)=|x−1|. Domínio: ℝ.
+Para x≥1: h(x)=x−1. Para x<1: h(x)=1−x.
+Gráfico: V com vértice em (1,0), abrindo para cima."	"domínio;gráfico;função"
+"q051"	"Unidade 2 - Funções"	"2.1"	"4"	"n"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: f(x)=|x+2|."	""	""	"Domínio: ℝ. V com vértice em (−2,0)."	""	""	"f(x)=|x+2|. Domínio: ℝ.
+Para x≥−2: f(x)=x+2. Para x<−2: f(x)=−x−2.
+V com vértice em (−2,0)."	"domínio;gráfico;função"
+"q052"	"Unidade 2 - Funções"	"2.1"	"4"	"o"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: h(x)=(x²−1)/(x−1)."	""	""	"Domínio: ℝ\{1}. Reta y=x+1 com furo em x=1."	""	""	"h(x)=(x²−1)/(x−1) = (x−1)(x+1)/(x−1) = x+1 para x≠1.
+Domínio: ℝ\{1}. Gráfico: reta y=x+1 com buraco em (1,2)."	"domínio;gráfico;função"
+"q053"	"Unidade 2 - Funções"	"2.1"	"4"	"p"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: g(x)=(x²−2x+1)/(x−1)."	""	""	"Domínio: ℝ\{1}. Reta y=x−1 com furo em x=1."	""	""	"g(x)=(x−1)²/(x−1) = x−1 para x≠1.
+Domínio: ℝ\{1}. Reta y=x−1 com buraco em (1,0)."	"domínio;gráfico;função"
+"q054"	"Unidade 2 - Funções"	"2.1"	"4"	"q"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: g(x)=|x|/x."	""	""	"Domínio: ℝ\{0}. Função sinal: 1 se x>0, −1 se x<0."	""	""	"Para x>0: |x|/x = x/x = 1. Para x<0: |x|/x = −x/x = −1.
+Domínio: ℝ\{0}. Gráfico: duas semi-retas horizontais, y=1 (x>0) e y=−1 (x<0)."	"domínio;gráfico;função"
+"q055"	"Unidade 2 - Funções"	"2.1"	"4"	"r"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: g(x)=|x−1|/(x−1)."	""	""	"Domínio: ℝ\{1}. 1 se x>1, −1 se x<1."	""	""	"Para x>1: |x−1|/(x−1) = 1. Para x<1: |x−1|/(x−1) = (1−x)/(x−1) = −1.
+Domínio: ℝ\{1}."	"domínio;gráfico;função"
+"q056"	"Unidade 2 - Funções"	"2.1"	"4"	"s"	"Cálculo"	"Domínio e gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: f(x)=|2x+1|/(2x+1)."	""	""	"Domínio: ℝ\{−1/2}. 1 se x>−1/2, −1 se x<−1/2."	""	""	"Para x>−1/2: 2x+1>0, logo f(x)=1. Para x<−1/2: 2x+1<0, logo f(x)=−1.
+Domínio: ℝ\{−1/2}."	"domínio;gráfico;função"
+"q057"	"Unidade 2 - Funções"	"2.1"	"5"	"a"	"Cálculo"	"Função modular"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Considere f(x)=|x−1|+|x−2|. Mostre que f(x) = {−2x+3 se x≤1; 1 se 1<x<2; 2x−3 se x≥2}."	""	""	"Demonstração"	""	""	"Analisamos por intervalos:
+• x≤1: |x−1|=1−x, |x−2|=2−x. f(x)=(1−x)+(2−x)=3−2x.
+• 1<x<2: |x−1|=x−1, |x−2|=2−x. f(x)=(x−1)+(2−x)=1.
+• x≥2: |x−1|=x−1, |x−2|=x−2. f(x)=(x−1)+(x−2)=2x−3."	"módulo;função por partes"
+"q058"	"Unidade 2 - Funções"	"2.1"	"5"	"b"	"Cálculo"	"Gráfico de função modular"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)=|x−1|+|x−2|."	""	""	"V com vértice plano entre x=1 e x=2 (y=1)"	""	""	"Usando o resultado do item (a):
+• Para x≤1: reta y=−2x+3, decrescente. Passa por (0,3) e (1,1).
+• Para 1<x<2: segmento horizontal y=1.
+• Para x≥2: reta y=2x−3, crescente. Passa por (2,1) e (3,3).
+O gráfico tem formato de 'U' achatado com mínimo y=1 no intervalo [1,2]."	"módulo;gráfico"
+"q059"	"Unidade 2 - Funções"	"2.1"	"6"	"a"	"Cálculo"	"Gráfico de funções com módulo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: f(x)=|x|+|x−2|."	""	""	"Para x≤0: y=−2x+2; para 0<x<2: y=2; para x≥2: y=2x−2"	""	""	"• x≤0: |x|=−x, |x−2|=2−x ⇒ f(x)=−2x+2.
+• 0<x<2: |x|=x, |x−2|=2−x ⇒ f(x)=2.
+• x≥2: |x|=x, |x−2|=x−2 ⇒ f(x)=2x−2.
+Mínimo y=2 no intervalo [0,2]."	"módulo;gráfico"
+"q060"	"Unidade 2 - Funções"	"2.1"	"6"	"b"	"Cálculo"	"Gráfico de funções com módulo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: g(x)=|x|−1."	""	""	"V com vértice em (0,−1)"	""	""	"|x|−1: para x≥0, y=x−1; para x<0, y=−x−1.
+Vértice em (0,−1). Zeros em x=±1."	"módulo;gráfico"
+"q061"	"Unidade 2 - Funções"	"2.1"	"6"	"c"	"Cálculo"	"Gráfico de funções com módulo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=||x|−1|."	""	""	"W com mínimos em x=±1 (y=0) e máximo local em x=0 (y=1)"	""	""	"Primeiro, |x|−1: vértice (0,−1), zeros em ±1.
+Depois, tomando módulo: a parte negativa (entre −1 e 1) é refletida para cima.
+Resultado: y=1−|x| para |x|≤1 e y=|x|−1 para |x|≥1.
+Formato W com vértices em (−1,0), (0,1), (1,0)."	"módulo;gráfico"
+"q062"	"Unidade 2 - Funções"	"2.1"	"6"	"d"	"Cálculo"	"Gráfico de funções com módulo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: f(x)=|x+1|−|x|."	""	""	"Para x≤−1: y=−1; para −1<x<0: y=2x+1; para x≥0: y=1"	""	""	"• x≤−1: |x+1|=−x−1, |x|=−x ⇒ f(x)=−1.
+• −1<x<0: |x+1|=x+1, |x|=−x ⇒ f(x)=2x+1.
+• x≥0: |x+1|=x+1, |x|=x ⇒ f(x)=1."	"módulo;gráfico"
+"q063"	"Unidade 2 - Funções"	"2.1"	"7"	"a"	"Cálculo"	"Estudo de sinal via gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico de f, estude o sinal de f(x): f(x)=x−3."	""	""	"f(x)>0 se x>3; f(x)<0 se x<3; f(x)=0 se x=3"	""	""	"f(x)=x−3: reta crescente, zero em x=3.
+f(x)<0 para x<3, f(x)=0 para x=3, f(x)>0 para x>3."	"sinal;gráfico;função afim"
+"q064"	"Unidade 2 - Funções"	"2.1"	"7"	"b"	"Cálculo"	"Estudo de sinal via gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico de f, estude o sinal de f(x): f(x)=−2x+1."	""	""	"f(x)>0 se x<1/2; f(x)<0 se x>1/2"	""	""	"Zero: −2x+1=0 ⇒ x=1/2. Reta decrescente.
+f(x)>0 para x<1/2, f(x)=0 para x=1/2, f(x)<0 para x>1/2."	"sinal;gráfico;função afim"
+"q065"	"Unidade 2 - Funções"	"2.1"	"7"	"c"	"Cálculo"	"Estudo de sinal via gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico de f, estude o sinal de f(x): f(x)=3x+1."	""	""	"f(x)>0 se x>−1/3; f(x)<0 se x<−1/3"	""	""	"Zero: 3x+1=0 ⇒ x=−1/3. Reta crescente.
+f(x)<0 para x<−1/3, f(x)>0 para x>−1/3."	"sinal;gráfico;função afim"
+"q066"	"Unidade 2 - Funções"	"2.1"	"7"	"d"	"Cálculo"	"Estudo de sinal via gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico de f, estude o sinal de f(x): f(x)=−3x−2."	""	""	"f(x)>0 se x<−2/3; f(x)<0 se x>−2/3"	""	""	"Zero: −3x−2=0 ⇒ x=−2/3. Reta decrescente.
+f(x)>0 para x<−2/3, f(x)<0 para x>−2/3."	"sinal;gráfico;função afim"
+"q067"	"Unidade 2 - Funções"	"2.1"	"7"	"e"	"Cálculo"	"Estudo de sinal via gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico de f, estude o sinal de f(x): f(x)=x+3."	""	""	"f(x)>0 se x>−3; f(x)<0 se x<−3"	""	""	"Zero: x=−3. Reta crescente.
+f(x)<0 para x<−3, f(x)>0 para x>−3."	"sinal;gráfico;função afim"
+"q068"	"Unidade 2 - Funções"	"2.1"	"7"	"f"	"Cálculo"	"Estudo de sinal via gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico de f, estude o sinal de f(x): f(x)=−8x+1."	""	""	"f(x)>0 se x<1/8; f(x)<0 se x>1/8"	""	""	"Zero: x=1/8. Reta decrescente.
+f(x)>0 para x<1/8, f(x)<0 para x>1/8."	"sinal;gráfico;função afim"
+"q069"	"Unidade 2 - Funções"	"2.1"	"7"	"g"	"Cálculo"	"Estudo de sinal via gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico de f, estude o sinal de f(x): f(x)=ax+b (a>0)."	""	""	"f(x)>0 se x>−b/a; f(x)<0 se x<−b/a"	""	""	"Zero: x=−b/a. Como a>0, reta crescente.
+f(x)<0 para x<−b/a, f(x)>0 para x>−b/a."	"sinal;gráfico;função afim"
+"q070"	"Unidade 2 - Funções"	"2.1"	"7"	"h"	"Cálculo"	"Estudo de sinal via gráfico"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico de f, estude o sinal de f(x): f(x)=ax+b (a<0)."	""	""	"f(x)>0 se x<−b/a; f(x)<0 se x>−b/a"	""	""	"Zero: x=−b/a. Como a<0, reta decrescente.
+f(x)>0 para x<−b/a, f(x)<0 para x>−b/a."	"sinal;gráfico;função afim"
+"q071"	"Unidade 2 - Funções"	"2.1"	"8"	"a"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (x−1)(x+2)."	""	""	"f>0 em (−∞,−2)∪(1,+∞); f<0 em (−2,1)"	""	""	"Zeros: x=1, x=−2.
+Sinal do produto (x−1)(x+2):
+• x<−2: (−)(−)=+ ⇒ f>0
+• −2<x<1: (−)(+)=− ⇒ f<0
+• x>1: (+)(+)=+ ⇒ f>0"	"sinal;zeros;fatoração"
+"q072"	"Unidade 2 - Funções"	"2.1"	"8"	"b"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (2x+3)(x+1)."	""	""	"f>0 em (−∞,−3/2)∪(−1,+∞); f<0 em (−3/2,−1)"	""	""	"Zeros: x=−3/2, x=−1.
+• x<−3/2: (−)(−)=+ ⇒ f>0
+• −3/2<x<−1: (+)(−)=− ⇒ f<0
+• x>−1: (+)(+)=+ ⇒ f>0"	"sinal;zeros;fatoração"
+"q073"	"Unidade 2 - Funções"	"2.1"	"8"	"c"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = x(1−x)."	""	""	"f>0 em (0,1); f<0 em (−∞,0)∪(1,+∞)"	""	""	"Zeros: x=0, x=1. f(x)=x(1−x)=−x(x−1).
+• x<0: (−)(+)=− ⇒ f<0
+• 0<x<1: (+)(+)=+ ⇒ f>0
+• x>1: (+)(−)=− ⇒ f<0"	"sinal;zeros;fatoração"
+"q074"	"Unidade 2 - Funções"	"2.1"	"8"	"d"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (−x+2)(x−3)."	""	""	"f>0 em (2,3); f<0 em (−∞,2)∪(3,+∞)"	""	""	"Zeros: x=2, x=3. f(x)=−(x−2)(x−3).
+• x<2: −(−)(−)=−(+)=− ⇒ f<0
+• 2<x<3: −(+)(−)=−(−)=+ ⇒ f>0
+• x>3: −(+)(+)=− ⇒ f<0"	"sinal;zeros;fatoração"
+"q075"	"Unidade 2 - Funções"	"2.1"	"8"	"e"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (x−1)/(x+1)."	""	""	"f>0 em (−∞,−1)∪(1,+∞); f<0 em (−1,1)"	""	""	"Zeros do numerador: x=1. Denominador zero: x=−1.
+Domínio: ℝ\{−1}.
+• x<−1: (−)/(−)=+ ⇒ f>0
+• −1<x<1: (−)/(+)=− ⇒ f<0
+• x>1: (+)/(+)=+ ⇒ f>0"	"sinal;zeros;fatoração"
+"q076"	"Unidade 2 - Funções"	"2.1"	"8"	"f"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (2x−3)/(1−2x)."	""	""	"f>0 em (1/2,3/2); f<0 em (−∞,1/2)∪(3/2,+∞)"	""	""	"Numerador zero: x=3/2. Denominador zero: x=1/2.
+f(x) = (2x−3)/(1−2x) = −(2x−3)/(2x−1).
+• x<1/2: −(−)/(−)=−(+)=− ⇒ f<0
+• 1/2<x<3/2: −(−)/(+)=+ ⇒ f>0
+• x>3/2: −(+)/(+)=− ⇒ f<0"	"sinal;zeros;fatoração"
+"q077"	"Unidade 2 - Funções"	"2.1"	"8"	"g"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = x/(2x+3)."	""	""	"f>0 em (−∞,−3/2)∪(0,+∞); f<0 em (−3/2,0)"	""	""	"Num. zero: x=0. Den. zero: x=−3/2.
+• x<−3/2: (−)/(−)=+ ⇒ f>0
+• −3/2<x<0: (−)/(+)=− ⇒ f<0
+• x>0: (+)/(+)=+ ⇒ f>0"	"sinal;zeros;fatoração"
+"q078"	"Unidade 2 - Funções"	"2.1"	"8"	"h"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (2x+1)/(x−2)."	""	""	"f>0 em (−∞,−1/2)∪(2,+∞); f<0 em (−1/2,2)"	""	""	"Num. zero: x=−1/2. Den. zero: x=2.
+• x<−1/2: (−)/(−)=+ ⇒ f>0
+• −1/2<x<2: (+)/(−)=− ⇒ f<0
+• x>2: (+)/(+)=+ ⇒ f>0"	"sinal;zeros;fatoração"
+"q079"	"Unidade 2 - Funções"	"2.1"	"8"	"i"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = x(2x−1)/(x+1)."	""	""	"f>0 em (−1,0)∪(1/2,+∞); f<0 em (−∞,−1)∪(0,1/2)"	""	""	"Zeros num.: x=0, x=1/2. Den. zero: x=−1.
+• x<−1: (−)(−)/(−) = (+)/(−)=− ⇒ f<0
+• −1<x<0: (−)(−)/(+) = (+)/(+)=+ ⇒ f>0
+• 0<x<1/2: (+)(−)/(+) = (−)/(+)=− ⇒ f<0
+• x>1/2: (+)(+)/(+)=+ ⇒ f>0"	"sinal;zeros;fatoração"
+"q080"	"Unidade 2 - Funções"	"2.1"	"8"	"j"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (3x−1)/(x²+1)."	""	""	"f>0 em (1/3,+∞); f<0 em (−∞,1/3)"	""	""	"x²+1>0 sempre. Sinal depende apenas de 3x−1.
+Zero: x=1/3. f<0 para x<1/3, f>0 para x>1/3."	"sinal;zeros;fatoração"
+"q081"	"Unidade 2 - Funções"	"2.1"	"8"	"l"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (2x−3)(x+1)(x−2)."	""	""	"f>0 em (−1,3/2)∪(2,+∞); f<0 em (−∞,−1)∪(3/2,2)"	""	""	"Zeros: x=−1, x=3/2, x=2. Ordem: −1 < 3/2 < 2.
+• x<−1: (−)(−)(−)=− ⇒ f<0
+• −1<x<3/2: (−)(+)(−)=+ ⇒ f>0
+• 3/2<x<2: (+)(+)(−)=− ⇒ f<0
+• x>2: (+)(+)(+)=+ ⇒ f>0"	"sinal;zeros;fatoração"
+"q082"	"Unidade 2 - Funções"	"2.1"	"8"	"m"	"Cálculo"	"Variação de sinal"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Estude a variação do sinal de f(x) = (2x−3)/[(1−x)(1−2x)]."	""	""	"f>0 em (1/2,1)∪(3/2,+∞); f<0 em (−∞,1/2)∪(1,3/2)"	""	""	"Num. zero: x=3/2. Den. zeros: x=1, x=1/2.
+f(x) = (2x−3)/[(1−x)(1−2x)]. Ordem: 1/2 < 1 < 3/2.
+• x<1/2: (−)/[(+)(+)]=−/+ =− ⇒ f<0
+• 1/2<x<1: (−)/[(+)(−)]=−/(−)=+ ⇒ f>0
+• 1<x<3/2: (−)/[(−)(−)]=−/(+)=− ⇒ f<0
+• x>3/2: (+)/[(−)(−)]=+/(+)=+ ⇒ f>0"	"sinal;zeros;fatoração"
+"q083"	"Unidade 2 - Funções"	"2.1"	"10"	"a"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: f(x)=x²."	""	""	"Parábola com vértice em (0,0), abrindo para cima"	""	""	"f(x)=x². Vértice: (0,0). Abre para cima (a=1>0).
+Pontos: (±1,1), (±2,4). Simétrica em relação ao eixo y."	"parábola;gráfico;quadrática"
+"q084"	"Unidade 2 - Funções"	"2.1"	"10"	"b"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=x²+1."	""	""	"Parábola com vértice em (0,1)"	""	""	"y=x²+1. Vértice: (0,1). Abre para cima.
+Deslocamento vertical de x² por +1. Não cruza o eixo x."	"parábola;gráfico;quadrática"
+"q085"	"Unidade 2 - Funções"	"2.1"	"10"	"c"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=x²−1."	""	""	"Parábola com vértice em (0,−1)"	""	""	"y=x²−1. Vértice: (0,−1). Zeros: x=±1. Abre para cima."	"parábola;gráfico;quadrática"
+"q086"	"Unidade 2 - Funções"	"2.1"	"10"	"d"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=(x−1)²."	""	""	"Parábola com vértice em (1,0)"	""	""	"y=(x−1)². Vértice: (1,0). Abre para cima.
+Deslocamento horizontal de x² por 1 unidade à direita."	"parábola;gráfico;quadrática"
+"q087"	"Unidade 2 - Funções"	"2.1"	"10"	"e"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=(x+1)²."	""	""	"Parábola com vértice em (−1,0)"	""	""	"y=(x+1)². Vértice: (−1,0). Abre para cima."	"parábola;gráfico;quadrática"
+"q088"	"Unidade 2 - Funções"	"2.1"	"10"	"f"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=(x−1)²+1."	""	""	"Parábola com vértice em (1,1)"	""	""	"Vértice: (1,1). Abre para cima. Não cruza o eixo x (mín=1>0)."	"parábola;gráfico;quadrática"
+"q089"	"Unidade 2 - Funções"	"2.1"	"10"	"g"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=(x+1)²−2."	""	""	"Parábola com vértice em (−1,−2)"	""	""	"Vértice: (−1,−2). Abre para cima. Zeros: x=−1±√2."	"parábola;gráfico;quadrática"
+"q090"	"Unidade 2 - Funções"	"2.1"	"10"	"h"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=−x²."	""	""	"Parábola com vértice em (0,0), abrindo para baixo"	""	""	"y=−x². Vértice: (0,0). Abre para baixo (a=−1<0)."	"parábola;gráfico;quadrática"
+"q091"	"Unidade 2 - Funções"	"2.1"	"10"	"i"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=−(x−2)²."	""	""	"Parábola com vértice em (2,0), abrindo para baixo"	""	""	"y=−(x−2)². Vértice: (2,0). Abre para baixo."	"parábola;gráfico;quadrática"
+"q092"	"Unidade 2 - Funções"	"2.1"	"10"	"j"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=|x²−1|."	""	""	"Parábola com parte negativa refletida"	""	""	"x²−1<0 quando −1<x<1. Nesse intervalo, y=1−x².
+Para |x|≥1: y=x²−1. Gráfico: curva em forma de W tocando x em ±1."	"parábola;gráfico;quadrática"
+"q093"	"Unidade 2 - Funções"	"2.1"	"10"	"l"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=x⁴."	""	""	"Curva similar a parábola mas mais achatada perto da origem"	""	""	"y=x⁴. Vértice: (0,0). Par, sempre ≥0.
+Mais achatada que x² perto de 0 e cresce mais rápido longe de 0."	"parábola;gráfico;quadrática"
+"q094"	"Unidade 2 - Funções"	"2.1"	"10"	"m"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=(x+1)³."	""	""	"Cúbica deslocada com inflexão em (−1,0)"	""	""	"y=(x+1)³. Ponto de inflexão em (−1,0).
+Crescente em todo ℝ. Passa por (−2,−1) e (0,1)."	"parábola;gráfico;quadrática"
+"q095"	"Unidade 2 - Funções"	"2.1"	"10"	"n"	"Cálculo"	"Gráfico de parábola"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y=−x³."	""	""	"Cúbica refletida, decrescente"	""	""	"y=−x³. Ímpar. Decrescente. Passa por (0,0), (1,−1), (−1,1)."	"parábola;gráfico;quadrática"
+"q096"	"Unidade 2 - Funções"	"2.1"	"11"	"a"	"Cálculo"	"Completar quadrado"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Considere f(x)=x²+4x+5. Mostre que f(x)=(x+2)²+1."	""	""	"Demonstração"	""	""	"f(x) = x²+4x+5 = (x²+4x+4)+1 = (x+2)²+1."	"completar quadrado;forma canônica"
+"q097"	"Unidade 2 - Funções"	"2.1"	"11"	"b"	"Cálculo"	"Gráfico de quadrática"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)=x²+4x+5."	""	""	"Parábola com vértice em (−2,1), abrindo para cima"	""	""	"f(x)=(x+2)²+1. Vértice: (−2,1). Abre para cima.
+Valor mínimo: 1. Não cruza eixo x (Δ=16−20=−4<0).
+Intercepto y: f(0)=5."	"parábola;gráfico;vértice"
+"q098"	"Unidade 2 - Funções"	"2.1"	"11"	"c"	"Cálculo"	"Valor mínimo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Qual o menor valor de f(x)=x²+4x+5? Em que x este menor valor é atingido?"	""	""	"Mínimo = 1, atingido em x = −2"	""	""	"f(x)=(x+2)²+1 ≥ 1 para todo x (pois (x+2)²≥0).
+Igualdade quando (x+2)²=0, ou seja, x=−2.
+Menor valor: f(−2) = 1."	"mínimo;quadrática;vértice"
+"q099"	"Unidade 2 - Funções"	"2.1"	"12"	"a"	"Cálculo"	"Forma canônica geral"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Seja f(x)=ax²+bx+c, a≠0. Verifique que f(x) = a(x+b/(2a))² − Δ/(4a), onde Δ=b²−4ac."	""	""	"Demonstração"	""	""	"f(x) = a[x²+(b/a)x] + c = a[x²+(b/a)x + b²/(4a²)] − b²/(4a) + c
+= a(x+b/(2a))² + (4ac−b²)/(4a) = a(x+b/(2a))² − Δ/(4a)."	"forma canônica;discriminante;completar quadrado"
+"q100"	"Unidade 2 - Funções"	"2.1"	"12"	"b"	"Cálculo"	"Valor mínimo (a>0)"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Mostre que se a>0, o menor valor de f(x) acontece em x=−b/(2a). Qual o menor valor?"	""	""	"Menor valor: −Δ/(4a) em x=−b/(2a)"	""	""	"Se a>0, a(x+b/(2a))²≥0, logo f(x) ≥ −Δ/(4a).
+Igualdade quando x+b/(2a)=0, i.e., x=−b/(2a).
+Menor valor: f(−b/(2a)) = −Δ/(4a)."	"mínimo;quadrática;vértice"
+"q101"	"Unidade 2 - Funções"	"2.1"	"12"	"c"	"Cálculo"	"Valor máximo (a<0)"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Mostre que se a<0, então f(−b/(2a)) = −Δ/(4a) é o maior valor assumido por f."	""	""	"Maior valor: −Δ/(4a) em x=−b/(2a)"	""	""	"Se a<0, a(x+b/(2a))²≤0, logo f(x) ≤ −Δ/(4a).
+Igualdade em x=−b/(2a). Valor máximo: −Δ/(4a)."	"máximo;quadrática;vértice"
+"q102"	"Unidade 2 - Funções"	"2.1"	"12"	"d"	"Cálculo"	"Interpretação gráfica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Interprete (b) e (c) graficamente."	""	""	"O vértice (−b/(2a), −Δ/(4a)) é o ponto mais baixo (a>0) ou mais alto (a<0) da parábola"	""	""	"Se a>0: parábola abre para cima, vértice é ponto de mínimo.
+Se a<0: parábola abre para baixo, vértice é ponto de máximo.
+Em ambos os casos, o vértice está em V=(−b/(2a), −Δ/(4a))."	"parábola;vértice;interpretação gráfica"
+"q103"	"Unidade 2 - Funções"	"2.1"	"13"	"a"	"Cálculo"	"Raízes e gráfico de quadrática"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine as raízes (caso existam), o maior ou menor valor e esboce o gráfico: f(x)=x²−3x+2."	""	""	"Raízes: x=1, x=2. Mínimo: −1/4 em x=3/2"	""	""	"Δ=9−8=1>0. x=(3±1)/2 ⇒ x=1 ou x=2.
+Vértice: x=3/2, f(3/2)=9/4−9/2+2=−1/4. Mínimo=−1/4.
+Parábola abrindo para cima, cruza eixo x em 1 e 2."	"quadrática;raízes;discriminante;gráfico"
+"q104"	"Unidade 2 - Funções"	"2.1"	"13"	"b"	"Cálculo"	"Raízes e gráfico de quadrática"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine as raízes (caso existam), o maior ou menor valor e esboce o gráfico: f(x)=x²−4."	""	""	"Raízes: x=±2. Mínimo: −4 em x=0"	""	""	"x²−4=0 ⇒ x=±2. Vértice: (0,−4). Mínimo=−4."	"quadrática;raízes;discriminante;gráfico"
+"q105"	"Unidade 2 - Funções"	"2.1"	"13"	"c"	"Cálculo"	"Raízes e gráfico de quadrática"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine as raízes (caso existam), o maior ou menor valor e esboce o gráfico: f(x)=x²−4x+4."	""	""	"Raiz dupla: x=2. Mínimo: 0 em x=2"	""	""	"x²−4x+4=(x−2)². Raiz dupla: x=2. Vértice: (2,0). Mínimo=0.
+Parábola tangente ao eixo x em x=2."	"quadrática;raízes;discriminante;gráfico"
+"q106"	"Unidade 2 - Funções"	"2.1"	"13"	"d"	"Cálculo"	"Raízes e gráfico de quadrática"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine as raízes (caso existam), o maior ou menor valor e esboce o gráfico: f(x)=x²+2x+2."	""	""	"Sem raízes reais. Mínimo: 1 em x=−1"	""	""	"Δ=4−8=−4<0. Sem raízes reais.
+f(x)=(x+1)²+1. Vértice: (−1,1). Mínimo=1."	"quadrática;raízes;discriminante;gráfico"
+"q107"	"Unidade 2 - Funções"	"2.1"	"13"	"e"	"Cálculo"	"Raízes e gráfico de quadrática"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine as raízes (caso existam), o maior ou menor valor e esboce o gráfico: f(x)=2x²+3."	""	""	"Sem raízes reais. Mínimo: 3 em x=0"	""	""	"2x²+3≥3>0 para todo x. Sem raízes.
+Vértice: (0,3). Mínimo=3."	"quadrática;raízes;discriminante;gráfico"
+"q108"	"Unidade 2 - Funções"	"2.1"	"14"	"a"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = x²−1."	""	""	"f>0 em (−∞,−1)∪(1,+∞); f<0 em (−1,1)"	""	""	"Raízes: x=±1. a=1>0 (abre para cima).
+f<0 entre as raízes: (−1,1). f>0 fora: (−∞,−1)∪(1,+∞)."	"sinal;quadrática;discriminante"
+"q109"	"Unidade 2 - Funções"	"2.1"	"14"	"b"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = x²−5x+6."	""	""	"f>0 em (−∞,2)∪(3,+∞); f<0 em (2,3)"	""	""	"Raízes: x=(5±1)/2 ⇒ x=2, x=3. a>0.
+f<0 em (2,3), f>0 fora."	"sinal;quadrática;discriminante"
+"q110"	"Unidade 2 - Funções"	"2.1"	"14"	"c"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = x²+x+1."	""	""	"f>0 para todo x ∈ ℝ"	""	""	"Δ=1−4=−3<0. a=1>0. Sem raízes.
+f(x)>0 para todo x."	"sinal;quadrática;discriminante"
+"q111"	"Unidade 2 - Funções"	"2.1"	"14"	"d"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = −x²+3x."	""	""	"f>0 em (0,3); f<0 em (−∞,0)∪(3,+∞)"	""	""	"−x²+3x=0 ⇒ x(−x+3)=0 ⇒ x=0 ou x=3. a=−1<0.
+f>0 entre raízes: (0,3)."	"sinal;quadrática;discriminante"
+"q112"	"Unidade 2 - Funções"	"2.1"	"14"	"e"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = −x²−2x−1."	""	""	"f<0 para todo x≠−1; f(−1)=0"	""	""	"−x²−2x−1=−(x²+2x+1)=−(x+1)². Sempre ≤0.
+Zero apenas em x=−1."	"sinal;quadrática;discriminante"
+"q113"	"Unidade 2 - Funções"	"2.1"	"14"	"f"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = x²+6x+9."	""	""	"f≥0 para todo x; f=0 em x=−3"	""	""	"x²+6x+9=(x+3)²≥0. Zero em x=−3."	"sinal;quadrática;discriminante"
+"q114"	"Unidade 2 - Funções"	"2.1"	"14"	"g"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = −x²+9."	""	""	"f>0 em (−3,3); f<0 em (−∞,−3)∪(3,+∞)"	""	""	"Raízes: x=±3. a=−1<0. f>0 entre raízes: (−3,3)."	"sinal;quadrática;discriminante"
+"q115"	"Unidade 2 - Funções"	"2.1"	"14"	"h"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = x²+2x−6."	""	""	"f>0 em (−∞,−1−√7)∪(−1+√7,+∞); f<0 em (−1−√7,−1+√7)"	""	""	"Δ=4+24=28. x=(−2±√28)/2=−1±√7. a>0.
+f<0 entre raízes."	"sinal;quadrática;discriminante"
+"q116"	"Unidade 2 - Funções"	"2.1"	"14"	"i"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = 2x²−6x+1."	""	""	"f>0 em (−∞,(3−√7)/2)∪((3+√7)/2,+∞); f<0 entre as raízes"	""	""	"Δ=36−8=28. x=(6±√28)/4=(3±√7)/2. a>0.
+f<0 em ((3−√7)/2, (3+√7)/2)."	"sinal;quadrática;discriminante"
+"q117"	"Unidade 2 - Funções"	"2.1"	"14"	"j"	"Cálculo"	"Sinal de quadrática via gráfico"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Olhando para o gráfico, estude a variação do sinal de f(x) = −x²+2x−3."	""	""	"f<0 para todo x"	""	""	"Δ=4−12=−8<0. a=−1<0. Sem raízes.
+f(x)<0 para todo x."	"sinal;quadrática;discriminante"
+"q118"	"Unidade 2 - Funções"	"2.1"	"15"	"a"	"Cálculo"	"Domínio e gráfico de racionais simples"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: f(x)=2/x."	""	""	"Domínio: ℝ\{0}. Hipérbole com assíntotas x=0 e y=0."	""	""	"f(x)=2/x. Domínio: x≠0. Assíntota vertical: x=0. Assíntota horizontal: y=0.
+Para x>0: f decrescente, f→+∞ quando x→0⁺. Para x<0: f decrescente, f→−∞ quando x→0⁻."	"domínio;gráfico;racional;assíntota"
+"q119"	"Unidade 2 - Funções"	"2.1"	"15"	"b"	"Cálculo"	"Domínio e gráfico de racionais simples"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y=2/(x−1)."	""	""	"Domínio: ℝ\{1}. Hipérbole deslocada."	""	""	"Assíntota vertical: x=1. Assíntota horizontal: y=0.
+É a hipérbole 2/x deslocada 1 unidade à direita."	"domínio;gráfico;racional;assíntota"
+"q120"	"Unidade 2 - Funções"	"2.1"	"15"	"c"	"Cálculo"	"Domínio e gráfico de racionais simples"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y=2/(x+1)."	""	""	"Domínio: ℝ\{−1}. Hipérbole deslocada."	""	""	"Assíntota vertical: x=−1. Assíntota horizontal: y=0.
+Hipérbole 2/x deslocada 1 unidade à esquerda."	"domínio;gráfico;racional;assíntota"
+"q121"	"Unidade 2 - Funções"	"2.1"	"15"	"d"	"Cálculo"	"Domínio e gráfico de racionais simples"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y=1+1/x."	""	""	"Domínio: ℝ\{0}. Hipérbole com assíntota horizontal y=1."	""	""	"y=1+1/x. Assíntota vertical: x=0. Assíntota horizontal: y=1.
+É 1/x deslocada 1 unidade para cima."	"domínio;gráfico;racional;assíntota"
+"q122"	"Unidade 2 - Funções"	"2.1"	"16"	"a"	"Cálculo"	"Identidade com raízes"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Verifique que √(1+x²)−|x| = 1/(|x|+√(1+x²)). Conclua que à medida que |x| cresce, √(1+x²)−|x| se aproxima de zero."	""	""	"Demonstração"	""	""	"Multiplicando √(1+x²)−|x| pelo conjugado:
+[√(1+x²)−|x|]·[√(1+x²)+|x|]/[√(1+x²)+|x|]
+= (1+x²−x²)/[√(1+x²)+|x|] = 1/[|x|+√(1+x²)].
+Como |x|→∞ ⇒ |x|+√(1+x²)→∞ ⇒ 1/[|x|+√(1+x²)]→0."	"conjugado;racionalização;limite"
+"q123"	"Unidade 2 - Funções"	"2.1"	"16"	"b"	"Cálculo"	"Gráfico de raiz"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de y = √(1+x²)."	""	""	"Hipérbole superior: y≥1, simétrica em relação ao eixo y"	""	""	"y=√(1+x²) ≥ 1 para todo x. y(0)=1.
+Para x grande: y ≈ |x|. Curva simétrica (par), cresce para ambos os lados.
+O gráfico é o ramo superior da hipérbole x²−y²=−1, i.e., y²−x²=1."	"gráfico;raiz;hipérbole"
+"q124"	"Unidade 2 - Funções"	"2.1"	"17"	""	"Cálculo"	"Domínio e gráfico de √(x²−1)"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico de f(x) = √(x²−1)."	""	""	"Domínio: (−∞,−1]∪[1,+∞)"	""	""	"x²−1≥0 ⇒ x²≥1 ⇒ |x|≥1. Domínio: x≤−1 ou x≥1.
+f(±1)=0. Para x grande: f(x)≈|x|.
+O gráfico 'encosta' por baixo no gráfico de y=|x| à medida que |x| cresce.
+Curva par, com dois ramos partindo de (−1,0) e (1,0)."	"domínio;raiz;gráfico"
+"q125"	"Unidade 2 - Funções"	"2.1"	"18"	"a"	"Cálculo"	"Domínio e gráfico com raízes"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y = √(2+x²)."	""	""	"Domínio: ℝ. y≥√2."	""	""	"2+x²>0 sempre. Domínio: ℝ. y(0)=√2 (mínimo).
+Curva par, crescente para |x| grande, similar a |x|."	"domínio;gráfico;raiz quadrada"
+"q126"	"Unidade 2 - Funções"	"2.1"	"18"	"b"	"Cálculo"	"Domínio e gráfico com raízes"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y = √(x²−4)."	""	""	"Domínio: |x|≥2."	""	""	"x²−4≥0 ⇒ x²≥4 ⇒ |x|≥2. y(±2)=0. Dois ramos."	"domínio;gráfico;raiz quadrada"
+"q127"	"Unidade 2 - Funções"	"2.1"	"18"	"c"	"Cálculo"	"Domínio e gráfico com raízes"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y = √(x²−9)."	""	""	"Domínio: |x|≥3."	""	""	"x²−9≥0 ⇒ |x|≥3. y(±3)=0. Similar ao anterior."	"domínio;gráfico;raiz quadrada"
+"q128"	"Unidade 2 - Funções"	"2.1"	"18"	"d"	"Cálculo"	"Domínio e gráfico com raízes"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y = √(x²+4)."	""	""	"Domínio: ℝ. y≥2."	""	""	"x²+4>0 sempre. y(0)=2 (mínimo). Curva par."	"domínio;gráfico;raiz quadrada"
+"q129"	"Unidade 2 - Funções"	"2.1"	"18"	"e"	"Cálculo"	"Domínio e gráfico com raízes"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y = √(9−x²)."	""	""	"Domínio: |x|≤3. Semicírculo superior de raio 3."	""	""	"9−x²≥0 ⇒ x²≤9 ⇒ −3≤x≤3.
+y²=9−x² ⇒ x²+y²=9. Semicírculo superior de raio 3."	"domínio;gráfico;raiz quadrada"
+"q130"	"Unidade 2 - Funções"	"2.1"	"18"	"f"	"Cálculo"	"Domínio e gráfico com raízes"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o domínio e esboce o gráfico: y = √(1−(x+2)²)."	""	""	"Domínio: (x+2)²≤1 ⇒ −3≤x≤−1. Semicírculo."	""	""	"(x+2)²≤1 ⇒ −1≤x+2≤1 ⇒ −3≤x≤−1.
+y²=1−(x+2)² ⇒ (x+2)²+y²=1. Semicírculo superior de raio 1, centro (−2,0)."	"domínio;gráfico;raiz quadrada"
+"q131"	"Unidade 2 - Funções"	"2.1"	"19"	""	"Cálculo"	"Função implícita circular"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Seja f dada por x↦y, y≥0, em que x²+y²=4."	""	""	"f(x) = √(4−x²), Domínio: [−2,2]"	""	""	"De x²+y²=4 e y≥0: y=√(4−x²).
+Domínio: 4−x²≥0 ⇒ −2≤x≤2.
+Gráfico: semicírculo superior de raio 2 centrado na origem."	"função implícita;círculo;semicírculo"
+"q132"	"Unidade 2 - Funções"	"2.1"	"37"	""	"Cálculo"	"Área máxima de retângulo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Entre os retângulos de perímetro 2p dado, qual o de área máxima?"	""	""	"O quadrado de lado p/2"	""	""	"Sejam x e y os lados. 2x+2y=2p ⇒ y=p−x.
+Área: A=xy=x(p−x)=px−x²=−(x−p/2)²+p²/4.
+Máximo quando x=p/2, logo y=p/2. É um quadrado.
+Área máxima: p²/4."	"otimização;retângulo;quadrática"
+"q133"	"Unidade 2 - Funções"	"2.1"	"38"	""	"Cálculo"	"Soma mínima de quadrados"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Divida um segmento de 10 cm em duas partes, de modo que a soma dos quadrados dos comprimentos seja mínima."	""	""	"Duas partes iguais de 5 cm cada"	""	""	"Sejam x e 10−x as partes. S=x²+(10−x)²=2x²−20x+100.
+S'=4x−20=0 ⇒ x=5. S(5)=25+25=50.
+Ou: S=2(x−5)²+50 ≥ 50. Mínimo em x=5."	"otimização;mínimo;quadrática"
+"q134"	"Unidade 2 - Funções"	"2.1"	"39"	""	"Cálculo"	"Soma mínima de áreas (quadrado+circunferência)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Um arame de 10 cm será cortado em dois pedaços: um para formar um quadrado e outro para uma circunferência. Como cortá-lo para que a soma das áreas seja mínima?"	""	""	"x = 40/(4+π) cm para o quadrado"	""	""	"Seja x o perímetro do quadrado. Lado = x/4, área = x²/16.
+Circunferência: perímetro = 10−x, raio = (10−x)/(2π), área = (10−x)²/(4π).
+S = x²/16 + (10−x)²/(4π). Derivando e igualando a zero:
+S' = x/8 − (10−x)/(2π) = 0 ⇒ πx/8 = (10−x)/2 ⇒ πx = 4(10−x)
+⇒ x(π+4) = 40 ⇒ x = 40/(π+4) ≈ 5,60 cm."	"otimização;área;quadrado;circunferência"
+"q135"	"Unidade 2 - Funções"	"2.1"	"40"	""	"Cálculo"	"Soma mínima de áreas (quadrado+triângulo equilátero)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Um arame de 36 cm será cortado em dois pedaços: um para um quadrado e outro para um triângulo equilátero. Como cortá-lo para que a soma das áreas seja mínima?"	""	""	"x = 144√3/(9+4√3) cm para o quadrado"	""	""	"Seja x o perímetro do quadrado. Lado quadrado = x/4, área = x²/16.
+Triângulo: perímetro = 36−x, lado = (36−x)/3, área = √3/4·[(36−x)/3]².
+S = x²/16 + √3(36−x)²/36. Derivando:
+S' = x/8 − 2√3(36−x)/36 = x/8 − √3(36−x)/18 = 0.
+18x = 8√3(36−x) ⇒ 18x+8√3x = 288√3 ⇒ x(18+8√3) = 288√3
+⇒ x = 288√3/(18+8√3) = 144√3/(9+4√3)."	"otimização;área;quadrado;triângulo"
+"q136"	"Unidade 2 - Funções"	"2.1"	"41"	"a"	"Cálculo"	"Equação do círculo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Coloque na forma (x−a)²+(y−b)²=r²: x²+y²−2x=0."	""	""	"(x−1)²+y²=1"	""	""	"x²−2x+y²=0 ⇒ (x²−2x+1)+y²=1 ⇒ (x−1)²+y²=1.
+Centro (1,0), raio 1."	"círculo;completar quadrado;geometria analítica"
+"q137"	"Unidade 2 - Funções"	"2.1"	"41"	"b"	"Cálculo"	"Equação do círculo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Coloque na forma (x−a)²+(y−b)²=r²: x²+y²−x−y=0."	""	""	"(x−1/2)²+(y−1/2)²=1/2"	""	""	"x²−x+y²−y=0 ⇒ (x−1/2)²+(y−1/2)²=1/4+1/4=1/2.
+Centro (1/2,1/2), raio √(1/2)=√2/2."	"círculo;completar quadrado;geometria analítica"
+"q138"	"Unidade 2 - Funções"	"2.1"	"41"	"c"	"Cálculo"	"Equação do círculo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Coloque na forma (x−a)²+(y−b)²=r²: 2x²+2y²+x=1."	""	""	"(x+1/4)²+y²=9/16"	""	""	"Dividindo por 2: x²+y²+x/2=1/2.
+(x+1/4)²+y²=1/2+1/16=9/16.
+Centro (−1/4,0), raio 3/4."	"círculo;completar quadrado;geometria analítica"
+"q139"	"Unidade 2 - Funções"	"2.1"	"41"	"d"	"Cálculo"	"Equação do círculo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Coloque na forma (x−a)²+(y−b)²=r²: x²+y²+3x−y=2."	""	""	"(x+3/2)²+(y−1/2)²=18/4=9/2"	""	""	"(x²+3x+9/4)+(y²−y+1/4)=2+9/4+1/4=2+10/4=18/4.
+(x+3/2)²+(y−1/2)²=9/2. Centro (−3/2,1/2), raio 3/√2."	"círculo;completar quadrado;geometria analítica"
+"q140"	"Unidade 2 - Funções"	"2.1"	"42"	"a"	"Cálculo"	"Retas paralelas"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine a para que as retas sejam paralelas: y=ax e y=3x−1."	""	""	"a=3"	""	""	"y=ax tem coeficiente angular a. y=3x−1 tem coeficiente angular 3.
+Paralelas ⇒ mesma inclinação ⇒ a=3."	"retas paralelas;coeficiente angular"
+"q141"	"Unidade 2 - Funções"	"2.1"	"42"	"b"	"Cálculo"	"Retas paralelas"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine a para que as retas sejam paralelas: y=(a+1)x+1 e y=x."	""	""	"a=0"	""	""	"Coef. angular de y=(a+1)x+1 é a+1. De y=x é 1.
+Paralelas ⇒ a+1=1 ⇒ a=0."	"retas paralelas;coeficiente angular"
+"q142"	"Unidade 2 - Funções"	"2.1"	"42"	"c"	"Cálculo"	"Retas paralelas"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine a para que as retas sejam paralelas: y=(2x+1)/3 e y=2ax+1."	""	""	"a=1/3"	""	""	"y=(2x+1)/3 = (2/3)x+1/3. Coef. angular: 2/3.
+y=2ax+1. Coef. angular: 2a.
+Paralelas ⇒ 2a=2/3 ⇒ a=1/3."	"retas paralelas;coeficiente angular"
+"q143"	"Unidade 2 - Funções"	"2.2"	"1"	"a"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: f(x) = sen 2x."	""	""	"Senoide com período π e amplitude 1"	""	""	"sen 2x: período = 2π/2 = π. Amplitude = 1.
+Zeros: x=kπ/2. Máx em x=π/4+kπ, mín em x=−π/4+kπ."	"trigonometria;gráfico;seno;cosseno"
+"q144"	"Unidade 2 - Funções"	"2.2"	"1"	"b"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y = 2 cos x."	""	""	"Cossenoide com período 2π e amplitude 2"	""	""	"2cos x: período = 2π. Amplitude = 2.
+Máx: y=2 em x=2kπ. Mín: y=−2 em x=(2k+1)π."	"trigonometria;gráfico;seno;cosseno"
+"q145"	"Unidade 2 - Funções"	"2.2"	"1"	"c"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y = cos(x/2)."	""	""	"Cossenoide com período 4π"	""	""	"cos(x/2): período = 2π/(1/2) = 4π. Amplitude = 1.
+Oscilação mais lenta que cos x."	"trigonometria;gráfico;seno;cosseno"
+"q146"	"Unidade 2 - Funções"	"2.2"	"1"	"d"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: f(x) = |sen x|."	""	""	"Arcos positivos de seno, período π"	""	""	"|sen x|: reflete as partes negativas de sen x para cima.
+Período = π (metade do período do seno). Sempre ≥0."	"trigonometria;gráfico;seno;cosseno"
+"q147"	"Unidade 2 - Funções"	"2.2"	"1"	"e"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y = sen πx."	""	""	"Senoide com período 2"	""	""	"sen πx: período = 2π/π = 2. Zeros em x inteiro.
+Máx em x=1/2+2k, mín em x=−1/2+2k."	"trigonometria;gráfico;seno;cosseno"
+"q148"	"Unidade 2 - Funções"	"2.2"	"1"	"f"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: f(x) = x sen x."	""	""	"Oscilações com amplitude crescente"	""	""	"x·sen x: amplitude cresce linearmente com |x|.
+Envolvente: y=x e y=−x. Zeros em x=kπ.
+Função par: f(−x)=(−x)sen(−x)=(−x)(−sen x)=x sen x=f(x)."	"trigonometria;gráfico;seno;cosseno"
+"q149"	"Unidade 2 - Funções"	"2.2"	"1"	"g"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: g(x) = (1/x) sen x."	""	""	"(sen x)/x, oscilações com amplitude decrescente"	""	""	"(sen x)/x: amplitude decresce como 1/|x|.
+Para x→0: lim(sen x/x) = 1. Para |x|→∞: f(x)→0.
+Zeros: x=kπ (k≠0). Domínio: ℝ\{0}."	"trigonometria;gráfico;seno;cosseno"
+"q150"	"Unidade 2 - Funções"	"2.2"	"1"	"h"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y = x sen(1/x)."	""	""	"Oscilações amortecidas perto de zero"	""	""	"x·sen(1/x): perto de x=0, oscila rapidamente.
+Para x→0: |x·sen(1/x)|≤|x|→0. Para |x|→∞: sen(1/x)≈1/x, logo y≈1.
+Domínio: ℝ\{0}."	"trigonometria;gráfico;seno;cosseno"
+"q151"	"Unidade 2 - Funções"	"2.2"	"1"	"i"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: y = x² sen(1/x)."	""	""	"Oscilações ainda mais amortecidas perto de zero"	""	""	"x²·sen(1/x): |f(x)|≤x²→0 quando x→0.
+Oscilações com amplitude x², decaindo quadraticamente. Domínio: ℝ\{0}."	"trigonometria;gráfico;seno;cosseno"
+"q152"	"Unidade 2 - Funções"	"2.2"	"1"	"j"	"Cálculo"	"Gráfico de função trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico: g(x) = x + sen x."	""	""	"Reta y=x com ondulações de amplitude 1"	""	""	"x+sen x: crescente (derivada 1+cos x≥0). Oscila em torno de y=x.
+g(0)=0. A curva é a reta y=x com 'ondulações' de amplitude 1."	"trigonometria;gráfico;seno;cosseno"
+"q153"	"Unidade 2 - Funções"	"2.2"	"2"	"a"	"Cálculo"	"Identidade trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Sejam a e b reais quaisquer. Verifique que sen a cos b = (1/2)[sen(a+b)+sen(a−b)]."	""	""	"Demonstração"	""	""	"Usando as fórmulas de adição:
+sen(a+b) = sen a cos b + cos a sen b
+sen(a−b) = sen a cos b − cos a sen b
+Somando: sen(a+b)+sen(a−b) = 2 sen a cos b.
+Logo: sen a cos b = (1/2)[sen(a+b)+sen(a−b)]."	"identidade;trigonometria;soma"
+"q154"	"Unidade 2 - Funções"	"2.2"	"2"	"b"	"Cálculo"	"Identidade trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Verifique que cos a cos b = (1/2)[cos(a+b)+cos(a−b)]."	""	""	"Demonstração"	""	""	"cos(a+b) = cos a cos b − sen a sen b
+cos(a−b) = cos a cos b + sen a sen b
+Somando: cos(a+b)+cos(a−b) = 2 cos a cos b.
+Logo: cos a cos b = (1/2)[cos(a+b)+cos(a−b)]."	"identidade;trigonometria;produto"
+"q155"	"Unidade 2 - Funções"	"2.2"	"2"	"c"	"Cálculo"	"Identidade trigonométrica"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Verifique que sen a sen b = (1/2)[cos(a−b)−cos(a+b)]."	""	""	"Demonstração"	""	""	"cos(a−b) = cos a cos b + sen a sen b
+cos(a+b) = cos a cos b − sen a sen b
+Subtraindo: cos(a−b)−cos(a+b) = 2 sen a sen b.
+Logo: sen a sen b = (1/2)[cos(a−b)−cos(a+b)]."	"identidade;trigonometria;produto"
+"q156"	"Unidade 2 - Funções"	"2.3"	"1"	"a"	"Cálculo"	"Domínio e gráfico de cotangente"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine o domínio e esboce o gráfico: f(x) = cotg x."	""	""	"Domínio: ℝ\{kπ, k∈ℤ}"	""	""	"cotg x = cos x/sen x. Definida quando sen x ≠ 0, i.e., x≠kπ.
+Período: π. Assíntotas verticais em x=kπ.
+Decrescente em cada intervalo (kπ, (k+1)π). cotg(π/4)=1, cotg(π/2)=0."	"cotangente;domínio;gráfico"
+"q157"	"Unidade 2 - Funções"	"2.3"	"1"	"b"	"Cálculo"	"Domínio e gráfico de cossecante"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine o domínio e esboce o gráfico: g(x) = cosec x."	""	""	"Domínio: ℝ\{kπ, k∈ℤ}"	""	""	"cosec x = 1/sen x. Definida quando sen x ≠ 0, i.e., x≠kπ.
+Período: 2π. |cosec x|≥1 sempre. Assíntotas verticais em x=kπ.
+Máx local: −1 em x=(2k+1)π. Mín local: 1 em x=π/2+2kπ."	"cossecante;domínio;gráfico"
+"q158"	"Unidade 2 - Funções"	"2.3"	"2"	""	"Cálculo"	"Identidade sec²x = 1+tg²x"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Verifique que sec²x = 1 + tg²x para todo x tal que cos x ≠ 0."	""	""	"Demonstração"	""	""	"Partindo de sen²x + cos²x = 1, dividindo por cos²x:
+sen²x/cos²x + 1 = 1/cos²x ⇒ tg²x + 1 = sec²x."	"identidade;secante;tangente"
+"q159"	"Unidade 2 - Funções"	"2.3"	"3"	"a"	"Cálculo"	"Fórmula da meia-ângulo (seno)"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Mostre que sen x = 2tg(x/2)/(1+tg²(x/2)), para cos(x/2) ≠ 0."	""	""	"Demonstração"	""	""	"sen x = 2 sen(x/2) cos(x/2).
+Dividindo numerador e denominador por cos²(x/2):
+= 2 sen(x/2) cos(x/2) / [cos²(x/2) + sen²(x/2)] · (1/cos²(x/2))/(1/cos²(x/2))
+= 2 tg(x/2) / (1 + tg²(x/2)).
+Alternativamente: 2tg(x/2)/(1+tg²(x/2)) = 2tg(x/2)·cos²(x/2)
+= 2·(sen(x/2)/cos(x/2))·cos²(x/2) = 2 sen(x/2) cos(x/2) = sen x."	"meia-ângulo;tangente;seno"
+"q160"	"Unidade 2 - Funções"	"2.3"	"3"	"b"	"Cálculo"	"Fórmula da meia-ângulo (cosseno)"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Mostre que cos x = (1−tg²(x/2))/(1+tg²(x/2)), para cos(x/2) ≠ 0."	""	""	"Demonstração"	""	""	"cos x = cos²(x/2) − sen²(x/2).
+Dividindo por cos²(x/2) + sen²(x/2) = 1:
+cos x = [cos²(x/2)−sen²(x/2)] / [cos²(x/2)+sen²(x/2)].
+Dividindo num. e den. por cos²(x/2):
+= (1−tg²(x/2)) / (1+tg²(x/2))."	"meia-ângulo;tangente;cosseno"
+"q161"	"Unidade 2 - Funções"	"2.4"	"1"	"a"	"Cálculo"	"Operações com funções"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê os domínios e esboce os gráficos de f+g e g/f: f(x)=x, g(x)=x²−1."	""	""	"f+g: x+x²−1=x²+x−1, Dom=ℝ. g/f: (x²−1)/x, Dom=ℝ\{0}"	""	""	"(f+g)(x)=x+x²−1=x²+x−1. Domínio: ℝ. Parábola com vértice em (−1/2,−5/4).
+(g/f)(x)=(x²−1)/x=x−1/x. Domínio: ℝ\{0}. Assíntota oblíqua y=x."	"operações;domínio;gráfico;soma;quociente"
+"q162"	"Unidade 2 - Funções"	"2.4"	"1"	"b"	"Cálculo"	"Operações com funções"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê os domínios e esboce os gráficos de f+g e g/f: f(x)=x, g(x)=1/√x."	""	""	"f+g: x+1/√x, Dom=(0,+∞). g/f: 1/(x√x)=x^(−3/2), Dom=(0,+∞)"	""	""	"(f+g)(x)=x+1/√x. Domínio: x>0 (para √x existir e ≠0).
+(g/f)(x)=(1/√x)/x=1/(x√x)=x^(−3/2). Domínio: x>0."	"operações;domínio;gráfico;soma;quociente"
+"q163"	"Unidade 2 - Funções"	"2.4"	"1"	"c"	"Cálculo"	"Operações com funções"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê os domínios e esboce os gráficos de f+g e g/f: f(x)=1, g(x)=√(x−1)."	""	""	"f+g: 1+√(x−1), Dom=[1,+∞). g/f: √(x−1), Dom=[1,+∞)"	""	""	"(f+g)(x)=1+√(x−1). Domínio: x≥1.
+(g/f)(x)=√(x−1)/1=√(x−1). Domínio: x≥1."	"operações;domínio;gráfico;soma;quociente"
+"q164"	"Unidade 2 - Funções"	"2.4"	"1"	"d"	"Cálculo"	"Operações com funções"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê os domínios e esboce os gráficos de f+g e g/f: f(x)=1, g(x)=1/(x−2)²."	""	""	"f+g: 1+1/(x−2)², Dom=ℝ\{2}. g/f: 1/(x−2)², Dom=ℝ\{2}"	""	""	"(f+g)(x)=1+1/(x−2)²=[(x−2)²+1]/(x−2)². Domínio: x≠2.
+(g/f)(x)=1/(x−2)². Domínio: x≠2."	"operações;domínio;gráfico;soma;quociente"
+"q165"	"Unidade 2 - Funções"	"2.4"	"1"	"e"	"Cálculo"	"Operações com funções"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê os domínios e esboce os gráficos de f+g e g/f: f(x)={1 se x∈ℚ; −1 se x∉ℚ}, g(x)={−1 se x∈ℚ; 1 se x∉ℚ}."	""	""	"f+g=0 para todo x. g/f=−1 para todo x"	""	""	"Para x∈ℚ: (f+g)(x)=1+(−1)=0, (g/f)(x)=−1/1=−1.
+Para x∉ℚ: (f+g)(x)=−1+1=0, (g/f)(x)=1/(−1)=−1.
+f+g=0 (função nula). g/f=−1 (constante). Domínio de g/f: ℝ."	"operações;domínio;gráfico;soma;quociente"
+"q166"	"Unidade 2 - Funções"	"2.4"	"2"	"a"	"Cálculo"	"Função composta"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Verifique que Im f ⊂ D_g e determine h(x)=g(f(x)): g(x)=3x+1, f(x)=x+2."	""	""	"h(x)=3(x+2)+1=3x+7"	""	""	"f(x)=x+2, Im f=ℝ. D_g=ℝ. ℝ⊂ℝ ✓.
+h(x)=g(f(x))=g(x+2)=3(x+2)+1=3x+7."	"composição;função composta;domínio;imagem"
+"q167"	"Unidade 2 - Funções"	"2.4"	"2"	"b"	"Cálculo"	"Função composta"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Verifique que Im f ⊂ D_g e determine h(x)=g(f(x)): g(x)=√x, f(x)=2+x²."	""	""	"h(x)=√(2+x²)"	""	""	"f(x)=2+x², Im f=[2,+∞). D_g=[0,+∞). [2,+∞)⊂[0,+∞) ✓.
+h(x)=g(f(x))=√(2+x²)."	"composição;função composta;domínio;imagem"
+"q168"	"Unidade 2 - Funções"	"2.4"	"2"	"c"	"Cálculo"	"Função composta"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Verifique que Im f ⊂ D_g e determine h(x)=g(f(x)): g(x)=(x+1)/(x−2), f(x)=x²+3."	""	""	"h(x)=(x²+4)/(x²+1)"	""	""	"f(x)=x²+3, Im f=[3,+∞). D_g=ℝ\{2}. 2∉[3,+∞) ✓.
+h(x)=g(x²+3)=(x²+3+1)/(x²+3−2)=(x²+4)/(x²+1)."	"composição;função composta;domínio;imagem"
+"q169"	"Unidade 2 - Funções"	"2.4"	"2"	"d"	"Cálculo"	"Função composta"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Verifique que Im f ⊂ D_g e determine h(x)=g(f(x)): g(x)=−x²+3x+1, f(x)=2x−3."	""	""	"h(x)=−(2x−3)²+3(2x−3)+1=−4x²+18x−17"	""	""	"f(x)=2x−3, Im f=ℝ. D_g=ℝ ✓.
+h(x)=g(2x−3)=−(2x−3)²+3(2x−3)+1
+=−(4x²−12x+9)+(6x−9)+1 = −4x²+12x−9+6x−9+1 = −4x²+18x−17."	"composição;função composta;domínio;imagem"
+"q170"	"Unidade 2 - Funções"	"2.4"	"2"	"e"	"Cálculo"	"Função composta"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Verifique que Im f ⊂ D_g e determine h(x)=g(f(x)): g(x)=2/(x−2), f(x)=x+1, x≠2."	""	""	"h(x)=2/(x−1), x≠1"	""	""	"f(x)=x+1, x≠2 (dado). Im f=ℝ\{3}? Na verdade, f: ℝ\{2}→ℝ, Im f excluindo f(2) não definido.
+Se dom f = ℝ\{2}: f(x)=x+1, Im f=ℝ\{3}. D_g=ℝ\{2}. 2∉ℝ\{3}? Sim, 2≠3.
+Mas f(x)=2 ⇒ x=1, e 1≠2, logo 2∈Im f. Precisamos f(x)≠2, i.e., x≠1.
+h definida para x≠2 e x≠1: h(x)=g(x+1)=2/((x+1)−2)=2/(x−1)."	"composição;função composta;domínio;imagem"
+"q171"	"Unidade 2 - Funções"	"2.4"	"2"	"f"	"Cálculo"	"Função composta"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Verifique que Im f ⊂ D_g e determine h(x)=g(f(x)): g(x)=(x+1)/(x−1), f(x)=x/(x+1)."	""	""	"h(x) = −2x−1"	""	""	"f(x)=x/(x+1), dom: x≠−1. Im f=ℝ\{1} (pois x/(x+1)=1 ⇒ x=x+1, impossível).
+D_g=ℝ\{1}. Im f=ℝ\{1}⊂ℝ\{1} ✓.
+h(x) = g(x/(x+1)) = [x/(x+1)+1]/[x/(x+1)−1]
+= [(x+x+1)/(x+1)] / [(x−x−1)/(x+1)] = (2x+1)/(−1) = −2x−1."	"composição;função composta;domínio;imagem"
+"q172"	"Unidade 2 - Funções"	"2.4"	"2"	"g"	"Cálculo"	"Função composta"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Verifique que Im f ⊂ D_g e determine h(x)=g(f(x)): g(x)=√x, f(x)=x²−x, x≤0 ou x≥1."	""	""	"h(x)=√(x²−x)"	""	""	"f(x)=x²−x. Para x≤0: f(x)=x(x−1)≥0 (ambos ≤0 ou ≥0: x≤0 e x−1≤−1<0, logo f≥0).
+Para x≥1: x≥1, x−1≥0, logo f≥0. Im f⊂[0,+∞)=D_g ✓.
+h(x)=√(x²−x). Domínio: x≤0 ou x≥1."	"composição;função composta;domínio;imagem"
+"q173"	"Unidade 2 - Funções"	"2.4"	"2"	"h"	"Cálculo"	"Função composta"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Verifique que Im f ⊂ D_g e determine h(x)=g(f(x)): g(x)=(x+1)/(x−2), f(x)=(2x+1)/(x−1)."	""	""	"h(x) = x"	""	""	"f(x)=(2x+1)/(x−1), dom: x≠1. f(x)=2 ⇒ 2x+1=2(x−1)=2x−2 ⇒ 1=−2, impossível.
+Logo Im f exclui... f(x)=(2x+1)/(x−1)=2+3/(x−1). Im f=ℝ\{2}. D_g=ℝ\{2} ✓.
+h(x)=g(f(x))=[f(x)+1]/[f(x)−2] = [(2x+1)/(x−1)+1]/[(2x+1)/(x−1)−2]
+= [(2x+1+x−1)/(x−1)]/[(2x+1−2x+2)/(x−1)] = (3x)/(3) = x."	"composição;função composta;domínio;imagem"
+"q174"	"Unidade 3 - Limite e continuidade"	"3.1"	"1"	"a"	"Cálculo"	"Continuidade intuitiva"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)=2 e determine os pontos em que f é contínua."	""	""	"f é contínua em todo ℝ"	""	""	"f(x)=2 é constante. Gráfico: reta horizontal y=2.
+Intuitivamente, o gráfico pode ser traçado sem tirar o lápis do papel.
+f é contínua em todos os pontos de ℝ."	"continuidade;função constante"
+"q175"	"Unidade 3 - Limite e continuidade"	"3.1"	"1"	"b"	"Cálculo"	"Continuidade intuitiva"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)=x+1 e determine os pontos de continuidade."	""	""	"f é contínua em todo ℝ"	""	""	"f(x)=x+1: reta com inclinação 1. Contínua em todo ℝ."	"continuidade;função afim"
+"q176"	"Unidade 3 - Limite e continuidade"	"3.1"	"1"	"c"	"Cálculo"	"Continuidade intuitiva"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)=x² e determine os pontos de continuidade."	""	""	"f é contínua em todo ℝ"	""	""	"f(x)=x²: parábola. Curva suave, contínua em todo ℝ."	"continuidade;parábola"
+"q177"	"Unidade 3 - Limite e continuidade"	"3.1"	"1"	"d"	"Cálculo"	"Continuidade intuitiva"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)={x² se x≤1; 2 se x>1}. Determine os pontos de continuidade."	""	""	"Contínua em ℝ\{1}; descontínua em x=1"	""	""	"Para x≤1: f(x)=x², f(1)=1. Para x>1: f(x)=2.
+Em x=1: lim(x→1⁻)=1 ≠ 2=lim(x→1⁺). Salto em x=1.
+f é contínua em todos os pontos exceto x=1."	"continuidade;descontinuidade;função por partes"
+"q178"	"Unidade 3 - Limite e continuidade"	"3.1"	"1"	"e"	"Cálculo"	"Continuidade intuitiva"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)={1/x² se |x|≥1; 2 se |x|<1}. Determine os pontos de continuidade."	""	""	"Contínua em ℝ\{−1,1}"	""	""	"Para |x|≥1: f(x)=1/x². f(1)=1, f(−1)=1.
+Para |x|<1: f(x)=2.
+Em x=1: lim(x→1⁺)=1 ≠ 2. Em x=−1: lim(x→−1⁻)=1 ≠ 2.
+Descontínua em x=±1."	"continuidade;descontinuidade"
+"q179"	"Unidade 3 - Limite e continuidade"	"3.1"	"1"	"f"	"Cálculo"	"Continuidade intuitiva"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)=x²+2 e determine os pontos de continuidade."	""	""	"f é contínua em todo ℝ"	""	""	"f(x)=x²+2: parábola deslocada para cima. Curva suave, contínua em todo ℝ."	"continuidade;parábola"
+"q180"	"Unidade 3 - Limite e continuidade"	"3.1"	"2"	"a"	"Cálculo"	"Limite intuitivo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→1) (x+2)."	""	""	"3"	""	""	"lim(x→1)(x+2) = 1+2 = 3. Substituição direta."	"limite;intuitivo"
+"q181"	"Unidade 3 - Limite e continuidade"	"3.1"	"2"	"b"	"Cálculo"	"Limite intuitivo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→1) (2x+1)."	""	""	"3"	""	""	"lim(x→1)(2x+1) = 2(1)+1 = 3."	"limite;intuitivo"
+"q182"	"Unidade 3 - Limite e continuidade"	"3.1"	"2"	"c"	"Cálculo"	"Limite intuitivo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→0) (3x+1)."	""	""	"1"	""	""	"lim(x→0)(3x+1) = 0+1 = 1."	"limite;intuitivo"
+"q183"	"Unidade 3 - Limite e continuidade"	"3.1"	"2"	"d"	"Cálculo"	"Limite intuitivo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→2) (x²+1)."	""	""	"5"	""	""	"lim(x→2)(x²+1) = 4+1 = 5."	"limite;intuitivo"
+"q184"	"Unidade 3 - Limite e continuidade"	"3.1"	"2"	"e"	"Cálculo"	"Limite intuitivo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→1) √x."	""	""	"1"	""	""	"lim(x→1)√x = √1 = 1."	"limite;intuitivo"
+"q185"	"Unidade 3 - Limite e continuidade"	"3.1"	"2"	"f"	"Cálculo"	"Limite intuitivo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→2) (x²+x)/(x+3)."	""	""	"6/5"	""	""	"lim(x→2)(x²+x)/(x+3) = (4+2)/(2+3) = 6/5."	"limite;intuitivo"
+"q186"	"Unidade 3 - Limite e continuidade"	"3.1"	"2"	"g"	"Cálculo"	"Limite intuitivo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→2) ³√x."	""	""	"³√2"	""	""	"lim(x→2)³√x = ³√2."	"limite;intuitivo"
+"q187"	"Unidade 3 - Limite e continuidade"	"3.1"	"2"	"h"	"Cálculo"	"Limite intuitivo"	"fácil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→0) (√x+x)."	""	""	"0 (para x→0⁺)"	""	""	"lim(x→0⁺)(√x+x) = 0+0 = 0."	"limite;intuitivo"
+"q188"	"Unidade 3 - Limite e continuidade"	"3.1"	"3"	""	"Cálculo"	"Gráfico e limite de racional"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Esboce o gráfico de f(x)=(4x²−1)/(2x−1). Utilizando a ideia intuitiva de limite, calcule lim(x→1/2) (4x²−1)/(2x−1)."	""	""	"lim = 2"	""	""	"f(x) = (4x²−1)/(2x−1) = (2x−1)(2x+1)/(2x−1) = 2x+1 para x≠1/2.
+Gráfico: reta y=2x+1 com buraco em (1/2, 2).
+lim(x→1/2) f(x) = 2(1/2)+1 = 2."	"limite;fatoração;gráfico"
+"q189"	"Unidade 3 - Limite e continuidade"	"3.1"	"4"	"a"	"Cálculo"	"Limite intuitivo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→2) (x²−4)/(x−2)."	""	""	"4"	""	""	"(x²−4)/(x−2) = (x−2)(x+2)/(x−2) = x+2 para x≠2.
+lim(x→2) = 2+2 = 4."	"limite;intuitivo;fatoração"
+"q190"	"Unidade 3 - Limite e continuidade"	"3.1"	"4"	"b"	"Cálculo"	"Limite intuitivo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→0) (x²+x)/x."	""	""	"1"	""	""	"(x²+x)/x = x(x+1)/x = x+1 para x≠0.
+lim(x→0) = 0+1 = 1."	"limite;intuitivo;fatoração"
+"q191"	"Unidade 3 - Limite e continuidade"	"3.1"	"4"	"c"	"Cálculo"	"Limite intuitivo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→1) (√x−1)/(x−1)."	""	""	"1/2"	""	""	"Multiplicando por conjugado: (√x−1)(√x+1)/[(x−1)(√x+1)] = (x−1)/[(x−1)(√x+1)] = 1/(√x+1).
+lim(x→1) = 1/(1+1) = 1/2."	"limite;intuitivo;fatoração"
+"q192"	"Unidade 3 - Limite e continuidade"	"3.1"	"4"	"d"	"Cálculo"	"Limite intuitivo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→2) (x²−4x+4)/(x−2)."	""	""	"0"	""	""	"(x²−4x+4)/(x−2) = (x−2)²/(x−2) = x−2 para x≠2.
+lim(x→2) = 2−2 = 0."	"limite;intuitivo;fatoração"
+"q193"	"Unidade 3 - Limite e continuidade"	"3.1"	"4"	"e"	"Cálculo"	"Limite intuitivo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→−1) (x²−1)/(x+1)."	""	""	"−2"	""	""	"(x²−1)/(x+1) = (x−1)(x+1)/(x+1) = x−1 para x≠−1.
+lim(x→−1) = −1−1 = −2."	"limite;intuitivo;fatoração"
+"q194"	"Unidade 3 - Limite e continuidade"	"3.1"	"4"	"f"	"Cálculo"	"Limite intuitivo"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Utilizando a ideia intuitiva de limite, calcule: lim(x→0) sen x."	""	""	"0 (veja nota: lim sen x quando x→0 = 0)"	""	""	"lim(x→0) sen x = sen 0 = 0. (Pelo gráfico, sen x→0 quando x→0.)"	"limite;intuitivo;fatoração"
+"q195"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"a"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→2) x²."	""	""	"4"	""	""	"lim(x→2) x² = 2² = 4. Propriedade: lim x^n = (lim x)^n."	"limite;cálculo;propriedades"
+"q196"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"b"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→1) (3x+1)."	""	""	"4"	""	""	"lim(x→1)(3x+1) = 3·1+1 = 4."	"limite;cálculo;propriedades"
+"q197"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"c"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→−2) (4x+1)."	""	""	"−7"	""	""	"lim(x→−2)(4x+1) = 4(−2)+1 = −7."	"limite;cálculo;propriedades"
+"q198"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"d"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→10) 5."	""	""	"5"	""	""	"Limite de constante é a própria constante: lim 5 = 5."	"limite;cálculo;propriedades"
+"q199"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"e"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→−9) 50."	""	""	"50"	""	""	"Limite de constante: lim 50 = 50."	"limite;cálculo;propriedades"
+"q200"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"f"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→−1) (−x²−2x+3)."	""	""	"4"	""	""	"lim(x→−1)(−x²−2x+3) = −1−2(−1)+3 = −1+2+3 = 4."	"limite;cálculo;propriedades"
+"q201"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"g"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→4) √x."	""	""	"2"	""	""	"lim(x→4)√x = √4 = 2."	"limite;cálculo;propriedades"
+"q202"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"h"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→−3) ³√x."	""	""	"−³√3"	""	""	"lim(x→−3)³√x = ³√(−3) = −³√3 ≈ −1,44."	"limite;cálculo;propriedades"
+"q203"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"i"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→−8) √5."	""	""	"√5"	""	""	"Limite de constante: lim √5 = √5."	"limite;cálculo;propriedades"
+"q204"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"j"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→3) (x²−9)/(x−3)."	""	""	"6"	""	""	"(x²−9)/(x−3) = (x−3)(x+3)/(x−3) = x+3 para x≠3.
+lim(x→3) = 6."	"limite;cálculo;propriedades"
+"q205"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"l"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→3) (x²−9)/(x+3)."	""	""	"0"	""	""	"Substituição direta: (9−9)/(3+3) = 0/6 = 0."	"limite;cálculo;propriedades"
+"q206"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"m"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→−1) (x²−9)/(x−3)."	""	""	"2"	""	""	"Substituição direta: (1−9)/(−1−3) = −8/(−4) = 2."	"limite;cálculo;propriedades"
+"q207"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"n"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→1/2) (4x²−1)/(2x−1)."	""	""	"2"	""	""	"(4x²−1)/(2x−1) = (2x−1)(2x+1)/(2x−1) = 2x+1.
+lim(x→1/2) = 2."	"limite;cálculo;propriedades"
+"q208"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"o"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→1) (√x−1)/(x−1)."	""	""	"1/2"	""	""	"Multiplicando por conjugado: 1/(√x+1).
+lim(x→1) = 1/2."	"limite;cálculo;propriedades"
+"q209"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"p"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→−1/3) (9x²−1)/(3x+1)."	""	""	"−2"	""	""	"(9x²−1)/(3x+1) = (3x−1)(3x+1)/(3x+1) = 3x−1.
+lim(x→−1/3) = −1−1 = −2."	"limite;cálculo;propriedades"
+"q210"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"q"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→3) (√x−√3)/(x−3)."	""	""	"√3/6"	""	""	"(√x−√3)/(x−3) = (√x−√3)/[(√x−√3)(√x+√3)] = 1/(√x+√3).
+lim(x→3) = 1/(2√3) = √3/6."	"limite;cálculo;propriedades"
+"q211"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"r"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→3) (³√x−³√3)/(x−3)."	""	""	"1/(3·³√9)"	""	""	"Usando a=³√x, b=³√3: a³−b³=(a−b)(a²+ab+b²).
+(a−b)/(a³−b³) = 1/(a²+ab+b²). lim(x→3) = 1/(³√9+³√9+³√9) = 1/(3·³√9)."	"limite;cálculo;propriedades"
+"q212"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"s"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→2) (⁴√x−⁴√2)/(x−2)."	""	""	"1/(4·⁴√8)"	""	""	"Seja a=⁴√x, b=⁴√2. x−2=a⁴−b⁴=(a−b)(a³+a²b+ab²+b³).
+lim = 1/(4b³) = 1/(4·(⁴√2)³) = 1/(4·⁴√8)."	"limite;cálculo;propriedades"
+"q213"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"t"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→0) (x²+3x−1)/(x²+2)."	""	""	"−1/2"	""	""	"Substituição direta: (0+0−1)/(0+2) = −1/2."	"limite;cálculo;propriedades"
+"q214"	"Unidade 3 - Limite e continuidade"	"3.2"	"1"	"u"	"Cálculo"	"Cálculo de limites"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Calcule e justifique: lim(x→1) (√x−1)/(√(2x+3)−√5)."	""	""	"√5/2"	""	""	"Racionalizando ambos:
+Multiplicando por (√(2x+3)+√5)/(√(2x+3)+√5):
+= (√x−1)(√(2x+3)+√5)/[(2x+3)−5] = (√x−1)(√(2x+3)+√5)/(2(x−1)).
+= (√x−1)(√(2x+3)+√5)/[2(√x−1)(√x+1)] = (√(2x+3)+√5)/[2(√x+1)].
+lim(x→1) = (√5+√5)/(2·2) = 2√5/4 = √5/2."	"limite;cálculo;propriedades"
+"q215"	"Unidade 3 - Limite e continuidade"	"3.2"	"10"	""	"Cálculo"	"Limitação de função com limite"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Suponha que lim(x→p) f(x)=L. Prove que existem r>0 e M>0 tais que, para todo x∈D_p, 0<|x−p|<r ⇒ |f(x)|≤M."	""	""	"Demonstração"	""	""	"Como lim(x→p) f(x)=L, para ε=1 existe δ>0 tal que 0<|x−p|<δ ⇒ |f(x)−L|<1.
+Pela desigualdade triangular: |f(x)| = |f(x)−L+L| ≤ |f(x)−L|+|L| < 1+|L|.
+Tome r=δ e M=1+|L|."	"limite;limitação;demonstração formal"
+"q216"	"Unidade 3 - Limite e continuidade"	"3.2"	"11"	""	"Cálculo"	"Equivalência de limite"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove: lim(x→p) f(x) = L ⇔ lim(x→p) [f(x)−L] = 0."	""	""	"Demonstração"	""	""	"(⇒) Se lim f(x)=L: dado ε>0, ∃δ>0: 0<|x−p|<δ ⇒ |f(x)−L|<ε.
+Mas |[f(x)−L]−0| = |f(x)−L|<ε. Logo lim[f(x)−L]=0.
+(⇐) Se lim[f(x)−L]=0: dado ε>0, ∃δ>0: 0<|x−p|<δ ⇒ |f(x)−L−0|=|f(x)−L|<ε.
+Logo lim f(x)=L."	"limite;equivalência;demonstração"
+"q217"	"Unidade 3 - Limite e continuidade"	"3.2"	"12"	""	"Cálculo"	"Equivalência com valor absoluto"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove: lim(x→p) f(x) = L ⇔ lim(x→p) |f(x)−L| = 0."	""	""	"Demonstração"	""	""	"(⇒) lim f(x)=L ⇒ dado ε>0, ∃δ: 0<|x−p|<δ ⇒ |f(x)−L|<ε.
+Mas ||f(x)−L|−0| = |f(x)−L| < ε. Logo lim|f(x)−L|=0.
+(⇐) lim|f(x)−L|=0 ⇒ dado ε>0, ∃δ: 0<|x−p|<δ ⇒ ||f(x)−L||<ε.
+Como ||f(x)−L||=|f(x)−L|, segue lim f(x)=L."	"limite;valor absoluto;demonstração"
+"q218"	"Unidade 3 - Limite e continuidade"	"3.2"	"13"	""	"Cálculo"	"Equivalência de limite com quociente"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove: lim(x→p) f(x)/(x−p) = 0 ⇔ lim(x→p) f(x)/|x−p| = 0."	""	""	"Demonstração"	""	""	"(⇒) Se lim f(x)/(x−p)=0: dado ε>0, ∃δ: 0<|x−p|<δ ⇒ |f(x)/(x−p)|<ε.
+Mas |f(x)/|x−p|| = |f(x)|/|x−p| = |f(x)/(x−p)|<ε. Logo lim f(x)/|x−p|=0.
+(⇐) Análogo: |f(x)/(x−p)|=|f(x)|/|x−p|=|f(x)/|x−p||<ε."	"limite;quociente;demonstração"
+"q219"	"Unidade 3 - Limite e continuidade"	"3.2"	"14"	""	"Cálculo"	"Limite e não-negatividade"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Suponha que existe r>0 tal que f(x)≥0 para 0<|x−p|<r e que lim(x→p) f(x)=L. Prove que L≥0."	""	""	"Demonstração"	""	""	"Suponha por absurdo que L<0. Tome ε=−L/2>0.
+∃δ>0: 0<|x−p|<δ ⇒ |f(x)−L|<−L/2.
+Isso implica f(x)<L+(−L/2)=L/2<0.
+Mas para 0<|x−p|<min(r,δ), f(x)≥0 e f(x)<0, contradição.
+Logo L≥0. (Sugestão do livro: use conservação do sinal.)"	"limite;conservação do sinal;demonstração"
+"q220"	"Unidade 3 - Limite e continuidade"	"3.2"	"15"	""	"Cálculo"	"Continuidade e racionais"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Suponha f contínua em ℝ e f(x)≥0 para todo x racional. Prove que f(x)≥0 para todo x."	""	""	"Demonstração"	""	""	"Seja x₀∈ℝ qualquer. Como ℚ é denso em ℝ, existe sequência (rₙ) de racionais com rₙ→x₀.
+f(rₙ)≥0 para todo n. Como f é contínua: f(x₀)=lim f(rₙ).
+O limite de termos não-negativos é não-negativo (pelo exercício anterior).
+Logo f(x₀)≥0."	"continuidade;densidade;racionais;demonstração"
+"q221"	"Unidade 3 - Limite e continuidade"	"3.6"	"1"	"a"	"Cálculo"	"Prova de continuidade (ε-δ)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove, pela definição, que f(x)=4x−3 é contínua em p=2."	""	""	"Demonstração"	""	""	"f(2)=4(2)−3=5. Dado ε>0, queremos |f(x)−5|<ε.
+|4x−3−5|=|4x−8|=4|x−2|. Basta 4|x−2|<ε, i.e., |x−2|<ε/4.
+Tomando δ=ε/4: |x−2|<δ ⇒ |f(x)−f(2)|<ε."	"continuidade;epsilon-delta;demonstração"
+"q222"	"Unidade 3 - Limite e continuidade"	"3.6"	"1"	"b"	"Cálculo"	"Prova de continuidade (ε-δ)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove, pela definição, que f(x)=x+1 é contínua em p=2."	""	""	"Demonstração"	""	""	"f(2)=3. |f(x)−3|=|(x+1)−3|=|x−2|.
+Tomando δ=ε: |x−2|<δ ⇒ |f(x)−f(2)|<ε."	"continuidade;epsilon-delta;demonstração"
+"q223"	"Unidade 3 - Limite e continuidade"	"3.6"	"1"	"c"	"Cálculo"	"Prova de continuidade (ε-δ)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove, pela definição, que f(x)=−3x é contínua em p=1."	""	""	"Demonstração"	""	""	"f(1)=−3. |f(x)−(−3)|=|−3x+3|=3|x−1|.
+Tomando δ=ε/3: |x−1|<δ ⇒ |f(x)−f(1)|<ε."	"continuidade;epsilon-delta;demonstração"
+"q224"	"Unidade 3 - Limite e continuidade"	"3.6"	"1"	"d"	"Cálculo"	"Prova de continuidade (ε-δ)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove, pela definição, que f(x)=x³ é contínua em p=2."	""	""	"Demonstração"	""	""	"f(2)=8. |x³−8|=|x−2||x²+2x+4|.
+Para |x−2|<1: 1<x<3, logo x²+2x+4 < 9+6+4=19.
+|x³−8| < 19|x−2|. Tomando δ=min(1, ε/19): |x−2|<δ ⇒ |f(x)−8|<ε."	"continuidade;epsilon-delta;demonstração"
+"q225"	"Unidade 3 - Limite e continuidade"	"3.6"	"1"	"e"	"Cálculo"	"Prova de continuidade (ε-δ)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove, pela definição, que f(x)=x⁴ é contínua em p=−1."	""	""	"Demonstração"	""	""	"f(−1)=1. |x⁴−1|=|x²−1||x²+1|=|x−1||x+1||x²+1|.
+Para |x+1|<1: −2<x<0, logo |x−1|<3, |x²+1|<5.
+|x⁴−1| < 15|x+1|. Tomando δ=min(1, ε/15)."	"continuidade;epsilon-delta;demonstração"
+"q226"	"Unidade 3 - Limite e continuidade"	"3.6"	"1"	"f"	"Cálculo"	"Prova de continuidade (ε-δ)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove, pela definição, que f(x)=√x é contínua em p=4."	""	""	"Demonstração"	""	""	"f(4)=2. |√x−2| = |x−4|/(√x+2).
+Para x>0: √x+2>2, logo |√x−2| < |x−4|/2.
+Tomando δ=min(2, 2ε): |x−4|<δ ⇒ x>2>0 e |√x−2|<ε."	"continuidade;epsilon-delta;demonstração"
+"q227"	"Unidade 3 - Limite e continuidade"	"3.6"	"1"	"g"	"Cálculo"	"Prova de continuidade (ε-δ)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove, pela definição, que f(x)=√x é contínua em p=0."	""	""	"Demonstração"	""	""	"f(0)=0. |√x−0|=√x. Queremos √x<ε, i.e., x<ε² (para x≥0).
+Tomando δ=ε²: 0≤x<δ ⇒ √x<ε."	"continuidade;epsilon-delta;demonstração"
+"q228"	"Unidade 3 - Limite e continuidade"	"3.6"	"1"	"h"	"Cálculo"	"Prova de continuidade (ε-δ)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove, pela definição, que f(x)=³√x é contínua em p=1."	""	""	"Demonstração"	""	""	"f(1)=1. |³√x−1| = |x−1|/(³√(x²)+³√x+1).
+Para |x−1|<1/2: x>1/2, logo ³√(x²)+³√x+1 > ³√(1/4)+³√(1/2)+1 > 1.
+|³√x−1| < |x−1|. Tomando δ=min(1/2, ε)."	"continuidade;epsilon-delta;demonstração"
+"q229"	"Unidade 3 - Limite e continuidade"	"3.6"	"2"	""	"Cálculo"	"Continuidade de 1/x"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove que f(x)=1/x é contínua em todo p≠0."	""	""	"Demonstração"	""	""	"Seja p≠0. f(p)=1/p. |1/x−1/p| = |p−x|/(|x||p|).
+Para |x−p|<|p|/2: |x|>|p|/2 (desigualdade triangular reversa).
+Logo |1/x−1/p| < |x−p|/(|p|²/2) = 2|x−p|/p².
+Tomando δ=min(|p|/2, εp²/2): |x−p|<δ ⇒ |f(x)−f(p)|<ε."	"continuidade;1/x;epsilon-delta"
+"q230"	"Unidade 3 - Limite e continuidade"	"3.6"	"3"	""	"Cálculo"	"Continuidade de xⁿ"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Seja n>0 natural. Prove que f(x)=xⁿ é contínua."	""	""	"Demonstração"	""	""	"Seja p∈ℝ. xⁿ−pⁿ = (x−p)(xⁿ⁻¹+xⁿ⁻²p+...+pⁿ⁻¹).
+Para |x−p|<1: |x|<|p|+1, logo |xⁿ⁻¹+xⁿ⁻²p+...+pⁿ⁻¹| ≤ n(|p|+1)ⁿ⁻¹ := M.
+|xⁿ−pⁿ| ≤ M|x−p|. Tomando δ=min(1, ε/M)."	"continuidade;potência;demonstração"
+"q231"	"Unidade 3 - Limite e continuidade"	"3.6"	"4"	""	"Cálculo"	"Continuidade de ⁿ√x"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove que f(x)=ⁿ√x é contínua."	""	""	"Demonstração"	""	""	"Para p>0: |ⁿ√x−ⁿ√p| = |x−p|/(ⁿ√(xⁿ⁻¹)+...+ⁿ√(pⁿ⁻¹)).
+O denominador é ≥ n·ⁿ√(pⁿ⁻¹)/2 para x perto de p.
+Logo |ⁿ√x−ⁿ√p| ≤ C|x−p| para alguma constante C.
+Para p=0: |ⁿ√x|=ⁿ√x. Queremos ⁿ√x<ε, i.e., x<εⁿ. Tome δ=εⁿ."	"continuidade;raiz n-ésima;demonstração"
+"q232"	"Unidade 3 - Limite e continuidade"	"3.6"	"5"	""	"Cálculo"	"Continuidade de função por partes em 1"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"f(x) = {2x se x≤1; 1 se x>1}. f é contínua em 1? Justifique."	""	""	"Não, f é descontínua em x=1"	""	""	"f(1) = 2(1) = 2 (pela primeira parte).
+lim(x→1⁺) f(x) = 1 (pela segunda parte).
+lim(x→1⁻) f(x) = 2(1) = 2.
+Como lim(x→1⁺)=1 ≠ 2=lim(x→1⁻), o limite não existe. f é descontínua em 1."	"continuidade;função por partes;descontinuidade"
+"q233"	"Unidade 3 - Limite e continuidade"	"3.6"	"9"	"a"	"Cálculo"	"Continuidade da função maior inteiro"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine o conjunto dos pontos em que f é contínua: f(x)=⌊x⌋ (função maior inteiro)."	""	""	"f é contínua em ℝ\ℤ (contínua fora dos inteiros)"	""	""	"⌊x⌋ = max{n∈ℤ | n≤x}.
+Para p∉ℤ: ⌊x⌋ é constante em (⌊p⌋, ⌊p⌋+1), logo contínua em p.
+Para p∈ℤ: lim(x→p⁻)=p−1 ≠ p=⌊p⌋. Descontínua nos inteiros."	"maior inteiro;continuidade;descontinuidade"
+"q234"	"Unidade 3 - Limite e continuidade"	"3.6"	"9"	"b"	"Cálculo"	"Continuidade de x−⌊x⌋"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine o conjunto dos pontos em que f(x)=x−⌊x⌋ é contínua."	""	""	"f é contínua em ℝ\ℤ"	""	""	"f(x)=x−⌊x⌋ é a parte fracionária de x. 0≤f(x)<1.
+Para p∉ℤ: f(x)=x−n constante n=⌊p⌋ perto de p. Contínua.
+Para p∈ℤ: f(p)=0, mas lim(x→p⁻) f(x)=1. Descontínua nos inteiros."	"parte fracionária;continuidade"
+"q235"	"Unidade 3 - Limite e continuidade"	"3.6"	"9"	"c"	"Cálculo"	"Continuidade de Dirichlet modificada"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine os pontos de continuidade: f(x) = {x se x∈ℚ; −x se x∉ℚ}."	""	""	"f é contínua apenas em x=0"	""	""	"Para x₀=0: |f(x)|≤|x|→0 quando x→0. f(0)=0. Contínua em 0.
+Para x₀≠0: por racionais, f→x₀; por irracionais, f→−x₀.
+Se x₀≠0: x₀≠−x₀, logo limite não existe. Descontínua."	"Dirichlet;continuidade;racionais;irracionais"
+"q236"	"Unidade 3 - Limite e continuidade"	"3.6"	"9"	"d"	"Cálculo"	"Continuidade de Dirichlet quadrática"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine os pontos de continuidade: f(x) = {x²−1 se x∈ℚ; −x²+1 se x∉ℚ}."	""	""	"f é contínua em x=1 e x=−1"	""	""	"f contínua em x₀ ⇔ x₀²−1=−x₀²+1 (os dois valores coincidem).
+2x₀²=2 ⇒ x₀=±1. Contínua apenas em x=1 e x=−1.
+Verificação em x=1: f(1)=0, e por qualquer sequência, f→0."	"Dirichlet;continuidade"
+"q237"	"Unidade 3 - Limite e continuidade"	"3.6"	"10"	""	"Cálculo"	"Função contínua apenas em −1, 0 e 1"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê exemplo de uma função definida em ℝ que seja contínua apenas em −1, 0, 1."	""	""	"f(x) = {(x²−1)x se x∈ℚ; 0 se x∉ℚ} ou f(x)=x(x²−1)·D(x) onde D é Dirichlet"	""	""	"Defina f(x) = x(x²−1)·g(x) onde g(x)={1 se x∈ℚ; 0 se x∉ℚ} (Dirichlet).
+Em x₀: f contínua ⇔ lim f(x)=f(x₀).
+Se x₀∈{−1,0,1}: x₀(x₀²−1)=0, logo f(x₀)=0.
+Para x perto de x₀: |f(x)|≤|x(x²−1)|→0. Contínua.
+Se x₀∉{−1,0,1}: x₀(x₀²−1)≠0. Por racionais: f→x₀(x₀²−1)≠0. Por irracionais: f→0.
+Descontínua."	"exemplo;continuidade;Dirichlet"
+"q238"	"Unidade 3 - Limite e continuidade"	"3.6"	"11"	"a"	"Cálculo"	"Valor de L para continuidade"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine L para que f seja contínua em p=2: f(x) = {(x²−4)/(x−2) se x≠2; L se x=2}."	""	""	"L = 4"	""	""	"Para x≠2: f(x)=(x²−4)/(x−2)=(x−2)(x+2)/(x−2)=x+2.
+lim(x→2) f(x)=4. Para continuidade: f(2)=L=4."	"continuidade;limite;extensão contínua"
+"q239"	"Unidade 3 - Limite e continuidade"	"3.6"	"11"	"b"	"Cálculo"	"Valor de L para continuidade"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Determine L para que f seja contínua em p=0: f(x) = {(x²−x)/x se x≠0; L se x=0}."	""	""	"L = −1"	""	""	"Para x≠0: f(x)=(x²−x)/x=x(x−1)/x=x−1.
+lim(x→0) f(x)=0−1=−1. Para continuidade: L=−1."	"continuidade;limite;extensão contínua"
+"q240"	"Unidade 3 - Limite e continuidade"	"3.6"	"12"	""	"Cálculo"	"Valor para continuidade"	"média"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"aberta"	"Dê o valor (caso exista) que f deveria ter no ponto dado para ser contínua. Justifique."	""	""	"Depende da função específica (ver contexto)"	""	""	"Princípio geral: para f ser contínua em p, deve-se ter f(p)=lim(x→p) f(x).
+Calcula-se o limite. Se existir, esse é o valor necessário."	"continuidade;extensão contínua"
+"q241"	"Unidade 3 - Limite e continuidade"	"3.6"	"20"	""	"Cálculo"	"Continuidade e racionais (f=0)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Suponha f definida e contínua em ℝ e que f(x)=0 para todo x racional. Prove que f(x)=0 para todo x real."	""	""	"Demonstração"	""	""	"Seja x₀∈ℝ irracional. Como ℚ é denso em ℝ, existe (rₙ)⊂ℚ com rₙ→x₀.
+f(rₙ)=0 para todo n. Pela continuidade: f(x₀)=lim f(rₙ)=0."	"continuidade;densidade;racionais"
+"q242"	"Unidade 3 - Limite e continuidade"	"3.6"	"21"	""	"Cálculo"	"Funções contínuas iguais nos racionais"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Sejam f e g contínuas em ℝ tais que f(x)=g(x) para todo x racional. Prove que f(x)=g(x) para todo x real."	""	""	"Demonstração"	""	""	"Defina h(x)=f(x)−g(x). h é contínua (diferença de contínuas).
+h(x)=0 para todo x∈ℚ. Pelo exercício anterior, h(x)=0 para todo x∈ℝ.
+Logo f(x)=g(x) para todo x."	"continuidade;igualdade;racionais"
+"q243"	"Unidade 3 - Limite e continuidade"	"3.6"	"22"	""	"Cálculo"	"Funções contínuas com f(r)=aʳ e g(r)=aʳ"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Suponha f e g contínuas em ℝ, a>0, a≠1, e que para todo r racional, f(r)=aʳ e g(r)=aʳ. Prove que f=g em ℝ."	""	""	"Demonstração"	""	""	"Para todo r∈ℚ: f(r)=aʳ=g(r). Logo f e g coincidem nos racionais.
+Pelo exercício 21, como f e g são contínuas e coincidem em ℚ, temos f(x)=g(x) para todo x∈ℝ."	"continuidade;exponencial;racionais"
+"q244"	"Unidade 3 - Limite e continuidade"	"3.6"	"23"	"a"	"Cálculo"	"Estimativa para f(x)=x+1/x"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Seja f(x)=x+1/x. Prove que |f(x)−f(1)| ≤ (1+1/x)|x−1| para x>0."	""	""	"Demonstração"	""	""	"f(x)−f(1) = (x+1/x)−2 = x−2+1/x = (x²−2x+1)/x = (x−1)²/x.
+|f(x)−f(1)| = (x−1)²/x.
+Precisamos mostrar: (x−1)²/x ≤ (1+1/x)|x−1|.
+(x−1)²/x = |x−1|²/x = |x−1|·|x−1|/x.
+Para x>0: |x−1|/x = |1−1/x| ≤ 1+1/x (desig. triangular).
+Logo (x−1)²/x ≤ (1+1/x)|x−1|."	"estimativa;continuidade"
+"q245"	"Unidade 3 - Limite e continuidade"	"3.6"	"23"	"b"	"Cálculo"	"Estimativa para f(x)=x+1/x (x>1/2)"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove que |f(x)−f(1)| ≤ 3|x−1| para x>1/2."	""	""	"Demonstração"	""	""	"Do item (a): |f(x)−f(1)| ≤ (1+1/x)|x−1|.
+Para x>1/2: 1/x<2, logo 1+1/x<3.
+Portanto |f(x)−f(1)| ≤ 3|x−1|."	"estimativa;continuidade"
+"q246"	"Unidade 3 - Limite e continuidade"	"3.6"	"23"	"c"	"Cálculo"	"Continuidade de x+1/x em p=1"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove que f(x)=x+1/x é contínua em p=1."	""	""	"Demonstração"	""	""	"f(1)=2. Pelo item (b), para x>1/2: |f(x)−f(1)| ≤ 3|x−1|.
+Dado ε>0, tome δ=min(1/2, ε/3). Se |x−1|<δ, então x>1/2 e:
+|f(x)−2| ≤ 3|x−1| < 3·ε/3 = ε."	"continuidade;epsilon-delta"
+"q247"	"Unidade 3 - Limite e continuidade"	"3.6"	"24"	"a"	"Cálculo"	"Estimativa para x³+x"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Seja f(x)=x³+x. Prove que |f(x)−f(2)| ≤ 20|x−2| para 0≤x≤3."	""	""	"Demonstração"	""	""	"f(2)=10. f(x)−f(2) = x³+x−10.
+x³−8 = (x−2)(x²+2x+4). Logo f(x)−f(2) = (x−2)(x²+2x+4)+(x−2) = (x−2)(x²+2x+5).
+|f(x)−f(2)| = |x−2|·|x²+2x+5|.
+Para 0≤x≤3: x²+2x+5 ≤ 9+6+5=20.
+Logo |f(x)−f(2)| ≤ 20|x−2|."	"estimativa;polinômio;continuidade"
+"q248"	"Unidade 3 - Limite e continuidade"	"3.6"	"24"	"b"	"Cálculo"	"Continuidade de x³+x em p=2"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove que f(x)=x³+x é contínua em p=2."	""	""	"Demonstração"	""	""	"Dado ε>0, tome δ=min(1, ε/20). Se |x−2|<δ≤1, então 1≤x≤3.
+Pelo item (a): |f(x)−f(2)| ≤ 20|x−2| < 20·ε/20 = ε."	"continuidade;epsilon-delta"
+"q249"	"Unidade 3 - Limite e continuidade"	"3.6"	"25"	""	"Cálculo"	"Continuidade de x+1/x² em p=1"	"difícil"	"GUIDORIZZI, Hamilton Luiz"	"Um curso de cálculo, vol. 1"	"5"	"1"	"LTC"	"2013"	"978-85-216-2244-4"	"demonstração"	"Prove que f(x)=x+1/x² é contínua em 1."	""	""	"Demonstração"	""	""	"f(1)=2. f(x)−f(1) = (x−1)+(1/x²−1) = (x−1)+(1−x²)/x² = (x−1)−(x²−1)/x²
+= (x−1)[1−(x+1)/x²] = (x−1)(x²−x−1)/x².
+Para |x−1|<1/2: x>1/2, logo x²>1/4 e |x²−x−1|<|x²|+|x|+1 < 9/4+3/2+1 < 5.
+|f(x)−2| ≤ 5·4·|x−1| = 20|x−1|. Tomando δ=min(1/2, ε/20)."	"continuidade;epsilon-delta"

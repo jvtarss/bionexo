@@ -8,7 +8,7 @@
 (function () {
   "use strict";
   const B = window.Bionexo;
-  const DATA = (window.BIONEXO && window.BIONEXO.questoes) || [];
+  let DATA = [];
   const KEY = "bionexo:simulados";
 
   const el = id => document.getElementById(id);
@@ -17,15 +17,13 @@
 
   const discSel = el("simDisc"), diffSel = el("simDiff"), qtdSel = el("simQtd"), timeSel = el("simTime");
 
-  // ---- disciplinas ----
-  [...new Set(DATA.map(q => q.disciplina))].sort((a, b) => a.localeCompare(b, "pt")).forEach(d => {
-    const o = document.createElement("option"); o.value = d; o.textContent = d; discSel.appendChild(o);
-  });
-
   const diffLabel = { "": "Qualquer", "diff-facil": "Fácil", "diff-media": "Média", "diff-dificil": "Difícil" };
 
+  // só tipos que dá para corrigir automaticamente entram no simulado
+  const GRAD = { multipla: 1, vouf: 1, aberta: 1, intervalo: 1, texto: 1 };
   function filtrar() {
     return DATA.filter(q => {
+      if (!GRAD[q.tipo]) return false;
       if (discSel.value && q.disciplina !== discSel.value) return false;
       if (diffSel.value && B.diffClass(q.dificuldade) !== diffSel.value) return false;
       return true;
@@ -41,7 +39,6 @@
     el("simStart").style.opacity = n === 0 ? ".5" : "";
   }
   [discSel, diffSel].forEach(s => s.addEventListener("change", updateAvail));
-  updateAvail();
 
   // ---- estado do simulado ----
   let atual = [];       // questões sorteadas
@@ -54,51 +51,60 @@
     return r;
   }
 
-  function altHTML(q) {
-    return `<ul class="alts">${q.alternativas.map(a =>
-      `<li class="alt" data-alt="${a.id}" role="button" tabindex="0"><span class="alt-key">${a.id.toUpperCase()}</span><span>${a.texto}</span></li>`
-    ).join("")}</ul>`;
-  }
-  function openHTML(q) {
+  function answerArea(q) {
+    if (q.tipo === "multipla" || q.tipo === "vouf") {
+      const alts = q.tipo === "vouf" ? [{ id: "v", texto: "Verdadeiro" }, { id: "f", texto: "Falso" }] : (q.alternativas || []);
+      return `<ul class="alts">${alts.map(a =>
+        `<li class="alt" data-alt="${a.id}" role="button" tabindex="0"><span class="alt-key">${a.id.toUpperCase()}</span><span>${a.texto}</span></li>`
+      ).join("")}</ul>`;
+    }
+    if (q.tipo === "intervalo") {
+      return `<div class="open-answer"><label>Conjunto-solução:</label>
+        <div class="input-row"><input type="text" placeholder="ex.: (-inf, 3/2) U (2, +inf)" data-open></div></div>`;
+    }
     return `<div class="open-answer"><label>Sua resposta${q.unidade ? ` <span class="muted">(${B.esc(q.unidade)})</span>` : ""}:</label>
       <div class="input-row"><input type="text" inputmode="decimal" placeholder="Digite o valor numérico" data-open></div></div>`;
   }
   function qHTML(q, i) {
-    return `<article class="q-card sim-q" data-qid="${q.id}" data-tipo="${q.tipo}">
+    const eff = q.tipo === "vouf" ? "multipla" : q.tipo;
+    return `<article class="q-card sim-q" data-qid="${q.key || q.id}" data-tipo="${eff}">
       <div class="q-top">
         <span class="q-num">${i + 1}.</span>
         <span class="chip disc">${B.esc(q.disciplina)}</span>
-        <span class="chip">${B.esc(q.topico)}</span>
+        ${q.topico ? `<span class="chip">${B.esc(q.topico)}</span>` : ""}
         <span class="chip ${B.diffClass(q.dificuldade)}">${B.esc(q.dificuldade)}</span>
       </div>
       <div class="q-body">
         <div class="q-enun">${B.md(q.enunciado)}${q.imagem ? `<img src="${B.esc(q.imagem)}" alt="Figura" loading="lazy">` : ""}</div>
-        ${q.tipo === "multipla" ? altHTML(q) : openHTML(q)}
+        ${answerArea(q)}
       </div>
     </article>`;
   }
 
-  // ---- iniciar ----
-  el("simStart").addEventListener("click", () => {
-    const disponiveis = filtrar();
-    if (!disponiveis.length) return;
-    const qtd = Math.min(parseInt(qtdSel.value, 10), disponiveis.length);
-    atual = embaralhar(disponiveis).slice(0, qtd);
-    perguntas = {}; atual.forEach(q => perguntas[q.id] = q);
-
+  // ---- motor: começa um simulado com uma lista de questões ----
+  function comecar(questoes) {
+    if (!questoes.length) return;
+    atual = questoes;
+    perguntas = {}; atual.forEach(q => perguntas[q.key || q.id] = q);
     el("simList").innerHTML = atual.map(qHTML).join("");
     B.typeset(el("simList"));
     atualizarProgresso();
-
     setup.classList.add("hidden");
     result.classList.add("hidden");
     running.classList.remove("hidden");
     window.scrollTo({ top: 0, behavior: "smooth" });
-
     const porQ = parseInt(timeSel.value, 10);
     inicio = Date.now();
-    if (porQ > 0) { limite = porQ * qtd; restante = limite; iniciarTimer(); }
+    if (porQ > 0) { limite = porQ * atual.length; restante = limite; iniciarTimer(); }
     else { limite = 0; el("simClock").textContent = "sem limite"; el("simTimer").classList.remove("low"); }
+  }
+
+  // ---- iniciar a partir dos filtros ----
+  el("simStart").addEventListener("click", () => {
+    const disponiveis = filtrar();
+    if (!disponiveis.length) return;
+    const qtd = Math.min(parseInt(qtdSel.value, 10), disponiveis.length);
+    comecar(embaralhar(disponiveis).slice(0, qtd));
   });
 
   function iniciarTimer() {
@@ -145,12 +151,22 @@
 
   // ---- correção ----
   function acertou(q, card) {
-    if (q.tipo === "multipla") {
+    if (q.tipo === "multipla" || q.tipo === "vouf") {
       const sel = card.querySelector(".alt.selected");
-      return { resp: sel ? sel.dataset.alt : null, ok: sel ? sel.dataset.alt === q.correta : false };
+      const correta = q.tipo === "vouf" ? (q.vfCorreto ? "v" : "f") : q.correta;
+      return { resp: sel ? sel.dataset.alt : null, ok: !!sel && sel.dataset.alt === correta };
     }
     const inp = card.querySelector("[data-open]");
     const raw = (inp.value || "").trim();
+    if (q.tipo === "intervalo") {
+      if (!raw) return { resp: null, ok: false };
+      const a = B.plot.parseSolution(raw), g = B.plot.parseSolution(q.respostaRaw || q.resposta);
+      return { resp: raw, ok: a.ok && B.plot.equalSets(a, g) };
+    }
+    if (q.tipo === "texto") {
+      const n = s => B.norm(s).replace(/\s+/g, "").replace(/[.;]+$/, "");
+      return { resp: raw || null, ok: !!raw && n(raw) === n(q.respostaRaw || q.resposta) };
+    }
     const v = parseFloat(raw.replace(",", ".").replace(/[^0-9.eE+\-]/g, ""));
     const tol = q.tolerancia != null ? q.tolerancia : 0.02;
     const ok = !isNaN(v) && Math.abs(v - q.resposta) <= Math.max(Math.abs(q.resposta) * tol, 1e-9);
@@ -164,7 +180,7 @@
 
     let acertos = 0;
     const revisao = atual.map((q, i) => {
-      const r = acertou(q, cards[q.id]);
+      const r = acertou(q, cards[q.key || q.id]);
       if (r.ok) acertos++;
       return { q, i, resp: r.resp, ok: r.ok };
     });
@@ -190,16 +206,22 @@
 
   function mostrarResultado(revisao, info) {
     const altKey = (q, id) => {
+      if (q.tipo === "vouf") return id === "v" ? "Verdadeiro" : id === "f" ? "Falso" : "(sem resposta)";
       const a = (q.alternativas || []).find(x => x.id === id);
       return a ? `${id.toUpperCase()}) ${a.texto}` : "(sem resposta)";
     };
     const respostaTexto = (r) => {
       if (r.resp == null) return "<i>não respondida</i>";
-      return r.q.tipo === "multipla" ? altKey(r.q, r.resp) : B.esc(r.resp) + (r.q.unidade ? " " + B.esc(r.q.unidade) : "");
+      return (r.q.tipo === "multipla" || r.q.tipo === "vouf") ? altKey(r.q, r.resp) : B.esc(r.resp) + (r.q.unidade ? " " + B.esc(r.q.unidade) : "");
     };
-    const gabarito = (q) => q.tipo === "multipla"
-      ? altKey(q, q.correta)
-      : B.esc(String(q.resposta)) + (q.unidade ? " " + B.esc(q.unidade) : "");
+    const gabarito = (q) => {
+      if (q.tipo === "vouf") return q.vfCorreto ? "Verdadeiro" : "Falso";
+      if (q.tipo === "multipla") return altKey(q, q.correta);
+      return B.md(q.resposta || String(q.resposta));
+    };
+    const plotOf = (q) => !q.plot || !B.plot ? ""
+      : q.plot.tipo === "reta" ? B.plot.numberLineFromText(q.respostaRaw || q.resposta)
+      : q.plot.tipo === "funcao" ? B.plot.functionPlotSVG(q.plot) : "";
 
     const review = revisao.map(r => `
       <article class="q-card review-q ${r.ok ? "ok" : "err"}">
@@ -214,6 +236,7 @@
           <div class="q-enun">${B.md(r.q.enunciado)}${r.q.imagem ? `<img src="${B.esc(r.q.imagem)}" alt="Figura" loading="lazy">` : ""}</div>
           <p style="margin-top:12px"><b>Sua resposta:</b> ${respostaTexto(r)}</p>
           <p><b>Gabarito:</b> ${gabarito(r.q)}</p>
+          ${plotOf(r.q)}
           <div class="resolucao show" style="margin-top:12px">
             <h4>Resolução</h4>${B.md(r.q.resolucao)}
           </div>
@@ -283,4 +306,62 @@
   });
 
   renderHist();
+
+  // ---- carrega o banco (legado + .tsv) e habilita o setup ----
+  el("simAvail").innerHTML = `<span class="material-icons mi-sm">hourglass_top</span> <span>Carregando questões...</span>`;
+  (B.loadQuestoes ? B.loadQuestoes() : Promise.resolve((window.BIONEXO && window.BIONEXO.questoes) || [])).then(data => {
+    DATA = data;
+    [...new Set(DATA.map(q => q.disciplina).filter(Boolean))].sort((a, b) => a.localeCompare(b, "pt")).forEach(d => {
+      const o = document.createElement("option"); o.value = d; o.textContent = d; discSel.appendChild(o);
+    });
+    updateAvail();
+    DATA.forEach(q => { byKey[q.key || q.id] = q; });
+    renderCustom(); renderSaved();
+  });
+
+  // ---- seleção (carrinho) -> simulado + simulados salvos ----
+  const byKey = {};
+  function cartQuestoes() { return B.cart.all().map(k => byKey[k]).filter(q => q && GRAD[q.tipo]); }
+  function renderCustom() {
+    const box = el("simCustom"); if (!box) return;
+    const total = B.cart.count(), uteis = cartQuestoes().length;
+    if (!total) { box.classList.add("hidden"); return; }
+    box.classList.remove("hidden");
+    const fora = total - uteis;
+    el("simCustomInfo").innerHTML = `${total} ${total === 1 ? "questão selecionada" : "questões selecionadas"} na página de estudo.`
+      + (fora ? ` <span class="muted">(${fora} de demonstração/sinal ficam de fora: não têm correção automática.)</span>` : "");
+    el("simCustomStart").disabled = uteis === 0;
+  }
+  function renderSaved() {
+    const box = el("simSaved"), list = el("savedList"); if (!box || !list) return;
+    const saved = B.savedSims.all();
+    if (!saved.length) { box.classList.add("hidden"); return; }
+    box.classList.remove("hidden");
+    list.innerHTML = saved.map(s => `<div class="hist-item" data-sid="${s.id}">
+      <div class="hist-meta"><div class="t">${B.esc(s.nome)}</div><div class="s">${s.keys.length} ${s.keys.length === 1 ? "questão" : "questões"}</div></div>
+      <button class="btn btn-grad btn-sm" data-run-saved><span class="material-icons mi-sm">play_arrow</span> Fazer</button>
+      <button class="icon-btn" data-del-saved title="Excluir"><span class="material-icons mi-sm">delete</span></button>
+    </div>`).join("");
+  }
+  if (el("simCustomStart")) el("simCustomStart").addEventListener("click", () => {
+    const qs = cartQuestoes(); if (qs.length) comecar(embaralhar(qs));
+  });
+  if (el("simCustomSave")) el("simCustomSave").addEventListener("click", () => {
+    const keys = cartQuestoes().map(q => q.key || q.id); if (!keys.length) return;
+    const nome = prompt("Nome para este simulado salvo:", "Minha seleção");
+    if (nome !== null) B.savedSims.save(nome.trim() || "Minha seleção", keys);
+  });
+  if (el("savedList")) el("savedList").addEventListener("click", e => {
+    const item = e.target.closest("[data-sid]"); if (!item) return;
+    const id = item.dataset.sid;
+    if (e.target.closest("[data-del-saved]")) { B.savedSims.remove(id); return; }
+    if (e.target.closest("[data-run-saved]")) {
+      const s = B.savedSims.all().find(x => x.id === id); if (!s) return;
+      const qs = s.keys.map(k => byKey[k]).filter(q => q && GRAD[q.tipo]);
+      comecar(embaralhar(qs));
+    }
+  });
+  if (B.cart) B.cart.on(renderCustom);
+  if (B.savedSims) B.savedSims.on(renderSaved);
+  window.addEventListener("hashchange", () => { if (location.hash === "#simulado") { renderCustom(); renderSaved(); } });
 })();

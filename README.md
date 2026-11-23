@@ -35,8 +35,10 @@ bionexo/
 │   └── style.css       Design system (tema claro)
 ├── js/
 │   ├── components.js   Cabeçalho (menu suspenso), rodapé e utilidades
-│   ├── questoes.js     Lógica da página de questões
+│   ├── questoes.js     Lógica da página de questões (todos os tipos + plots)
 │   ├── simulado.js     Modo simulado (na página de questões) + histórico (localStorage)
+│   ├── tsv.js          Lê os bancos .tsv e cria as questões (detecta tipo e plot)
+│   ├── mathplot.js     Reta real da resposta + gráfico de função (métricas/interceptos)
 │   ├── resumos.js      Lógica da página de resumos
 │   ├── mapas.js        Lógica da galeria de mapas
 │   ├── formulas.js     Busca e acordeão das fórmulas
@@ -44,13 +46,25 @@ bionexo/
 │   ├── labhacks.js     Calculadoras das ferramentas
 │   └── monitores.js    Renderização da equipe
 ├── data/               ← CONTEÚDO (edite aqui)
-│   ├── questoes.js
+│   ├── questoes.js         Questões avulsas (embutidas)
+│   ├── questoes-fontes.js  Lista de bancos .tsv a carregar
+│   ├── questoes/           Bancos de questões em .tsv (ex.: Guidorizzi)
 │   ├── resumos.js
 │   ├── mapas.js
 │   ├── formulas.js
 │   └── monitores.js
 └── assets/img/         Imagens + textura do hero (hero-pattern.svg)
 ```
+
+### Bancos de questões por planilha (.tsv)
+
+Para listas grandes, exporte a planilha como `.tsv` (mesmas colunas de
+`data/questoes/questoes-guidorizzi.tsv`), salve em `data/questoes/` e adicione o
+caminho em `data/questoes-fontes.js`. O site cria as questões sozinho, detecta o
+tipo (aberta, intervalo, estudo de sinal, V ou F, demonstração, múltipla) e
+desenha a resposta quando faz sentido: **reta real** com os pontos críticos para
+inequações/sinal, ou **gráfico da função** com os interceptos marcados. A leitura
+de `.tsv` só funciona com o site num servidor (Pages ou `python -m http.server`).
 
 ## Adicionar conteúdo (monitores)
 

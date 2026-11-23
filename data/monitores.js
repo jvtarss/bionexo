@@ -1,51 +1,34 @@
 /* ============================================================
    BIONEXO - Equipe de Monitores
    ------------------------------------------------------------
-   COMO ADICIONAR UM MONITOR:
-   Copie um bloco e cole antes do `];`.
-
    Campos:
-     id         : identificador unico (ex.: "mon04")
-     nome       : nome completo
-     ciclo      : ciclo atual de monitoria (ex.: "2026/2")
-     disciplinas: lista de disciplinas que o monitor atende
-     email      : e-mail de contato (vira link mailto)
-     telefone   : (opcional) telefone/WhatsApp. Use formato internacional
-                  nos digitos, ex.: "+55 63 99999-0000"
-     instagram  : (opcional) usuario sem @ (ex.: "bionexo.uft")
-     lattes     : (opcional) URL do curriculo Lattes
-   Deixe um campo como "" (vazio) ou remova a linha se nao quiser exibir.
+     id          : identificador unico
+     nome        : nome completo
+     foto        : caminho da foto (assets/img/monitores/arquivo.jpg)
+                   se faltar ou falhar, aparecem as iniciais
+     curso       : curso
+     turma       : turma e ingresso (ex.: "Turma XXV · 2022/1")
+     disciplinas : disciplinas que o monitor atende
+     email, telefone, instagram, lattes : contatos (opcionais)
    ============================================================ */
 window.BIONEXO = window.BIONEXO || {};
 window.BIONEXO.monitores = [
   {
-    id: "mon01",
-    nome: "João Victor Aires",
-    ciclo: "2026/2",
-    disciplinas: ["Bioquímica", "Microbiologia Industrial"],
-    email: "joao.aires1@mail.uft.edu.br",
-    telefone: "",
-    instagram: "",
-    lattes: "",
+    id: "mon-joao",
+    nome: "João Vítor Aires",
+    foto: "assets/img/monitores/joao-vitor.jpg",
+    curso: "Eng. de Bioprocessos e Biotecnologia",
+    turma: "Turma XXV · 2022/1",
+    disciplinas: ["Geometria Analítica", "Álgebra Linear", "Cálculo 1", "Cálculo 2", "Bioinformática"],
+    email: "", telefone: "", instagram: "", lattes: "",
   },
   {
-    id: "mon02",
-    nome: "Nome Completo do Monitor",
-    ciclo: "2026/2",
-    disciplinas: ["Fenômenos de Transporte", "Operações Unitárias"],
-    email: "monitor2@mail.uft.edu.br",
-    telefone: "+55 63 99999-0000",
-    instagram: "",
-    lattes: "",
-  },
-  {
-    id: "mon03",
-    nome: "Nome Completo do Monitor",
-    ciclo: "2026/2",
-    disciplinas: ["Reatores Bioquímicos", "Termodinâmica"],
-    email: "monitor3@mail.uft.edu.br",
-    telefone: "",
-    instagram: "bionexo.uft",
-    lattes: "",
+    id: "mon-millena",
+    nome: "Millena",
+    foto: "assets/img/monitores/millena.jpg",
+    curso: "Eng. de Bioprocessos e Biotecnologia",
+    turma: "Turma XXIV · 2021/2",
+    disciplinas: ["Mecânica (Física 1)", "Termodinâmica (Física 2)", "Eletromagnetismo (Física 3)"],
+    email: "", telefone: "", instagram: "", lattes: "",
   },
 ];

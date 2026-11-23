@@ -34,6 +34,7 @@
           <input id="qSearch" type="search" placeholder="Buscar por tema, livro, palavra-chave..." aria-label="Buscar questões">
         </label>
         <select class="select" id="qDisc" aria-label="Filtrar por disciplina"><option value="">Todas as disciplinas</option></select>
+        <select class="select" id="qTopico" aria-label="Filtrar por tópico"><option value="">Todos os tópicos</option></select>
         <select class="select" id="qDiff" aria-label="Filtrar por dificuldade">
           <option value="">Qualquer dificuldade</option>
           <option value="diff-facil">Fácil</option>
@@ -42,7 +43,22 @@
         </select>
         <span class="result-count" id="qCount"></span>
       </div>
+
+      <div class="q-actions-bar">
+        <button class="btn btn-ghost btn-sm" id="qSelectAll"><span class="material-icons mi-sm">playlist_add_check</span> Selecionar todas do filtro</button>
+        <button class="btn btn-ghost btn-sm" id="qDicasAll"><span class="material-icons mi-sm">lightbulb</span> Dicas em todas</button>
+      </div>
+
       <div class="q-list" id="qList"></div>
+
+      <div class="cart-bar hidden" id="cartBar">
+        <span class="material-icons" aria-hidden="true">fact_check</span>
+        <span class="cart-count" id="cartCount"><b>0</b> selecionadas</span>
+        <div class="cart-actions">
+          <button class="btn btn-ghost btn-sm" id="cartClear">Limpar</button>
+          <button class="btn btn-grad btn-sm" id="cartSim"><span class="material-icons mi-sm">timer</span> Montar simulado</button>
+        </div>
+      </div>
     </section>
 
     <!-- MODO SIMULADO -->
@@ -88,6 +104,21 @@
             <button class="btn btn-grad" id="simStart" style="margin-top:18px;width:100%"><span class="material-icons mi-sm">play_arrow</span> Iniciar simulado</button>
           </div>
 
+          <!-- Seleção (carrinho) e simulados salvos -->
+          <div class="sim-custom hidden" id="simCustom">
+            <h2><span class="material-icons">playlist_add_check</span> Suas questões selecionadas</h2>
+            <p class="muted" id="simCustomInfo"></p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">
+              <button class="btn btn-grad btn-sm" id="simCustomStart"><span class="material-icons mi-sm">play_arrow</span> Fazer simulado com a seleção</button>
+              <button class="btn btn-ghost btn-sm" id="simCustomSave"><span class="material-icons mi-sm">bookmark_add</span> Salvar seleção</button>
+            </div>
+          </div>
+
+          <div class="history hidden" id="simSaved">
+            <h2><span class="material-icons">bookmarks</span> Simulados salvos</h2>
+            <div class="hist-list" id="savedList"></div>
+          </div>
+
           <div class="history" id="simHistory">
             <h2><span class="material-icons">history</span> Tentativas anteriores</h2>
             <div class="hist-list" id="histList"></div>
@@ -121,7 +152,14 @@
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <script src="data/questoes.js"></script>
+  <script src="data/questoes-fontes.js"></script>
+  <script src="data/glossario.js"></script>
   <script src="js/components.js"></script>
+  <script src="js/mathplot.js"></script>
+  <script src="js/mathfmt.js"></script>
+  <script src="js/tsv.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/glossario.js"></script>
   <script src="js/questoes.js"></script>
   <script src="js/simulado.js"></script>
   <script>

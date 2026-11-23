@@ -90,5 +90,19 @@
   searchEl.addEventListener("input", () => { clearTimeout(t); t = setTimeout(render, 160); });
   discEl.addEventListener("change", render);
 
+  // pré-filtro vindo dos chips das questões (?disciplina / ?topico)
+  (function initFromURL() {
+    const p = new URLSearchParams(location.search);
+    const d = p.get("disciplina"), top = p.get("topico");
+    if (d && discs.indexOf(d) !== -1) discEl.value = d;
+    if (top) searchEl.value = top;
+    if (d || top) {
+      const n = document.createElement("div");
+      n.className = "sim-note"; n.style.marginBottom = "16px";
+      n.innerHTML = `<span class="material-icons mi-sm">filter_alt</span> <span>Resumos sobre <b>${B.esc(top || d)}</b>. <a href="resumos.html">ver todos</a></span>`;
+      listEl.parentNode.insertBefore(n, listEl);
+    }
+  })();
+
   render();
 })();

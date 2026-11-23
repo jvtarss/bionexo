@@ -20,8 +20,17 @@
   function matches(m) {
     const term = B.norm((searchEl.value || "").trim());
     if (!term) return true;
-    const hay = B.norm([m.nome, m.ciclo, (m.disciplinas || []).join(" ")].join(" "));
+    const hay = B.norm([m.nome, m.curso, m.turma, (m.disciplinas || []).join(" ")].join(" "));
     return hay.includes(term);
+  }
+
+  function avatar(m) {
+    const ini = B.esc(iniciais(m.nome)).toUpperCase();
+    if (m.foto) {
+      return `<div class="monitor-avatar"><img src="${B.esc(m.foto)}" alt="${B.esc(m.nome)}" loading="lazy"
+        onerror="this.parentNode.textContent='${ini}'"></div>`;
+    }
+    return `<div class="monitor-avatar" aria-hidden="true">${ini}</div>`;
   }
 
   function contatos(m) {
@@ -35,16 +44,18 @@
 
   function cardHTML(m) {
     const discs = (m.disciplinas || []).map(d => `<span class="chip disc">${B.esc(d)}</span>`).join("");
+    const cont = contatos(m);
+    const linha2 = [m.curso, m.turma].filter(Boolean).map(B.esc).join(" · ");
     return `<article class="monitor-card">
       <div class="m-top">
-        <div class="monitor-avatar" aria-hidden="true">${B.esc(iniciais(m.nome)).toUpperCase()}</div>
+        ${avatar(m)}
         <div>
           <h3>${B.esc(m.nome)}</h3>
-          <div class="m-cycle"><span class="material-icons mi-sm" aria-hidden="true">event</span> Monitoria ${B.esc(m.ciclo)}</div>
+          ${linha2 ? `<div class="m-cycle"><span class="material-icons mi-sm" aria-hidden="true">school</span> ${linha2}</div>` : ""}
         </div>
       </div>
-      <div class="monitor-discs">${discs}</div>
-      <div class="monitor-contacts">${contatos(m)}</div>
+      ${discs ? `<div class="m-discs-label">Monitor(a) de</div><div class="monitor-discs">${discs}</div>` : ""}
+      ${cont ? `<div class="monitor-contacts">${cont}</div>` : ""}
     </article>`;
   }
 
