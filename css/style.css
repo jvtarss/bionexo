@@ -380,6 +380,19 @@ textarea.field { width: 100%; resize: vertical; min-height: 96px; font-family: i
 
 /* -------- Metadados e plots das questões -------- */
 .q-local { font-size: .78rem; color: var(--muted); font-weight: 600; margin-bottom: 6px; }
+/* figuras das questões (ex.: Halliday) */
+.q-figs { display: flex; flex-wrap: wrap; gap: 14px; margin: 14px 0 4px; }
+.q-fig { margin: 0; background: #fff; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px; max-width: 100%; }
+.q-fig img { display: block; max-width: 100%; max-height: 360px; width: auto; height: auto; border-radius: 4px; cursor: zoom-in; }
+.q-fig-erro { display: none; }
+.fig-lightbox { position: fixed; inset: 0; z-index: 120; background: rgba(51,51,51,.88); display: grid; place-items: center; padding: 24px; cursor: zoom-out; }
+.fig-lightbox img { max-width: 94vw; max-height: 90vh; background: #fff; border-radius: var(--radius-sm); box-shadow: var(--shadow-lg); }
+.fig-lightbox .lb-close { position: absolute; top: 18px; right: 22px; width: 46px; height: 46px; border-radius: 50%; background: rgba(255,255,255,.16); color: #fff; border: 0; cursor: pointer; display: grid; place-items: center; }
+/* botão de reportar problema */
+.btn-report { margin-left: auto; width: 34px; height: 34px; flex: none; display: grid; place-items: center; border: 1px solid var(--border); background: var(--surface); border-radius: 9px; color: var(--muted); cursor: pointer; transition: .15s; }
+.btn-report:hover { color: var(--err); border-color: var(--err); background: var(--err-bg); }
+/* botão de dicas ativo */
+[data-dicas].active { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
 .q-nota { display: flex; align-items: center; gap: 6px; margin-top: 16px; padding: 10px 14px; background: var(--surface-2); border-radius: var(--radius-sm); font-size: .9rem; color: var(--ink-soft); }
 .q-gabarito { margin: 0 0 12px; padding: 10px 14px; background: var(--accent-soft); border-radius: var(--radius-sm); color: var(--ink); }
 .q-gabarito p { margin: 0; display: inline; }

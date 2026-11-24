@@ -21,7 +21,7 @@ window.BIONEXO.resumos = [
     titulo: "Cinética de Crescimento Microbiano",
     disciplina: "Microbiologia Industrial",
     descricao: "Fases do crescimento em batelada, modelo de Monod e principais parâmetros cinéticos.",
-    imagem: null,
+    imagem: "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=640&h=400&fit=crop&q=70",
     conteudo:
       "## Fases do crescimento em batelada\n\n" +
       "- **Lag (adaptação):** células se ajustam ao meio; sem crescimento líquido.\n" +
@@ -43,7 +43,7 @@ window.BIONEXO.resumos = [
     titulo: "Balanços de Massa em Regime Permanente",
     disciplina: "Fenômenos de Transporte",
     descricao: "Princípio da conservação de massa, balanços globais e por componente, com estratégia de resolução.",
-    imagem: null,
+    imagem: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=640&h=400&fit=crop&q=70",
     conteudo:
       "## Princípio da conservação\n\n" +
       "Para qualquer volume de controle:\n\n" +
@@ -64,7 +64,7 @@ window.BIONEXO.resumos = [
     titulo: "Cinética Enzimática de Michaelis-Menten",
     disciplina: "Reatores Bioquímicos",
     descricao: "Equação de Michaelis-Menten, significado de Km e Vmax e linearização de Lineweaver-Burk.",
-    imagem: null,
+    imagem: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=640&h=400&fit=crop&q=70",
     conteudo:
       "## A equação\n\n" +
       "\\[ v = \\frac{V_{max}\\,[S]}{K_M + [S]} \\]\n\n" +

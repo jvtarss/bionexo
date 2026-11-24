@@ -32,8 +32,9 @@
   }
 
   function tileHTML(r) {
+    const seed = encodeURIComponent((r.id || "") + (r.disciplina || ""));
     const thumb = r.imagem
-      ? `<img src="${B.esc(r.imagem)}" alt="${B.esc(r.titulo)}" loading="lazy">`
+      ? `<img src="${B.esc(r.imagem)}" alt="${B.esc(r.titulo)}" loading="lazy" onerror="this.onerror=null;this.src='https://picsum.photos/seed/${seed}/640/400'">`
       : `<div class="ph"><span class="material-icons">description</span>${B.esc(r.disciplina)}</div>`;
     return `<article class="tile" data-id="${r.id}">
       <div class="thumb">${thumb}</div>

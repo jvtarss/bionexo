@@ -52,7 +52,7 @@
     if (!c) return false;
     if (FUNCSET.has(c.toLowerCase())) return true;
     if (/[0-9]/.test(c)) return true;
-    if (/^d[a-zA-Zθ]$/.test(c)) return true;                       // diferenciais dx, dt...
+    if (/^d[xyztuvsrwnhθ]$/.test(c)) return true;                  // diferenciais dx, dt... (não "da/de/do")
     if (/[+\-*/^_=|√∫∞πθαβλμΔ²³ⁿ≤≥≠≈±→⇒∂∑∏∈∪∩∅ℝ]/.test(c)) return true;
     if (/<|>/.test(w)) return true;
     if (/[A-Za-z]\(/.test(c) || /\)/.test(c)) return true;         // f(x), (...)

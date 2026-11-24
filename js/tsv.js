@@ -57,9 +57,15 @@
     const tipoOrig = g("Tipo");
     const topico = g("Tópico");
     const tags = g("Tags").split(/[,;]/).map(s => s.trim()).filter(Boolean);
-    const enun = g("Enunciado");
+    // extrai imagens marcadas no texto: [Ver figura: arquivo.png]
+    const imagens = [];
+    const extraiImgs = txt => txt.replace(/\[\s*ver\s+(?:figura|imagem|tabela)\s*:\s*([^\]]+?)\s*\]/gi, (m, file) => {
+      imagens.push("assets/img/questoes/" + file.trim().replace(/^.*[\\/]/, ""));
+      return " ";
+    });
+    const enun = extraiImgs(g("Enunciado"));
     const resposta = g("Resposta");
-    const resolucao = g("Resolução");
+    const resolucao = extraiImgs(g("Resolução"));
 
     // fonte bibliográfica
     const fonte = [g("Autor") + (g("Título") ? ". " + g("Título") : ""),
@@ -117,7 +123,7 @@
       vfCorreto: /verdad/.test(norm(resposta)),
       tolerancia: tol ? parseFloat(tol.replace(",", ".")) : 0.02,
       unidade: g("Unidade_Resp"),
-      tags, plot,
+      tags, plot, imagens,
       origem: "tsv",
     };
   }
@@ -165,7 +171,7 @@
       ));
     }).then(groups => {
       const all = base.concat.apply(base, groups);
-      all.forEach((q, i) => { q.key = "k" + i; });   // chave única (evita colisão de IDs entre bancos)
+      all.forEach((q, i) => { q.key = "k" + i; q.num = i + 1; });   // chave única + número global do banco
       window.BIONEXO = window.BIONEXO || {};
       window.BIONEXO.questoes = all;
       return all;

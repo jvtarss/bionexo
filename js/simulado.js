@@ -18,6 +18,11 @@
   const discSel = el("simDisc"), diffSel = el("simDiff"), qtdSel = el("simQtd"), timeSel = el("simTime");
 
   const diffLabel = { "": "Qualquer", "diff-facil": "Fácil", "diff-media": "Média", "diff-dificil": "Difícil" };
+  function figs(q) {
+    const arr = (q.imagens && q.imagens.length) ? q.imagens : (q.imagem ? [q.imagem] : []);
+    if (!arr.length) return "";
+    return `<div class="q-figs">` + arr.map(s => `<figure class="q-fig"><img src="${B.esc(s)}" alt="Figura" loading="lazy" onerror="this.closest('.q-fig').classList.add('q-fig-erro')"></figure>`).join("") + `</div>`;
+  }
 
   // só tipos que dá para corrigir automaticamente entram no simulado
   const GRAD = { multipla: 1, vouf: 1, aberta: 1, intervalo: 1, texto: 1 };
@@ -75,7 +80,7 @@
         <span class="chip ${B.diffClass(q.dificuldade)}">${B.esc(q.dificuldade)}</span>
       </div>
       <div class="q-body">
-        <div class="q-enun">${B.md(q.enunciado)}${q.imagem ? `<img src="${B.esc(q.imagem)}" alt="Figura" loading="lazy">` : ""}</div>
+        <div class="q-enun">${B.md(q.enunciado)}</div>${figs(q)}
         ${answerArea(q)}
       </div>
     </article>`;
@@ -233,7 +238,7 @@
           </span>
         </div>
         <div class="q-body">
-          <div class="q-enun">${B.md(r.q.enunciado)}${r.q.imagem ? `<img src="${B.esc(r.q.imagem)}" alt="Figura" loading="lazy">` : ""}</div>
+          <div class="q-enun">${B.md(r.q.enunciado)}</div>${figs(r.q)}
           <p style="margin-top:12px"><b>Sua resposta:</b> ${respostaTexto(r)}</p>
           <p><b>Gabarito:</b> ${gabarito(r.q)}</p>
           ${plotOf(r.q)}

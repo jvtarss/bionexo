@@ -85,21 +85,31 @@
     return disc + top + df;
   }
 
+  function imagensHTML(q) {
+    const arr = (q.imagens && q.imagens.length) ? q.imagens : (q.imagem ? [q.imagem] : []);
+    if (!arr.length) return "";
+    return `<div class="q-figs">` + arr.map(src =>
+      `<figure class="q-fig"><img src="${B.esc(src)}" alt="Figura da questão" loading="lazy" onerror="this.closest('.q-fig').classList.add('q-fig-erro')"></figure>`
+    ).join("") + `</div>`;
+  }
+
   function cardHTML(q) {
     const effTipo = q.tipo === "vouf" ? "multipla" : q.tipo;
     const correta = q.tipo === "vouf" ? (q.vfCorreto ? "v" : "f") : (q.correta || "");
     const key = q.key || q.id;
     const picked = B.cart && B.cart.has(key);
+    const numero = "Q" + String(q.num || 0).padStart(4, "0");
     return `
     <article class="q-card${picked ? " picked" : ""}" data-id="${key}" data-tipo="${effTipo}" data-real="${q.tipo}" data-correta="${correta}">
       <div class="q-top">
         <label class="q-pick" title="Selecionar para o simulado"><input type="checkbox" data-pick ${picked ? "checked" : ""}></label>
         ${chips(q)}
-        <span class="q-id">#${B.esc((q.id || "").toUpperCase())}</span>
+        <span class="q-id">#${numero}</span>
       </div>
       <div class="q-body">
         ${q.local ? `<div class="q-local">${B.esc(q.local)}</div>` : ""}
-        <div class="q-enun">${B.md(q.enunciado)}${q.imagem ? `<img src="${B.esc(q.imagem)}" alt="Figura" loading="lazy">` : ""}</div>
+        <div class="q-enun">${B.md(q.enunciado)}</div>
+        ${imagensHTML(q)}
         ${q.fonte ? `<div class="q-fonte"><span class="material-icons mi-sm">menu_book</span> ${B.esc(q.fonte)}</div>` : ""}
         ${answerUI(q)}
         <div class="q-actions">
@@ -107,6 +117,7 @@
           <button class="btn btn-ghost btn-sm" data-solve>Ver resolução</button>
           <button class="btn btn-ghost btn-sm" data-dicas><span class="material-icons mi-sm">lightbulb</span> Dicas</button>
           <span class="feedback" data-feedback></span>
+          <button class="btn-report" data-report title="Reportar um problema nesta questão"><span class="material-icons mi-sm">flag</span></button>
         </div>
         <div class="resolucao" data-resolucao>
           <div class="qplot" data-qplot></div>
@@ -218,9 +229,43 @@
   function toggleDicas(card) {
     const enun = card.querySelector(".q-enun");
     const btn = card.querySelector("[data-dicas]");
+    const res = card.querySelector("[data-resolucao]");
     if (!enun || !B.gloss) return;
-    if (enun.dataset.glossOn === "1") { B.gloss.unhighlight(enun); card.classList.remove("dicas-on"); }
-    else { B.gloss.highlight(enun); card.classList.add("dicas-on"); }
+    if (enun.dataset.glossOn === "1") {
+      B.gloss.unhighlight(enun);
+      if (res) B.gloss.unhighlight(res);
+      card.classList.remove("dicas-on"); btn.classList.remove("active");
+      btn.lastChild && (btn.innerHTML = `<span class="material-icons mi-sm">lightbulb</span> Dicas`);
+    } else {
+      B.gloss.highlight(enun);
+      if (res && res.classList.contains("show")) B.gloss.highlight(res);
+      if (enun.querySelectorAll(".glossterm").length) {
+        card.classList.add("dicas-on"); btn.classList.add("active");
+        btn.innerHTML = `<span class="material-icons mi-sm">lightbulb</span> Ocultar dicas`;
+        flashDica(card, "Termos técnicos destacados — clique em um para ver o significado.");
+      } else {
+        B.gloss.unhighlight(enun);
+        flashDica(card, "Nenhum termo do glossário nesta questão (ainda).");
+      }
+    }
+  }
+  function flashDica(card, msg) {
+    const fb = card.querySelector("[data-feedback]");
+    if (!fb) return;
+    fb.className = "feedback show"; fb.style.color = "var(--muted)"; fb.textContent = msg;
+    setTimeout(() => { if (fb.textContent === msg) { fb.className = "feedback"; fb.textContent = ""; fb.style.color = ""; } }, 4500);
+  }
+
+  function reportar(card) {
+    const q = byId[card.dataset.id];
+    const ref = "#Q" + String(q.num || 0).padStart(4, "0");
+    const assunto = "[Bionexo] Problema na questão " + ref;
+    const corpo = "Encontrei um problema na questão " + ref + ".\n\nO que está errado:\n\n\n"
+      + "— dados da questão —\n"
+      + "Disciplina: " + (q.disciplina || "") + "\nTópico: " + (q.topico || "")
+      + "\nFonte: " + (q.fonte || "") + (q.local ? "\nLocal: " + q.local : "")
+      + (q.id ? "\nID interno: " + (q.id || "").toUpperCase() : "");
+    location.href = "mailto:mayara.vieira@uft.edu.br?subject=" + encodeURIComponent(assunto) + "&body=" + encodeURIComponent(corpo);
   }
 
   listEl.addEventListener("click", e => {
@@ -230,10 +275,21 @@
     if (e.target.closest(".q-pick") || e.target.closest("a.chip")) return;
     const alt = e.target.closest(".alt");
     if (alt) { selectAlt(card, alt); return; }
+    const fig = e.target.closest(".q-fig img");
+    if (fig) { openFig(fig.src); return; }
     if (e.target.closest("[data-check]")) check(card);
     else if (e.target.closest("[data-solve]")) reveal(card);
     else if (e.target.closest("[data-dicas]")) toggleDicas(card);
+    else if (e.target.closest("[data-report]")) reportar(card);
   });
+  function openFig(src) {
+    const lb = document.createElement("div");
+    lb.className = "fig-lightbox";
+    lb.innerHTML = `<button class="lb-close" aria-label="Fechar"><span class="material-icons">close</span></button><img src="${src}" alt="">`;
+    lb.addEventListener("click", () => { lb.remove(); document.body.style.overflow = ""; });
+    document.body.appendChild(lb);
+    document.body.style.overflow = "hidden";
+  }
   listEl.addEventListener("keydown", e => {
     const alt = e.target.closest(".alt");
     if (alt && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); selectAlt(e.target.closest(".q-card"), alt); }

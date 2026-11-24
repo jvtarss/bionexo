@@ -32,8 +32,9 @@
   }
 
   function tileHTML(m) {
+    const seed = encodeURIComponent((m.id || "") + (m.disciplina || ""));
     const thumb = m.imagem
-      ? `<img src="${B.esc(m.imagem)}" alt="${B.esc(m.titulo)}" loading="lazy">`
+      ? `<img src="${B.esc(m.imagem)}" alt="${B.esc(m.titulo)}" loading="lazy" onerror="this.onerror=null;this.src='https://picsum.photos/seed/${seed}/640/400'">`
       : `<div class="ph"><span class="material-icons">hub</span>Mapa mental<br><small>(imagem em breve)</small></div>`;
     return `<article class="tile" data-id="${m.id}">
       <div class="thumb" ${m.imagem ? "data-zoom" : ""} ${m.imagem ? 'style="cursor:zoom-in"' : ""}>${thumb}</div>

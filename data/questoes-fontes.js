@@ -28,6 +28,7 @@ window.BIONEXO.tsvFontes = [
   "data/questoes/guidorizzi-calculo1-v3.tsv",
   "data/questoes/guidorizzi-calculo1-v4.tsv",
   "data/questoes/guidorizzi-calculo1-v5.tsv",
+  "data/questoes/halliday-fisica1.tsv",
   "data/questoes/questoes-guidorizzi.tsv",
 ];
 
