@@ -168,6 +168,39 @@
       const blocks = text.trim().split(/\n{2,}/);
       return blocks.map(block => {
         const lines = block.split("\n");
+        // bloco de código: entre linhas "~~~" (sem linhas em branco dentro)
+        if (lines.length >= 2 && /^\s*~~~/.test(lines[0]) && /^\s*~~~\s*$/.test(lines[lines.length - 1]))
+          return '<pre class="code-block"><code>' + lines.slice(1, -1).join("\n") + "</code></pre>";
+        // figura vetorial: bloco que começa com <svg ...> e termina em </svg>; o texto após o </svg> vira legenda.
+        // O conteúdo chega escapado (md recebe esc(texto)), então a figura é desescapada aqui.
+        if (/^\s*(<|&lt;)svg[\s>]/.test(block)) {
+          const bruto = block.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+          const fim = bruto.lastIndexOf("</svg>");
+          if (fim > -1) {
+            const cap = bruto.slice(fim + 6).trim();
+            return '<figure class="r-fig r-svg">' + bruto.slice(0, fim + 6) +
+              (cap ? "<figcaption>" + inline(Bionexo.esc(cap)) + "</figcaption>" : "") + "</figure>";
+          }
+        }
+        // figura incorporada (imagem externa, sem baixar): 1ª linha "![legenda](https://...)", demais = crédito
+        const fig = lines[0].match(/^\s*!\[([^\]]*)\]\((https:\/\/[^\s)]+)\)\s*$/);
+        if (fig) {
+          const cred = lines.slice(1).join(" ").trim();
+          return `<figure class="r-fig"><img src="${fig[2]}" alt="${fig[1].replace(/"/g, "&quot;")}" loading="lazy" referrerpolicy="no-referrer"` +
+            ` onerror="this.closest('figure').classList.add('r-fig-erro')">` +
+            `<figcaption>${inline(fig[1])}${cred ? `<span class="r-fig-cred">${inline(cred)}</span>` : ""}</figcaption></figure>`;
+        }
+        // caixa de destaque: linhas iniciadas por "> " (aceita a forma já escapada "&gt; ")
+        if (lines.every(l => /^\s*(>|&gt;)\s?/.test(l)))
+          return '<blockquote class="callout">' + inline(lines.map(l => l.replace(/^\s*(>|&gt;)\s?/, "")).join("<br>")) + "</blockquote>";
+        // tabela: todas as linhas começam com "|"; a 2ª linha é o separador |---|
+        if (lines.length >= 2 && lines.every(l => /^\s*\|/.test(l)) && /^\s*\|[\s:|-]+\|\s*$/.test(lines[1])) {
+          const cells = l => l.trim().replace(/^\||\|$/g, "").split("|").map(c => inline(c.trim()));
+          const head = cells(lines[0]), body = lines.slice(2).map(cells);
+          return '<div class="table-wrap"><table><thead><tr>' + head.map(c => "<th>" + c + "</th>").join("") +
+            "</tr></thead><tbody>" + body.map(r => "<tr>" + r.map(c => "<td>" + c + "</td>").join("") + "</tr>").join("") +
+            "</tbody></table></div>";
+        }
         if (lines.every(l => /^\s*\d+[\.\)]\s+/.test(l)))
           return "<ol>" + lines.map(l => "<li>" + inline(l.replace(/^\s*\d+[\.\)]\s+/, "")) + "</li>").join("") + "</ol>";
         if (lines.every(l => /^\s*[-*]\s+/.test(l)))
@@ -178,6 +211,7 @@
       }).join("");
       function inline(s) {
         return s
+          .replace(/\[([^\]]+)\]\((https:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
           .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
           .replace(/(^|[^*])\*(?!\s)(.+?)\*/g, "$1<em>$2</em>")
           .replace(/`(.+?)`/g, "<code>$1</code>");

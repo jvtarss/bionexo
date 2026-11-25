@@ -30,7 +30,7 @@ window.BIONEXO.mapas = [
     titulo: "Operações Unitárias de Separação",
     disciplina: "Operações Unitárias",
     descricao: "Classificação das principais operações: destilação, absorção, extração, filtração e membranas.",
-    imagem: "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=640&h=400&fit=crop&q=70",
+    imagem: "https://images.unsplash.com/photo-1554475901-4538ddfbccc2?w=640&h=400&fit=crop&q=70",
     tags: ["destilacao", "absorcao", "extracao", "separacao", "membranas"],
   },
   {
@@ -38,7 +38,7 @@ window.BIONEXO.mapas = [
     titulo: "Tipos de Biorreatores",
     disciplina: "Reatores Bioquímicos",
     descricao: "Comparação entre batelada, batelada alimentada e contínuo (CSTR), com vantagens e aplicações.",
-    imagem: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=640&h=400&fit=crop&q=70",
+    imagem: "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=640&h=400&fit=crop&q=70",
     tags: ["biorreator", "batelada", "cstr", "continuo", "fed-batch"],
   },
 ];

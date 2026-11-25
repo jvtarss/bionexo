@@ -21,7 +21,18 @@
   function figs(q) {
     const arr = (q.imagens && q.imagens.length) ? q.imagens : (q.imagem ? [q.imagem] : []);
     if (!arr.length) return "";
-    return `<div class="q-figs">` + arr.map(s => `<figure class="q-fig"><img src="${B.esc(s)}" alt="Figura" loading="lazy" onerror="this.closest('.q-fig').classList.add('q-fig-erro')"></figure>`).join("") + `</div>`;
+    return `<div class="q-figs">` + arr.map(s => `<figure class="q-fig" data-arquivo="${B.esc(s.replace(/^.*\//, ""))}"><img src="${B.esc(s)}" alt="Figura" loading="lazy" onerror="this.closest('.q-fig').classList.add('q-fig-erro')"></figure>`).join("") + `</div>`;
+  }
+  // exercício com várias partes: contexto + só o item desta questão
+  function enunHTML(q) {
+    const p = q.parte;
+    let h = q.enunciado ? B.md(q.enunciado) : "";
+    if (p) {
+      h += `<div class="q-parte"><span class="q-parte-letra">${p.letra}</span><div class="q-parte-texto">${
+        p.pergunta ? B.md(p.pergunta) : `Responda apenas ao <b>item (${p.letra})</b> do enunciado acima.`}</div></div>`;
+      h += `<p class="q-parte-mini"><span class="material-icons mi-sm">call_split</span> Item (${p.letra}) de um exercício com ${(p.irmas || []).length} partes (${B.esc(p.exercicio)}).</p>`;
+    }
+    return h;
   }
 
   // só tipos que dá para corrigir automaticamente entram no simulado
@@ -80,7 +91,7 @@
         <span class="chip ${B.diffClass(q.dificuldade)}">${B.esc(q.dificuldade)}</span>
       </div>
       <div class="q-body">
-        <div class="q-enun">${B.md(q.enunciado)}</div>${figs(q)}
+        <div class="q-enun">${enunHTML(q)}</div>${figs(q)}
         ${answerArea(q)}
       </div>
     </article>`;
@@ -238,7 +249,7 @@
           </span>
         </div>
         <div class="q-body">
-          <div class="q-enun">${B.md(r.q.enunciado)}</div>${figs(r.q)}
+          <div class="q-enun">${enunHTML(r.q)}</div>${figs(r.q)}
           <p style="margin-top:12px"><b>Sua resposta:</b> ${respostaTexto(r)}</p>
           <p><b>Gabarito:</b> ${gabarito(r.q)}</p>
           ${plotOf(r.q)}

@@ -18,9 +18,14 @@
 
   let DATA = [];
   const byId = {};
+  let grupoAtivo = null;          // "ver todas as partes" de um exercício
 
   function matches(q) {
-    const term = B.norm(searchEl.value.trim());
+    if (grupoAtivo) return !!(q.parte && q.parte.grupo === grupoAtivo);
+    const bruto = searchEl.value.trim();
+    const mNum = bruto.match(/^#?q?\s*0*(\d{1,5})$/i);          // busca pelo número: "#Q0905", "q905", "905"
+    if (mNum && /^#|^q/i.test(bruto)) return q.num === parseInt(mNum[1], 10);
+    const term = B.norm(bruto);
     if (discEl.value && q.disciplina !== discEl.value) return false;
     if (topEl && topEl.value && q.topico !== topEl.value) return false;
     if (diffEl.value && B.diffClass(q.dificuldade) !== diffEl.value) return false;
@@ -89,8 +94,37 @@
     const arr = (q.imagens && q.imagens.length) ? q.imagens : (q.imagem ? [q.imagem] : []);
     if (!arr.length) return "";
     return `<div class="q-figs">` + arr.map(src =>
-      `<figure class="q-fig"><img src="${B.esc(src)}" alt="Figura da questão" loading="lazy" onerror="this.closest('.q-fig').classList.add('q-fig-erro')"></figure>`
+      `<figure class="q-fig" data-arquivo="${B.esc(src.replace(/^.*\//, ""))}"><img src="${B.esc(src)}" alt="Figura da questão" loading="lazy" onerror="this.closest('.q-fig').classList.add('q-fig-erro')"></figure>`
     ).join("") + `</div>`;
+  }
+
+  /* ---------- exercícios com várias partes ---------- */
+  const numQ = n => "#Q" + String(n || 0).padStart(4, "0");
+  const semP = html => html.replace(/^<p>|<\/p>$/g, "");
+  function parteHTML(q) {                 // vai dentro de .q-enun (assim as Dicas também alcançam o item)
+    const p = q.parte; if (!p) return "";
+    if (!p.pergunta) return `<div class="q-parte"><span class="q-parte-letra">${p.letra}</span>
+      <div class="q-parte-texto">Responda apenas ao <b>item (${p.letra})</b> do enunciado acima.</div></div>`;
+    return `<div class="q-parte"><span class="q-parte-letra" title="Item (${p.letra})">${p.letra}</span>
+      <div class="q-parte-texto">${B.md(p.pergunta)}
+        ${p.ref ? `<div class="q-parte-ref"><span class="material-icons mi-sm">subdirectory_arrow_right</span> continua o item ${semP(B.md(p.ref))}</div>` : ""}
+      </div></div>`;
+  }
+  function parteInfoHTML(q) {
+    const p = q.parte; if (!p) return "";
+    const irmas = p.irmas || [];
+    const chipsP = irmas.map(s =>
+      `<button class="q-parte-chip${s.key === q.key ? " atual" : ""}" data-parte-ir="${s.key}" title="Item (${s.letra}) · ${numQ(s.num)}">${s.letra}</button>`).join("");
+    return `<div class="q-parte-info">
+        <span class="material-icons mi-sm">call_split</span>
+        <span>Item <b>(${p.letra})</b> de um exercício com <b>${irmas.length} partes</b> (${B.esc(p.exercicio)}). O contexto acima vale para todas.</span>
+        <span class="q-parte-chips" aria-label="Ir para outra parte">${chipsP}</span>
+        <span class="q-parte-acoes">
+          <button class="link-btn" data-parte-full><span class="material-icons mi-sm">article</span> Ver enunciado completo</button>
+          <button class="link-btn" data-parte-todas><span class="material-icons mi-sm">view_agenda</span> Ver todas as partes</button>
+        </span>
+      </div>
+      <div class="q-parte-full" hidden><div class="q-parte-full-tit">Enunciado completo do exercício</div>${B.md(p.completo)}</div>`;
   }
 
   function cardHTML(q) {
@@ -108,8 +142,9 @@
       </div>
       <div class="q-body">
         ${q.local ? `<div class="q-local">${B.esc(q.local)}</div>` : ""}
-        <div class="q-enun">${B.md(q.enunciado)}</div>
+        <div class="q-enun">${q.enunciado ? B.md(q.enunciado) : ""}${parteHTML(q)}</div>
         ${imagensHTML(q)}
+        ${parteInfoHTML(q)}
         ${q.fonte ? `<div class="q-fonte"><span class="material-icons mi-sm">menu_book</span> ${B.esc(q.fonte)}</div>` : ""}
         ${answerUI(q)}
         <div class="q-actions">
@@ -281,7 +316,45 @@
     else if (e.target.closest("[data-solve]")) reveal(card);
     else if (e.target.closest("[data-dicas]")) toggleDicas(card);
     else if (e.target.closest("[data-report]")) reportar(card);
+    else if (e.target.closest("[data-parte-full]")) toggleCompleto(card, e.target.closest("[data-parte-full]"));
+    else if (e.target.closest("[data-parte-todas]")) mostrarGrupo(byId[card.dataset.id], card.dataset.id);
+    else if (e.target.closest("[data-parte-ir]")) mostrarGrupo(byId[card.dataset.id], e.target.closest("[data-parte-ir]").dataset.parteIr);
   });
+
+  function toggleCompleto(card, btn) {
+    const box = card.querySelector(".q-parte-full");
+    if (!box) return;
+    box.hidden = !box.hidden;
+    btn.innerHTML = box.hidden
+      ? `<span class="material-icons mi-sm">article</span> Ver enunciado completo`
+      : `<span class="material-icons mi-sm">close_fullscreen</span> Ocultar enunciado completo`;
+    if (!box.hidden) B.typeset(box);
+  }
+
+  // filtra a lista para as partes de um exercício e leva até a parte escolhida
+  const grupoNota = document.createElement("div");
+  grupoNota.className = "sim-note q-grupo-nota"; grupoNota.hidden = true;
+  listEl.parentNode.insertBefore(grupoNota, listEl);
+  function mostrarGrupo(q, alvoKey) {
+    if (!q || !q.parte) return;
+    grupoAtivo = q.parte.grupo;
+    grupoNota.innerHTML = `<span class="material-icons mi-sm">call_split</span>
+      <span>Mostrando as <b>${q.parte.irmas.length} partes</b> do ${B.esc(q.parte.exercicio)}, em ordem.</span>
+      <button class="btn btn-ghost btn-sm" data-grupo-sair><span class="material-icons mi-sm">arrow_back</span> Voltar à lista</button>`;
+    grupoNota.hidden = false;
+    render();
+    const alvo = listEl.querySelector(`.q-card[data-id="${alvoKey}"]`);
+    if (alvo) {
+      alvo.scrollIntoView({ behavior: "smooth", block: "start" });
+      alvo.classList.add("q-flash"); setTimeout(() => alvo.classList.remove("q-flash"), 1800);
+    }
+  }
+  function sairGrupo(rerender) {
+    if (!grupoAtivo) return;
+    grupoAtivo = null; grupoNota.hidden = true;
+    if (rerender) { render(); grupoNota.scrollIntoView({ behavior: "smooth", block: "start" }); }
+  }
+  grupoNota.addEventListener("click", e => { if (e.target.closest("[data-grupo-sair]")) sairGrupo(true); });
   function openFig(src) {
     const lb = document.createElement("div");
     lb.className = "fig-lightbox";
@@ -341,10 +414,10 @@
 
   let t;
   const debounce = fn => { clearTimeout(t); t = setTimeout(fn, 160); };
-  searchEl.addEventListener("input", () => debounce(render));
-  discEl.addEventListener("change", () => { populateTopicos(); render(); });
-  if (topEl) topEl.addEventListener("change", render);
-  diffEl.addEventListener("change", render);
+  searchEl.addEventListener("input", () => { sairGrupo(false); debounce(render); });
+  discEl.addEventListener("change", () => { sairGrupo(false); populateTopicos(); render(); });
+  if (topEl) topEl.addEventListener("change", () => { sairGrupo(false); render(); });
+  diffEl.addEventListener("change", () => { sairGrupo(false); render(); });
 
   /* ---------- inicialização ---------- */
   listEl.innerHTML = `<div class="empty"><span class="material-icons">hourglass_top</span><p>Carregando questões...</p></div>`;
@@ -358,6 +431,7 @@
     if (p.get("disciplina") && discs.indexOf(p.get("disciplina")) !== -1) discEl.value = p.get("disciplina");
     populateTopicos();
     if (p.get("topico") && topEl) { const o = [...topEl.options].find(o => o.value === p.get("topico")); if (o) topEl.value = p.get("topico"); }
+    if (p.get("q")) searchEl.value = p.get("q");
     if (B._tsvError) {
       const n = document.createElement("div");
       n.className = "sim-note";
